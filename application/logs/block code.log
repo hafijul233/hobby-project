@@ -1,0 +1,406 @@
+
+
+body {
+    font-size: 1rem;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+    padding-top: 48px; /* Space for fixed navbar */
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+*/
+
+homew page
+------------------------------------------------------------------------------------------------------------------------
+<?php
+/*
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap.min.css">
+    <link href="./css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./customcss/side_nev.css">
+    <title>Bangladesh Council of Scientific and Industrial Research (BCSIR)</title>
+    <style type="text/css">
+        .side-button {
+            text-decoration: none;
+        }
+
+        .side-button ul {
+            list-style: none;
+        }
+
+        .btn-custom {
+            color: black;
+            background-color: #f7f7f9;
+            width: 150px;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            float: left;
+        }
+
+        .bg-custom {
+            background-color: #008000 !important;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.6.1-web/css/all.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./bootstrap/all.css"> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="./bootstrap/jquery_331_jquery.min.js"></script>
+    <!-- <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> -->
+    <script type="text/javascript" src="./bootstrap/ui_1112_jquery-ui.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="./bootstrap/popper.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="./bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="customjs/form.js"></script>
+    <!-- Icons -->
+    <!-- <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script> -->
+    <script type="text/javascript" src="./bootstrap/feather.min.js"></script>
+
+
+    <script>
+        feather.replace()
+    </script>
+</head>
+<body>
+<style type="text/css">
+    #top-section {
+        background-image: url('images/banner/1350120886banner_image.jpg') /*background: #008000;*/
+        /*background-image: url('images/banner/1350120886banner_image.jpg');*/
+    }
+
+    #menu_table {
+        border-collapse: collapse;
+        /*border-spacing: 2px;*/
+    }
+
+    #menu_table tr td {
+        text-align: center;
+        line-height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        border: 2px solid #FFF;
+    }
+
+    #menu_table tr td a {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #FFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+<link rel="stylesheet" type="text/css" href="./customcss/body.css">
+<div class="container-fluid">
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <div class="row">
+            <div class="col-md-10 top-image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <div class="row" id="top-section">
+                    <div class="col-md-2">
+                        <img src="./images/logo/1886708222logo_image.png" style="height: 94px;width: 94px;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="details-sec">
+                            <span class="top-line">Government of the People's Republic of Bangladesh<br></span>
+                            <span class="sector-name">Bangladesh Council of Scientific and Industrial Research (BCSIR)</span>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10" style="background: #008000; margin: 0;padding: 0;">
+                <!-- <ul>
+                  <li><a class="active" href="./index.php">Home</a></li>
+                  <li><a href="./validation.php">Photo/Signature Validation</a></li>
+                  <li><a href="./pay.php">Payment Statment</a></li>
+                  <li><a href="./applicantcopy.php">Download Applicant's Copy</a></li>
+                  <li><a href="./admitcart.php">Admit Cart</a></li>
+                </ul> -->
+                <table style="width:100% ;background:#008000!important;" id="menu_table">
+                    <tr style="background-color: #008000; color:#FFF;">
+                        <td><a class="active" href="./index.php">Home</a></td>
+                        <td><a href="./validation.php">Photo/Signature Validation</a></td>
+                        <td><a href="./pay.php">Payment Status</a></td>
+                        <td><a href="./applicantcopy.php">Download Applicant's Copy</a></td>
+                        <td><a href="./admitcart.php">Admit Card</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <style type="text/css">
+            fieldset.scheduler-border {
+                border: 1px groove #ddd !important;
+                padding: 0 1.4em 1.4em 1.4em !important;
+                margin: 0 0 1.5em 0 !important;
+                -webkit-box-shadow: 0px 0px 0px 0px #000;
+                box-shadow: 0px 0px 0px 0px #000;
+            }
+
+            legend.scheduler-border {
+                width: inherit; /* Or auto */
+                padding: 0 10px; /* To give a bit of padding on the left and right */
+                border-bottom: none;
+            }
+
+            .form-control {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                color: #000000;
+                text-decoration: none;
+                background-color: #EAF4FF;
+                border: 1px solid #006699;
+                font-weight: normal;
+                width: 100%;
+                padding-top: 4px;
+                padding-right: 4px;
+                padding-left: 4px;
+                padding-bottom: 4px;
+                border-radius: 4px;
+                height: 30px;
+            }
+
+            .col-form-label {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin-bottom: 0;
+                font-size: inherit;
+                line-height: .5;
+            }
+
+            .btn-custom {
+                background: #008000;
+                color: #fff;
+                font-size: 20px;
+                width: 100%
+            }
+
+            .btn-custom {
+                background: #008000;
+                color: #fff;
+                font-size: 20px;
+                width: 100%
+            }
+
+            a:hover {
+                color: #fff;
+            }
+
+        </style>
+        <div class="row">
+            <div class="col-md-10" style="background: #e3e3e3">
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a target="_blank" href="./pdf/1985077215circular.pdf"
+                           class="btn btn-custom btn-block">Circular</a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a href="./index.php?action=job-list" class="btn btn-custom btn-block">Apply Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a href="#" class="btn btn-custom btn-block">Others</a>
+                    </div>
+                </div>
+
+                <!-- <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5>Download Admit Card</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <fieldset class="scheduler-border">
+                            <legend class="scheduler-border">Log in</legend>
+
+                            <div class="form-group row">
+                                <div class="col-md-1"></div>
+                                <label class="col-md-3 col-form-label">User ID :</label>
+                                <div class="col-md-7">
+                                    <input class="form-control" name="user_id" id="user_id" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-1"></div>
+                                <label class="col-md-3 col-form-label">Password :</label>
+                                <div class="col-md-7">
+                                    <input class="form-control"  name="password" id="password" type="password">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label"></label>
+                                <div class="col-md-7">
+                                    <button type="button" onclick="reset()">Reset</button>
+                                    <button type="button" onclick="login()">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div> -->
+
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 text-center" style="background: #90ee90">
+                <i>For any inconvenience, please send email to vas.query@teletalk.com.bd</i>
+            </div>
+        </div>
+        <br>
+        <script type="text/javascript" src="customjs/admitcart.js"></script>
+
+        <!-- <footer style="background-color:#007bff; height:50px; ">
+        <p class="text-center" style="padding-top:10px;">Copyright &copy; 2015 - All Rights Reserved - <b>ENTERTECH</b>.</p>
+        </footer>  -->
+        <div class="row">
+            <div class="col-md-10" style="border: 1px solid #000; height: 80px; width: 100%;">
+                <div class="row">
+                    <div class="col-md-9" style="padding-top: 30px;">
+                        <!-- <span style="margin-left: 30px;">©2018 Bangladesh Council of Scientific And Industrial Research (BCSIR), All Rights Reserved.</span> -->
+                        <span>© 2019 Bangladesh Council of Scientific and Industrial Research (BCSIR), All Rights Reserved.</span>
+                    </div>
+                    <div class="col-md-3" style="padding-top: 15px;">
+                        <span>Powered by :</span>
+                        <!-- <img src="./images/tbl_logo.jpg" style="width: 94px;height: 50px;"> -->
+                        <img src="./images/logo/412230054logo_image.jpg" style="height: 54px; width: 94px;>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		</main>
+		<br>
+		<br>
+		<script type=" text/javascript" src="./customjs/doLogin.js"></script>
+                        </
+                        div >
+                        < / div >
+                        < / body >
+                        < / html >
+*/
+?>

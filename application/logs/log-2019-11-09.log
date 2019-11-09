@@ -1,0 +1,1198 @@
+INFO - 2019-11-09 06:43:01 --> Config Class Initialized
+INFO - 2019-11-09 06:43:01 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:43:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:43:02 --> URI Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> No URI present. Default controller set.
+INFO - 2019-11-09 06:43:02 --> Router Class Initialized
+INFO - 2019-11-09 06:43:02 --> Output Class Initialized
+INFO - 2019-11-09 06:43:02 --> Security Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:43:02 --> CSRF cookie sent
+INFO - 2019-11-09 06:43:02 --> Input Class Initialized
+INFO - 2019-11-09 06:43:02 --> Language Class Initialized
+INFO - 2019-11-09 06:43:02 --> Loader Class Initialized
+INFO - 2019-11-09 06:43:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 06:43:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 06:43:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 06:43:02 --> Controller Class Initialized
+INFO - 2019-11-09 06:43:02 --> Helper loaded: form_helper
+INFO - 2019-11-09 06:43:02 --> Form Validation Class Initialized
+INFO - 2019-11-09 06:43:02 --> Database Driver Class Initialized
+INFO - 2019-11-09 06:43:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 06:43:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\home.php
+INFO - 2019-11-09 06:43:02 --> Final output sent to browser
+DEBUG - 2019-11-09 06:43:02 --> Total execution time: 0.5442
+INFO - 2019-11-09 06:43:02 --> Config Class Initialized
+INFO - 2019-11-09 06:43:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:43:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:43:02 --> URI Class Initialized
+INFO - 2019-11-09 06:43:02 --> Router Class Initialized
+INFO - 2019-11-09 06:43:02 --> Output Class Initialized
+INFO - 2019-11-09 06:43:02 --> Security Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:43:02 --> CSRF cookie sent
+INFO - 2019-11-09 06:43:02 --> Input Class Initialized
+INFO - 2019-11-09 06:43:02 --> Language Class Initialized
+INFO - 2019-11-09 06:43:02 --> Config Class Initialized
+ERROR - 2019-11-09 06:43:02 --> 404 Page Not Found: Jquery/jquery-3.4.1.min.js
+INFO - 2019-11-09 06:43:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:43:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:43:02 --> URI Class Initialized
+INFO - 2019-11-09 06:43:02 --> Router Class Initialized
+INFO - 2019-11-09 06:43:02 --> Output Class Initialized
+INFO - 2019-11-09 06:43:02 --> Security Class Initialized
+DEBUG - 2019-11-09 06:43:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:43:02 --> CSRF cookie sent
+INFO - 2019-11-09 06:43:02 --> Input Class Initialized
+INFO - 2019-11-09 06:43:02 --> Language Class Initialized
+ERROR - 2019-11-09 06:43:02 --> 404 Page Not Found: Bootstrap/js
+INFO - 2019-11-09 06:47:10 --> Config Class Initialized
+INFO - 2019-11-09 06:47:10 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:47:10 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:47:10 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:47:10 --> URI Class Initialized
+INFO - 2019-11-09 06:47:10 --> Router Class Initialized
+INFO - 2019-11-09 06:47:10 --> Output Class Initialized
+INFO - 2019-11-09 06:47:10 --> Security Class Initialized
+DEBUG - 2019-11-09 06:47:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:47:10 --> CSRF cookie sent
+INFO - 2019-11-09 06:47:10 --> Input Class Initialized
+INFO - 2019-11-09 06:47:10 --> Language Class Initialized
+INFO - 2019-11-09 06:47:10 --> Loader Class Initialized
+INFO - 2019-11-09 06:47:10 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 06:47:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 06:47:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 06:47:10 --> Controller Class Initialized
+INFO - 2019-11-09 06:47:10 --> Helper loaded: form_helper
+INFO - 2019-11-09 06:47:10 --> Form Validation Class Initialized
+INFO - 2019-11-09 06:47:10 --> Database Driver Class Initialized
+INFO - 2019-11-09 06:47:10 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 06:47:10 --> File loaded: D:\xampp\htdocs\bcsir\application\views\post_list.php
+INFO - 2019-11-09 06:47:10 --> Final output sent to browser
+DEBUG - 2019-11-09 06:47:10 --> Total execution time: 0.1887
+INFO - 2019-11-09 06:47:13 --> Config Class Initialized
+INFO - 2019-11-09 06:47:13 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:47:13 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:47:13 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:47:13 --> URI Class Initialized
+INFO - 2019-11-09 06:47:13 --> Router Class Initialized
+INFO - 2019-11-09 06:47:13 --> Output Class Initialized
+INFO - 2019-11-09 06:47:13 --> Security Class Initialized
+DEBUG - 2019-11-09 06:47:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:47:13 --> CSRF cookie sent
+INFO - 2019-11-09 06:47:13 --> CSRF token verified
+INFO - 2019-11-09 06:47:13 --> Input Class Initialized
+INFO - 2019-11-09 06:47:13 --> Language Class Initialized
+INFO - 2019-11-09 06:47:13 --> Loader Class Initialized
+INFO - 2019-11-09 06:47:13 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 06:47:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 06:47:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 06:47:13 --> Controller Class Initialized
+INFO - 2019-11-09 06:47:13 --> Helper loaded: form_helper
+INFO - 2019-11-09 06:47:13 --> Form Validation Class Initialized
+INFO - 2019-11-09 06:47:13 --> Database Driver Class Initialized
+INFO - 2019-11-09 06:47:13 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 06:47:13 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-09 06:47:13 --> Config Class Initialized
+INFO - 2019-11-09 06:47:13 --> Hooks Class Initialized
+DEBUG - 2019-11-09 06:47:13 --> UTF-8 Support Enabled
+INFO - 2019-11-09 06:47:13 --> Utf8 Class Initialized
+INFO - 2019-11-09 06:47:13 --> URI Class Initialized
+INFO - 2019-11-09 06:47:13 --> Router Class Initialized
+INFO - 2019-11-09 06:47:13 --> Output Class Initialized
+INFO - 2019-11-09 06:47:13 --> Security Class Initialized
+DEBUG - 2019-11-09 06:47:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 06:47:13 --> CSRF cookie sent
+INFO - 2019-11-09 06:47:13 --> Input Class Initialized
+INFO - 2019-11-09 06:47:13 --> Language Class Initialized
+INFO - 2019-11-09 06:47:13 --> Loader Class Initialized
+INFO - 2019-11-09 06:47:13 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 06:47:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 06:47:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 06:47:13 --> Controller Class Initialized
+INFO - 2019-11-09 06:47:13 --> Helper loaded: form_helper
+INFO - 2019-11-09 06:47:13 --> Form Validation Class Initialized
+INFO - 2019-11-09 06:47:13 --> Database Driver Class Initialized
+INFO - 2019-11-09 06:47:13 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 06:47:13 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 06:47:13 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 06:47:13 --> Final output sent to browser
+DEBUG - 2019-11-09 06:47:13 --> Total execution time: 0.1760
+INFO - 2019-11-09 07:22:48 --> Config Class Initialized
+INFO - 2019-11-09 07:22:48 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:22:48 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:22:48 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:22:48 --> URI Class Initialized
+INFO - 2019-11-09 07:22:48 --> Router Class Initialized
+INFO - 2019-11-09 07:22:48 --> Output Class Initialized
+INFO - 2019-11-09 07:22:48 --> Security Class Initialized
+DEBUG - 2019-11-09 07:22:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:22:48 --> CSRF cookie sent
+INFO - 2019-11-09 07:22:48 --> Input Class Initialized
+INFO - 2019-11-09 07:22:48 --> Language Class Initialized
+INFO - 2019-11-09 07:22:48 --> Loader Class Initialized
+INFO - 2019-11-09 07:22:48 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:22:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:22:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:22:48 --> Controller Class Initialized
+INFO - 2019-11-09 07:22:48 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:22:48 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:22:48 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:22:48 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:22:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:22:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:22:48 --> Final output sent to browser
+DEBUG - 2019-11-09 07:22:48 --> Total execution time: 0.0455
+INFO - 2019-11-09 07:24:11 --> Config Class Initialized
+INFO - 2019-11-09 07:24:11 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:24:11 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:24:11 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:24:11 --> URI Class Initialized
+INFO - 2019-11-09 07:24:11 --> Router Class Initialized
+INFO - 2019-11-09 07:24:11 --> Output Class Initialized
+INFO - 2019-11-09 07:24:11 --> Security Class Initialized
+DEBUG - 2019-11-09 07:24:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:24:11 --> CSRF cookie sent
+INFO - 2019-11-09 07:24:11 --> Input Class Initialized
+INFO - 2019-11-09 07:24:11 --> Language Class Initialized
+INFO - 2019-11-09 07:24:11 --> Loader Class Initialized
+INFO - 2019-11-09 07:24:11 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:24:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:24:11 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:24:11 --> Controller Class Initialized
+INFO - 2019-11-09 07:24:11 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:24:11 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:24:11 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:24:11 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:24:11 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:24:11 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:24:11 --> Final output sent to browser
+DEBUG - 2019-11-09 07:24:11 --> Total execution time: 0.0423
+INFO - 2019-11-09 07:24:49 --> Config Class Initialized
+INFO - 2019-11-09 07:24:49 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:24:49 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:24:49 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:24:49 --> URI Class Initialized
+INFO - 2019-11-09 07:24:49 --> Router Class Initialized
+INFO - 2019-11-09 07:24:49 --> Output Class Initialized
+INFO - 2019-11-09 07:24:49 --> Security Class Initialized
+DEBUG - 2019-11-09 07:24:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:24:49 --> CSRF cookie sent
+INFO - 2019-11-09 07:24:49 --> Input Class Initialized
+INFO - 2019-11-09 07:24:49 --> Language Class Initialized
+INFO - 2019-11-09 07:24:49 --> Loader Class Initialized
+INFO - 2019-11-09 07:24:49 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:24:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:24:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:24:49 --> Controller Class Initialized
+INFO - 2019-11-09 07:24:49 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:24:49 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:24:49 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:24:49 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:24:49 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:24:49 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:24:49 --> Final output sent to browser
+DEBUG - 2019-11-09 07:24:49 --> Total execution time: 0.0480
+INFO - 2019-11-09 07:25:02 --> Config Class Initialized
+INFO - 2019-11-09 07:25:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:25:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:25:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:25:02 --> URI Class Initialized
+INFO - 2019-11-09 07:25:02 --> Router Class Initialized
+INFO - 2019-11-09 07:25:02 --> Output Class Initialized
+INFO - 2019-11-09 07:25:02 --> Security Class Initialized
+DEBUG - 2019-11-09 07:25:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:25:02 --> CSRF cookie sent
+INFO - 2019-11-09 07:25:02 --> Input Class Initialized
+INFO - 2019-11-09 07:25:02 --> Language Class Initialized
+INFO - 2019-11-09 07:25:02 --> Loader Class Initialized
+INFO - 2019-11-09 07:25:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:25:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:25:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:25:02 --> Controller Class Initialized
+INFO - 2019-11-09 07:25:02 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:25:02 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:25:02 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:25:02 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:25:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:25:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:25:02 --> Final output sent to browser
+DEBUG - 2019-11-09 07:25:02 --> Total execution time: 0.0389
+INFO - 2019-11-09 07:25:48 --> Config Class Initialized
+INFO - 2019-11-09 07:25:48 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:25:48 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:25:48 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:25:48 --> URI Class Initialized
+INFO - 2019-11-09 07:25:48 --> Router Class Initialized
+INFO - 2019-11-09 07:25:48 --> Output Class Initialized
+INFO - 2019-11-09 07:25:48 --> Security Class Initialized
+DEBUG - 2019-11-09 07:25:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:25:48 --> CSRF cookie sent
+INFO - 2019-11-09 07:25:48 --> Input Class Initialized
+INFO - 2019-11-09 07:25:48 --> Language Class Initialized
+INFO - 2019-11-09 07:25:48 --> Loader Class Initialized
+INFO - 2019-11-09 07:25:48 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:25:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:25:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:25:48 --> Controller Class Initialized
+INFO - 2019-11-09 07:25:48 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:25:48 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:25:48 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:25:48 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:25:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:25:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:25:48 --> Final output sent to browser
+DEBUG - 2019-11-09 07:25:48 --> Total execution time: 0.0576
+INFO - 2019-11-09 07:26:02 --> Config Class Initialized
+INFO - 2019-11-09 07:26:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 07:26:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 07:26:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 07:26:02 --> URI Class Initialized
+INFO - 2019-11-09 07:26:02 --> Router Class Initialized
+INFO - 2019-11-09 07:26:02 --> Output Class Initialized
+INFO - 2019-11-09 07:26:02 --> Security Class Initialized
+DEBUG - 2019-11-09 07:26:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 07:26:02 --> CSRF cookie sent
+INFO - 2019-11-09 07:26:02 --> Input Class Initialized
+INFO - 2019-11-09 07:26:02 --> Language Class Initialized
+INFO - 2019-11-09 07:26:03 --> Loader Class Initialized
+INFO - 2019-11-09 07:26:03 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 07:26:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 07:26:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 07:26:03 --> Controller Class Initialized
+INFO - 2019-11-09 07:26:03 --> Helper loaded: form_helper
+INFO - 2019-11-09 07:26:03 --> Form Validation Class Initialized
+INFO - 2019-11-09 07:26:03 --> Database Driver Class Initialized
+INFO - 2019-11-09 07:26:03 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 07:26:03 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 07:26:03 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 07:26:03 --> Final output sent to browser
+DEBUG - 2019-11-09 07:26:03 --> Total execution time: 0.0395
+INFO - 2019-11-09 08:14:02 --> Config Class Initialized
+INFO - 2019-11-09 08:14:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:14:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:14:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:14:02 --> URI Class Initialized
+INFO - 2019-11-09 08:14:02 --> Router Class Initialized
+INFO - 2019-11-09 08:14:02 --> Output Class Initialized
+INFO - 2019-11-09 08:14:02 --> Security Class Initialized
+DEBUG - 2019-11-09 08:14:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:14:02 --> CSRF cookie sent
+INFO - 2019-11-09 08:14:02 --> Input Class Initialized
+INFO - 2019-11-09 08:14:02 --> Language Class Initialized
+INFO - 2019-11-09 08:14:02 --> Loader Class Initialized
+INFO - 2019-11-09 08:14:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:14:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:14:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:14:02 --> Controller Class Initialized
+INFO - 2019-11-09 08:14:02 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:14:02 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:14:02 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:14:02 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:14:03 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:14:03 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:14:03 --> Final output sent to browser
+DEBUG - 2019-11-09 08:14:03 --> Total execution time: 0.3532
+INFO - 2019-11-09 08:14:41 --> Config Class Initialized
+INFO - 2019-11-09 08:14:41 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:14:41 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:14:41 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:14:41 --> URI Class Initialized
+INFO - 2019-11-09 08:14:41 --> Router Class Initialized
+INFO - 2019-11-09 08:14:41 --> Output Class Initialized
+INFO - 2019-11-09 08:14:41 --> Security Class Initialized
+DEBUG - 2019-11-09 08:14:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:14:41 --> CSRF cookie sent
+INFO - 2019-11-09 08:14:41 --> Input Class Initialized
+INFO - 2019-11-09 08:14:41 --> Language Class Initialized
+INFO - 2019-11-09 08:14:41 --> Loader Class Initialized
+INFO - 2019-11-09 08:14:41 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:14:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:14:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:14:41 --> Controller Class Initialized
+INFO - 2019-11-09 08:14:41 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:14:41 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:14:41 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:14:41 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:14:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:14:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:14:41 --> Final output sent to browser
+DEBUG - 2019-11-09 08:14:41 --> Total execution time: 0.0508
+INFO - 2019-11-09 08:20:41 --> Config Class Initialized
+INFO - 2019-11-09 08:20:41 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:20:41 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:20:41 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:20:41 --> URI Class Initialized
+INFO - 2019-11-09 08:20:41 --> Router Class Initialized
+INFO - 2019-11-09 08:20:41 --> Output Class Initialized
+INFO - 2019-11-09 08:20:41 --> Security Class Initialized
+DEBUG - 2019-11-09 08:20:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:20:41 --> CSRF cookie sent
+INFO - 2019-11-09 08:20:41 --> Input Class Initialized
+INFO - 2019-11-09 08:20:41 --> Language Class Initialized
+INFO - 2019-11-09 08:20:41 --> Loader Class Initialized
+INFO - 2019-11-09 08:20:41 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:20:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:20:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:20:41 --> Controller Class Initialized
+INFO - 2019-11-09 08:20:41 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:20:41 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:20:41 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:20:41 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:20:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:20:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:20:41 --> Final output sent to browser
+DEBUG - 2019-11-09 08:20:41 --> Total execution time: 0.0475
+INFO - 2019-11-09 08:20:43 --> Config Class Initialized
+INFO - 2019-11-09 08:20:43 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:20:43 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:20:43 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:20:43 --> URI Class Initialized
+INFO - 2019-11-09 08:20:43 --> Router Class Initialized
+INFO - 2019-11-09 08:20:43 --> Output Class Initialized
+INFO - 2019-11-09 08:20:43 --> Security Class Initialized
+DEBUG - 2019-11-09 08:20:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:20:43 --> CSRF cookie sent
+INFO - 2019-11-09 08:20:43 --> Input Class Initialized
+INFO - 2019-11-09 08:20:43 --> Language Class Initialized
+INFO - 2019-11-09 08:20:43 --> Loader Class Initialized
+INFO - 2019-11-09 08:20:43 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:20:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:20:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:20:43 --> Controller Class Initialized
+INFO - 2019-11-09 08:20:43 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:20:43 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:20:43 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:20:43 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:20:43 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:20:43 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:20:43 --> Final output sent to browser
+DEBUG - 2019-11-09 08:20:43 --> Total execution time: 0.0384
+INFO - 2019-11-09 08:21:19 --> Config Class Initialized
+INFO - 2019-11-09 08:21:19 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:21:19 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:21:19 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:21:19 --> URI Class Initialized
+INFO - 2019-11-09 08:21:19 --> Router Class Initialized
+INFO - 2019-11-09 08:21:19 --> Output Class Initialized
+INFO - 2019-11-09 08:21:19 --> Security Class Initialized
+DEBUG - 2019-11-09 08:21:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:21:19 --> CSRF cookie sent
+INFO - 2019-11-09 08:21:19 --> Input Class Initialized
+INFO - 2019-11-09 08:21:19 --> Language Class Initialized
+INFO - 2019-11-09 08:21:19 --> Loader Class Initialized
+INFO - 2019-11-09 08:21:19 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:21:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:21:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:21:19 --> Controller Class Initialized
+INFO - 2019-11-09 08:21:19 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:21:19 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:21:19 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:21:19 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:21:19 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:21:19 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:21:19 --> Final output sent to browser
+DEBUG - 2019-11-09 08:21:19 --> Total execution time: 0.0399
+INFO - 2019-11-09 08:21:21 --> Config Class Initialized
+INFO - 2019-11-09 08:21:21 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:21:21 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:21:21 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:21:21 --> URI Class Initialized
+INFO - 2019-11-09 08:21:21 --> Router Class Initialized
+INFO - 2019-11-09 08:21:21 --> Output Class Initialized
+INFO - 2019-11-09 08:21:21 --> Security Class Initialized
+DEBUG - 2019-11-09 08:21:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:21:21 --> CSRF cookie sent
+INFO - 2019-11-09 08:21:21 --> Input Class Initialized
+INFO - 2019-11-09 08:21:21 --> Language Class Initialized
+INFO - 2019-11-09 08:21:21 --> Loader Class Initialized
+INFO - 2019-11-09 08:21:21 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:21:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:21:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:21:21 --> Controller Class Initialized
+INFO - 2019-11-09 08:21:21 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:21:21 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:21:21 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:21:21 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:21:21 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:21:21 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:21:21 --> Final output sent to browser
+DEBUG - 2019-11-09 08:21:21 --> Total execution time: 0.0364
+INFO - 2019-11-09 08:21:23 --> Config Class Initialized
+INFO - 2019-11-09 08:21:23 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:21:23 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:21:23 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:21:23 --> URI Class Initialized
+INFO - 2019-11-09 08:21:23 --> Router Class Initialized
+INFO - 2019-11-09 08:21:23 --> Output Class Initialized
+INFO - 2019-11-09 08:21:23 --> Security Class Initialized
+DEBUG - 2019-11-09 08:21:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:21:23 --> CSRF cookie sent
+INFO - 2019-11-09 08:21:23 --> Input Class Initialized
+INFO - 2019-11-09 08:21:23 --> Language Class Initialized
+INFO - 2019-11-09 08:21:23 --> Loader Class Initialized
+INFO - 2019-11-09 08:21:23 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:21:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:21:23 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:21:23 --> Controller Class Initialized
+INFO - 2019-11-09 08:21:23 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:21:23 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:21:23 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:21:23 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:21:23 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:21:23 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:21:23 --> Final output sent to browser
+DEBUG - 2019-11-09 08:21:23 --> Total execution time: 0.0409
+INFO - 2019-11-09 08:21:23 --> Config Class Initialized
+INFO - 2019-11-09 08:21:23 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:21:23 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:21:23 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:21:23 --> URI Class Initialized
+INFO - 2019-11-09 08:21:23 --> Router Class Initialized
+INFO - 2019-11-09 08:21:24 --> Output Class Initialized
+INFO - 2019-11-09 08:21:24 --> Security Class Initialized
+DEBUG - 2019-11-09 08:21:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:21:24 --> CSRF cookie sent
+INFO - 2019-11-09 08:21:24 --> Input Class Initialized
+INFO - 2019-11-09 08:21:24 --> Language Class Initialized
+INFO - 2019-11-09 08:21:24 --> Loader Class Initialized
+INFO - 2019-11-09 08:21:24 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:21:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:21:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:21:24 --> Controller Class Initialized
+INFO - 2019-11-09 08:21:24 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:21:24 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:21:24 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:21:24 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:21:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:21:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:21:24 --> Final output sent to browser
+DEBUG - 2019-11-09 08:21:24 --> Total execution time: 0.0469
+INFO - 2019-11-09 08:21:24 --> Config Class Initialized
+INFO - 2019-11-09 08:21:24 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:21:24 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:21:24 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:21:24 --> URI Class Initialized
+INFO - 2019-11-09 08:21:24 --> Router Class Initialized
+INFO - 2019-11-09 08:21:24 --> Output Class Initialized
+INFO - 2019-11-09 08:21:24 --> Security Class Initialized
+DEBUG - 2019-11-09 08:21:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:21:24 --> CSRF cookie sent
+INFO - 2019-11-09 08:21:24 --> Input Class Initialized
+INFO - 2019-11-09 08:21:24 --> Language Class Initialized
+INFO - 2019-11-09 08:21:24 --> Loader Class Initialized
+INFO - 2019-11-09 08:21:24 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:21:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:21:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:21:24 --> Controller Class Initialized
+INFO - 2019-11-09 08:21:24 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:21:24 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:21:24 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:21:24 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:21:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:21:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:21:24 --> Final output sent to browser
+DEBUG - 2019-11-09 08:21:24 --> Total execution time: 0.0391
+INFO - 2019-11-09 08:22:28 --> Config Class Initialized
+INFO - 2019-11-09 08:22:28 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:22:28 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:22:28 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:22:28 --> URI Class Initialized
+INFO - 2019-11-09 08:22:28 --> Router Class Initialized
+INFO - 2019-11-09 08:22:28 --> Output Class Initialized
+INFO - 2019-11-09 08:22:28 --> Security Class Initialized
+DEBUG - 2019-11-09 08:22:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:22:28 --> CSRF cookie sent
+INFO - 2019-11-09 08:22:28 --> Input Class Initialized
+INFO - 2019-11-09 08:22:28 --> Language Class Initialized
+INFO - 2019-11-09 08:22:28 --> Loader Class Initialized
+INFO - 2019-11-09 08:22:28 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:22:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:22:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:22:28 --> Controller Class Initialized
+INFO - 2019-11-09 08:22:28 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:22:28 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:22:28 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:22:28 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:22:28 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:22:28 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:22:28 --> Final output sent to browser
+DEBUG - 2019-11-09 08:22:28 --> Total execution time: 0.0477
+INFO - 2019-11-09 08:24:35 --> Config Class Initialized
+INFO - 2019-11-09 08:24:35 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:24:35 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:24:35 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:24:35 --> URI Class Initialized
+INFO - 2019-11-09 08:24:35 --> Router Class Initialized
+INFO - 2019-11-09 08:24:35 --> Output Class Initialized
+INFO - 2019-11-09 08:24:35 --> Security Class Initialized
+DEBUG - 2019-11-09 08:24:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:24:35 --> CSRF cookie sent
+INFO - 2019-11-09 08:24:35 --> Input Class Initialized
+INFO - 2019-11-09 08:24:35 --> Language Class Initialized
+INFO - 2019-11-09 08:24:35 --> Loader Class Initialized
+INFO - 2019-11-09 08:24:35 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:24:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:24:35 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:24:35 --> Controller Class Initialized
+INFO - 2019-11-09 08:24:35 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:24:35 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:24:35 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:24:35 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:24:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:24:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:24:35 --> Final output sent to browser
+DEBUG - 2019-11-09 08:24:35 --> Total execution time: 0.0396
+INFO - 2019-11-09 08:24:44 --> Config Class Initialized
+INFO - 2019-11-09 08:24:44 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:24:44 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:24:44 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:24:44 --> URI Class Initialized
+INFO - 2019-11-09 08:24:44 --> Router Class Initialized
+INFO - 2019-11-09 08:24:44 --> Output Class Initialized
+INFO - 2019-11-09 08:24:44 --> Security Class Initialized
+DEBUG - 2019-11-09 08:24:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:24:44 --> CSRF cookie sent
+INFO - 2019-11-09 08:24:44 --> Input Class Initialized
+INFO - 2019-11-09 08:24:44 --> Language Class Initialized
+INFO - 2019-11-09 08:24:44 --> Loader Class Initialized
+INFO - 2019-11-09 08:24:44 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:24:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:24:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:24:44 --> Controller Class Initialized
+INFO - 2019-11-09 08:24:44 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:24:44 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:24:44 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:24:44 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:24:44 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:24:44 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:24:44 --> Final output sent to browser
+DEBUG - 2019-11-09 08:24:44 --> Total execution time: 0.0489
+INFO - 2019-11-09 08:26:02 --> Config Class Initialized
+INFO - 2019-11-09 08:26:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:26:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:26:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:26:02 --> URI Class Initialized
+INFO - 2019-11-09 08:26:02 --> Router Class Initialized
+INFO - 2019-11-09 08:26:02 --> Output Class Initialized
+INFO - 2019-11-09 08:26:02 --> Security Class Initialized
+DEBUG - 2019-11-09 08:26:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:26:02 --> CSRF cookie sent
+INFO - 2019-11-09 08:26:02 --> Input Class Initialized
+INFO - 2019-11-09 08:26:02 --> Language Class Initialized
+INFO - 2019-11-09 08:26:02 --> Loader Class Initialized
+INFO - 2019-11-09 08:26:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:26:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:26:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:26:02 --> Controller Class Initialized
+INFO - 2019-11-09 08:26:02 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:26:02 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:26:02 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:26:02 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:26:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:26:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:26:02 --> Final output sent to browser
+DEBUG - 2019-11-09 08:26:02 --> Total execution time: 0.0426
+INFO - 2019-11-09 08:26:16 --> Config Class Initialized
+INFO - 2019-11-09 08:26:16 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:26:16 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:26:16 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:26:16 --> URI Class Initialized
+INFO - 2019-11-09 08:26:16 --> Router Class Initialized
+INFO - 2019-11-09 08:26:16 --> Output Class Initialized
+INFO - 2019-11-09 08:26:16 --> Security Class Initialized
+DEBUG - 2019-11-09 08:26:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:26:16 --> CSRF cookie sent
+INFO - 2019-11-09 08:26:16 --> Input Class Initialized
+INFO - 2019-11-09 08:26:16 --> Language Class Initialized
+INFO - 2019-11-09 08:26:16 --> Loader Class Initialized
+INFO - 2019-11-09 08:26:16 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:26:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:26:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:26:16 --> Controller Class Initialized
+INFO - 2019-11-09 08:26:16 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:26:16 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:26:16 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:26:16 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:26:16 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:26:16 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:26:16 --> Final output sent to browser
+DEBUG - 2019-11-09 08:26:16 --> Total execution time: 0.0474
+INFO - 2019-11-09 08:26:47 --> Config Class Initialized
+INFO - 2019-11-09 08:26:47 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:26:47 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:26:47 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:26:47 --> URI Class Initialized
+INFO - 2019-11-09 08:26:47 --> Router Class Initialized
+INFO - 2019-11-09 08:26:47 --> Output Class Initialized
+INFO - 2019-11-09 08:26:47 --> Security Class Initialized
+DEBUG - 2019-11-09 08:26:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:26:47 --> CSRF cookie sent
+INFO - 2019-11-09 08:26:47 --> Input Class Initialized
+INFO - 2019-11-09 08:26:47 --> Language Class Initialized
+INFO - 2019-11-09 08:26:47 --> Loader Class Initialized
+INFO - 2019-11-09 08:26:47 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:26:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:26:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:26:47 --> Controller Class Initialized
+INFO - 2019-11-09 08:26:47 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:26:47 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:26:47 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:26:47 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:26:47 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:26:47 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:26:47 --> Final output sent to browser
+DEBUG - 2019-11-09 08:26:47 --> Total execution time: 0.0397
+INFO - 2019-11-09 08:26:48 --> Config Class Initialized
+INFO - 2019-11-09 08:26:48 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:26:48 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:26:48 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:26:48 --> URI Class Initialized
+INFO - 2019-11-09 08:26:48 --> Router Class Initialized
+INFO - 2019-11-09 08:26:48 --> Output Class Initialized
+INFO - 2019-11-09 08:26:48 --> Security Class Initialized
+DEBUG - 2019-11-09 08:26:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:26:48 --> CSRF cookie sent
+INFO - 2019-11-09 08:26:48 --> Input Class Initialized
+INFO - 2019-11-09 08:26:48 --> Language Class Initialized
+INFO - 2019-11-09 08:26:48 --> Loader Class Initialized
+INFO - 2019-11-09 08:26:48 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:26:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:26:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:26:48 --> Controller Class Initialized
+INFO - 2019-11-09 08:26:48 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:26:48 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:26:48 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:26:48 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:26:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:26:48 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:26:48 --> Final output sent to browser
+DEBUG - 2019-11-09 08:26:48 --> Total execution time: 0.0431
+INFO - 2019-11-09 08:27:24 --> Config Class Initialized
+INFO - 2019-11-09 08:27:24 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:27:24 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:27:24 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:27:24 --> URI Class Initialized
+INFO - 2019-11-09 08:27:24 --> Router Class Initialized
+INFO - 2019-11-09 08:27:24 --> Output Class Initialized
+INFO - 2019-11-09 08:27:24 --> Security Class Initialized
+DEBUG - 2019-11-09 08:27:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:27:24 --> CSRF cookie sent
+INFO - 2019-11-09 08:27:24 --> Input Class Initialized
+INFO - 2019-11-09 08:27:24 --> Language Class Initialized
+INFO - 2019-11-09 08:27:24 --> Loader Class Initialized
+INFO - 2019-11-09 08:27:24 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:27:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:27:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:27:24 --> Controller Class Initialized
+INFO - 2019-11-09 08:27:24 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:27:24 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:27:24 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:27:24 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:27:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:27:24 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:27:24 --> Final output sent to browser
+DEBUG - 2019-11-09 08:27:24 --> Total execution time: 0.0546
+INFO - 2019-11-09 08:28:02 --> Config Class Initialized
+INFO - 2019-11-09 08:28:02 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:28:02 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:28:02 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:28:02 --> URI Class Initialized
+INFO - 2019-11-09 08:28:02 --> Router Class Initialized
+INFO - 2019-11-09 08:28:02 --> Output Class Initialized
+INFO - 2019-11-09 08:28:02 --> Security Class Initialized
+DEBUG - 2019-11-09 08:28:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:28:02 --> CSRF cookie sent
+INFO - 2019-11-09 08:28:02 --> Input Class Initialized
+INFO - 2019-11-09 08:28:02 --> Language Class Initialized
+INFO - 2019-11-09 08:28:02 --> Loader Class Initialized
+INFO - 2019-11-09 08:28:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:28:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:28:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:28:02 --> Controller Class Initialized
+INFO - 2019-11-09 08:28:02 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:28:02 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:28:02 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:28:02 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:28:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:28:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:28:02 --> Final output sent to browser
+DEBUG - 2019-11-09 08:28:02 --> Total execution time: 0.0370
+INFO - 2019-11-09 08:28:35 --> Config Class Initialized
+INFO - 2019-11-09 08:28:35 --> Hooks Class Initialized
+DEBUG - 2019-11-09 08:28:35 --> UTF-8 Support Enabled
+INFO - 2019-11-09 08:28:35 --> Utf8 Class Initialized
+INFO - 2019-11-09 08:28:35 --> URI Class Initialized
+INFO - 2019-11-09 08:28:35 --> Router Class Initialized
+INFO - 2019-11-09 08:28:35 --> Output Class Initialized
+INFO - 2019-11-09 08:28:35 --> Security Class Initialized
+DEBUG - 2019-11-09 08:28:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 08:28:35 --> CSRF cookie sent
+INFO - 2019-11-09 08:28:35 --> Input Class Initialized
+INFO - 2019-11-09 08:28:35 --> Language Class Initialized
+INFO - 2019-11-09 08:28:35 --> Loader Class Initialized
+INFO - 2019-11-09 08:28:35 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 08:28:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 08:28:35 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 08:28:35 --> Controller Class Initialized
+INFO - 2019-11-09 08:28:35 --> Helper loaded: form_helper
+INFO - 2019-11-09 08:28:35 --> Form Validation Class Initialized
+INFO - 2019-11-09 08:28:35 --> Database Driver Class Initialized
+INFO - 2019-11-09 08:28:35 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 08:28:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 08:28:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 08:28:35 --> Final output sent to browser
+DEBUG - 2019-11-09 08:28:35 --> Total execution time: 0.0552
+INFO - 2019-11-09 09:06:22 --> Config Class Initialized
+INFO - 2019-11-09 09:06:22 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:06:22 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:06:22 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:06:22 --> URI Class Initialized
+INFO - 2019-11-09 09:06:22 --> Router Class Initialized
+INFO - 2019-11-09 09:06:22 --> Output Class Initialized
+INFO - 2019-11-09 09:06:22 --> Security Class Initialized
+DEBUG - 2019-11-09 09:06:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:06:22 --> CSRF cookie sent
+INFO - 2019-11-09 09:06:22 --> Input Class Initialized
+INFO - 2019-11-09 09:06:22 --> Language Class Initialized
+INFO - 2019-11-09 09:06:22 --> Loader Class Initialized
+INFO - 2019-11-09 09:06:22 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:06:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:06:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:06:22 --> Controller Class Initialized
+INFO - 2019-11-09 09:06:22 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:06:22 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:06:22 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:06:22 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:06:22 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:06:22 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:06:22 --> Final output sent to browser
+DEBUG - 2019-11-09 09:06:22 --> Total execution time: 0.0511
+INFO - 2019-11-09 09:13:29 --> Config Class Initialized
+INFO - 2019-11-09 09:13:29 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:13:29 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:13:29 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:13:29 --> URI Class Initialized
+INFO - 2019-11-09 09:13:29 --> Router Class Initialized
+INFO - 2019-11-09 09:13:29 --> Output Class Initialized
+INFO - 2019-11-09 09:13:29 --> Security Class Initialized
+DEBUG - 2019-11-09 09:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:13:29 --> CSRF cookie sent
+INFO - 2019-11-09 09:13:29 --> Input Class Initialized
+INFO - 2019-11-09 09:13:29 --> Language Class Initialized
+INFO - 2019-11-09 09:13:29 --> Loader Class Initialized
+INFO - 2019-11-09 09:13:29 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:13:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:13:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:13:29 --> Controller Class Initialized
+INFO - 2019-11-09 09:13:29 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:13:29 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:13:29 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:13:29 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:13:29 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:13:29 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:13:29 --> Final output sent to browser
+DEBUG - 2019-11-09 09:13:29 --> Total execution time: 0.0525
+INFO - 2019-11-09 09:20:12 --> Config Class Initialized
+INFO - 2019-11-09 09:20:12 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:20:12 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:20:12 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:20:12 --> URI Class Initialized
+INFO - 2019-11-09 09:20:12 --> Router Class Initialized
+INFO - 2019-11-09 09:20:12 --> Output Class Initialized
+INFO - 2019-11-09 09:20:12 --> Security Class Initialized
+DEBUG - 2019-11-09 09:20:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:20:12 --> CSRF cookie sent
+INFO - 2019-11-09 09:20:12 --> Input Class Initialized
+INFO - 2019-11-09 09:20:12 --> Language Class Initialized
+INFO - 2019-11-09 09:20:12 --> Loader Class Initialized
+INFO - 2019-11-09 09:20:12 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:20:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:20:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:20:12 --> Controller Class Initialized
+INFO - 2019-11-09 09:20:12 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:20:12 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:20:12 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:20:12 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:20:12 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:20:12 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:20:12 --> Final output sent to browser
+DEBUG - 2019-11-09 09:20:12 --> Total execution time: 0.0431
+INFO - 2019-11-09 09:27:11 --> Config Class Initialized
+INFO - 2019-11-09 09:27:11 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:27:11 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:27:11 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:27:11 --> URI Class Initialized
+INFO - 2019-11-09 09:27:11 --> Router Class Initialized
+INFO - 2019-11-09 09:27:11 --> Output Class Initialized
+INFO - 2019-11-09 09:27:11 --> Security Class Initialized
+DEBUG - 2019-11-09 09:27:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:27:11 --> CSRF cookie sent
+INFO - 2019-11-09 09:27:11 --> Input Class Initialized
+INFO - 2019-11-09 09:27:11 --> Language Class Initialized
+INFO - 2019-11-09 09:27:11 --> Loader Class Initialized
+INFO - 2019-11-09 09:27:11 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:27:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:27:11 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:27:11 --> Controller Class Initialized
+INFO - 2019-11-09 09:27:11 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:27:11 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:27:11 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:27:11 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:27:11 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:27:12 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:27:12 --> Final output sent to browser
+DEBUG - 2019-11-09 09:27:12 --> Total execution time: 0.0416
+INFO - 2019-11-09 09:27:44 --> Config Class Initialized
+INFO - 2019-11-09 09:27:44 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:27:44 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:27:44 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:27:44 --> URI Class Initialized
+INFO - 2019-11-09 09:27:44 --> Router Class Initialized
+INFO - 2019-11-09 09:27:44 --> Output Class Initialized
+INFO - 2019-11-09 09:27:44 --> Security Class Initialized
+DEBUG - 2019-11-09 09:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:27:44 --> CSRF cookie sent
+INFO - 2019-11-09 09:27:44 --> Input Class Initialized
+INFO - 2019-11-09 09:27:44 --> Language Class Initialized
+INFO - 2019-11-09 09:27:44 --> Loader Class Initialized
+INFO - 2019-11-09 09:27:44 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:27:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:27:44 --> Controller Class Initialized
+INFO - 2019-11-09 09:27:44 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:27:44 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:27:44 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:27:45 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:27:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:27:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:27:45 --> Final output sent to browser
+DEBUG - 2019-11-09 09:27:45 --> Total execution time: 0.0422
+INFO - 2019-11-09 09:29:44 --> Config Class Initialized
+INFO - 2019-11-09 09:29:44 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:29:44 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:29:44 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:29:44 --> URI Class Initialized
+INFO - 2019-11-09 09:29:44 --> Router Class Initialized
+INFO - 2019-11-09 09:29:44 --> Output Class Initialized
+INFO - 2019-11-09 09:29:44 --> Security Class Initialized
+DEBUG - 2019-11-09 09:29:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:29:44 --> CSRF cookie sent
+INFO - 2019-11-09 09:29:44 --> Input Class Initialized
+INFO - 2019-11-09 09:29:44 --> Language Class Initialized
+INFO - 2019-11-09 09:29:44 --> Loader Class Initialized
+INFO - 2019-11-09 09:29:44 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:29:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:29:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:29:44 --> Controller Class Initialized
+INFO - 2019-11-09 09:29:44 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:29:44 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:29:44 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:29:44 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:29:44 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:29:44 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:29:44 --> Final output sent to browser
+DEBUG - 2019-11-09 09:29:44 --> Total execution time: 0.0473
+INFO - 2019-11-09 09:31:08 --> Config Class Initialized
+INFO - 2019-11-09 09:31:08 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:31:08 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:31:08 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:31:08 --> URI Class Initialized
+INFO - 2019-11-09 09:31:08 --> Router Class Initialized
+INFO - 2019-11-09 09:31:08 --> Output Class Initialized
+INFO - 2019-11-09 09:31:08 --> Security Class Initialized
+DEBUG - 2019-11-09 09:31:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:31:08 --> CSRF cookie sent
+INFO - 2019-11-09 09:31:08 --> Input Class Initialized
+INFO - 2019-11-09 09:31:08 --> Language Class Initialized
+INFO - 2019-11-09 09:31:08 --> Loader Class Initialized
+INFO - 2019-11-09 09:31:08 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:31:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:31:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:31:08 --> Controller Class Initialized
+INFO - 2019-11-09 09:31:08 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:31:08 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:31:08 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:31:08 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:31:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:31:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:31:08 --> Final output sent to browser
+DEBUG - 2019-11-09 09:31:08 --> Total execution time: 0.0549
+INFO - 2019-11-09 09:32:13 --> Config Class Initialized
+INFO - 2019-11-09 09:32:13 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:32:13 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:32:13 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:32:13 --> URI Class Initialized
+INFO - 2019-11-09 09:32:13 --> Router Class Initialized
+INFO - 2019-11-09 09:32:13 --> Output Class Initialized
+INFO - 2019-11-09 09:32:13 --> Security Class Initialized
+DEBUG - 2019-11-09 09:32:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:32:13 --> CSRF cookie sent
+INFO - 2019-11-09 09:32:13 --> Input Class Initialized
+INFO - 2019-11-09 09:32:13 --> Language Class Initialized
+INFO - 2019-11-09 09:32:13 --> Loader Class Initialized
+INFO - 2019-11-09 09:32:13 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:32:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:32:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:32:13 --> Controller Class Initialized
+INFO - 2019-11-09 09:32:13 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:32:13 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:32:13 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:32:13 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:32:13 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:32:13 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:32:13 --> Final output sent to browser
+DEBUG - 2019-11-09 09:32:13 --> Total execution time: 0.0449
+INFO - 2019-11-09 09:34:45 --> Config Class Initialized
+INFO - 2019-11-09 09:34:45 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:34:45 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:34:45 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:34:45 --> URI Class Initialized
+INFO - 2019-11-09 09:34:45 --> Router Class Initialized
+INFO - 2019-11-09 09:34:45 --> Output Class Initialized
+INFO - 2019-11-09 09:34:45 --> Security Class Initialized
+DEBUG - 2019-11-09 09:34:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:34:45 --> CSRF cookie sent
+INFO - 2019-11-09 09:34:45 --> Input Class Initialized
+INFO - 2019-11-09 09:34:45 --> Language Class Initialized
+INFO - 2019-11-09 09:34:45 --> Loader Class Initialized
+INFO - 2019-11-09 09:34:45 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:34:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:34:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:34:45 --> Controller Class Initialized
+INFO - 2019-11-09 09:34:45 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:34:45 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:34:45 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:34:45 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:34:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:34:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:34:45 --> Final output sent to browser
+DEBUG - 2019-11-09 09:34:45 --> Total execution time: 0.0545
+INFO - 2019-11-09 09:35:18 --> Config Class Initialized
+INFO - 2019-11-09 09:35:18 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:35:18 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:35:18 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:35:18 --> URI Class Initialized
+INFO - 2019-11-09 09:35:18 --> Router Class Initialized
+INFO - 2019-11-09 09:35:18 --> Output Class Initialized
+INFO - 2019-11-09 09:35:18 --> Security Class Initialized
+DEBUG - 2019-11-09 09:35:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:35:18 --> CSRF cookie sent
+INFO - 2019-11-09 09:35:18 --> Input Class Initialized
+INFO - 2019-11-09 09:35:18 --> Language Class Initialized
+INFO - 2019-11-09 09:35:18 --> Loader Class Initialized
+INFO - 2019-11-09 09:35:18 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:35:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:35:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:35:18 --> Controller Class Initialized
+INFO - 2019-11-09 09:35:18 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:35:18 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:35:18 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:35:18 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:35:18 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:35:18 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:35:18 --> Final output sent to browser
+DEBUG - 2019-11-09 09:35:18 --> Total execution time: 0.0448
+INFO - 2019-11-09 09:35:28 --> Config Class Initialized
+INFO - 2019-11-09 09:35:28 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:35:28 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:35:28 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:35:28 --> URI Class Initialized
+INFO - 2019-11-09 09:35:28 --> Router Class Initialized
+INFO - 2019-11-09 09:35:28 --> Output Class Initialized
+INFO - 2019-11-09 09:35:28 --> Security Class Initialized
+DEBUG - 2019-11-09 09:35:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:35:28 --> CSRF cookie sent
+INFO - 2019-11-09 09:35:28 --> Input Class Initialized
+INFO - 2019-11-09 09:35:28 --> Language Class Initialized
+INFO - 2019-11-09 09:35:28 --> Loader Class Initialized
+INFO - 2019-11-09 09:35:28 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:35:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:35:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:35:28 --> Controller Class Initialized
+INFO - 2019-11-09 09:35:28 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:35:28 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:35:28 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:35:28 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:35:28 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:35:28 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:35:28 --> Final output sent to browser
+DEBUG - 2019-11-09 09:35:28 --> Total execution time: 0.0411
+INFO - 2019-11-09 09:37:26 --> Config Class Initialized
+INFO - 2019-11-09 09:37:26 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:37:26 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:37:26 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:37:26 --> URI Class Initialized
+INFO - 2019-11-09 09:37:26 --> Router Class Initialized
+INFO - 2019-11-09 09:37:26 --> Output Class Initialized
+INFO - 2019-11-09 09:37:26 --> Security Class Initialized
+DEBUG - 2019-11-09 09:37:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:37:26 --> CSRF cookie sent
+INFO - 2019-11-09 09:37:26 --> Input Class Initialized
+INFO - 2019-11-09 09:37:26 --> Language Class Initialized
+INFO - 2019-11-09 09:37:26 --> Loader Class Initialized
+INFO - 2019-11-09 09:37:26 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:37:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:37:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:37:26 --> Controller Class Initialized
+INFO - 2019-11-09 09:37:26 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:37:26 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:37:26 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:37:26 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:37:26 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:37:26 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:37:26 --> Final output sent to browser
+DEBUG - 2019-11-09 09:37:26 --> Total execution time: 0.0499
+INFO - 2019-11-09 09:38:08 --> Config Class Initialized
+INFO - 2019-11-09 09:38:08 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:38:08 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:38:08 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:38:08 --> URI Class Initialized
+INFO - 2019-11-09 09:38:08 --> Router Class Initialized
+INFO - 2019-11-09 09:38:08 --> Output Class Initialized
+INFO - 2019-11-09 09:38:08 --> Security Class Initialized
+DEBUG - 2019-11-09 09:38:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:38:08 --> CSRF cookie sent
+INFO - 2019-11-09 09:38:08 --> Input Class Initialized
+INFO - 2019-11-09 09:38:08 --> Language Class Initialized
+INFO - 2019-11-09 09:38:08 --> Loader Class Initialized
+INFO - 2019-11-09 09:38:08 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:38:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:38:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:38:08 --> Controller Class Initialized
+INFO - 2019-11-09 09:38:08 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:38:08 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:38:08 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:38:08 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:38:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:38:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:38:08 --> Final output sent to browser
+DEBUG - 2019-11-09 09:38:08 --> Total execution time: 0.0530
+INFO - 2019-11-09 09:39:14 --> Config Class Initialized
+INFO - 2019-11-09 09:39:14 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:39:14 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:39:14 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:39:14 --> URI Class Initialized
+INFO - 2019-11-09 09:39:14 --> Router Class Initialized
+INFO - 2019-11-09 09:39:14 --> Output Class Initialized
+INFO - 2019-11-09 09:39:14 --> Security Class Initialized
+DEBUG - 2019-11-09 09:39:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:39:14 --> CSRF cookie sent
+INFO - 2019-11-09 09:39:14 --> Input Class Initialized
+INFO - 2019-11-09 09:39:14 --> Language Class Initialized
+INFO - 2019-11-09 09:39:14 --> Loader Class Initialized
+INFO - 2019-11-09 09:39:14 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:39:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:39:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:39:14 --> Controller Class Initialized
+INFO - 2019-11-09 09:39:14 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:39:14 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:39:14 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:39:14 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:39:14 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:39:14 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:39:14 --> Final output sent to browser
+DEBUG - 2019-11-09 09:39:14 --> Total execution time: 0.0474
+INFO - 2019-11-09 09:39:51 --> Config Class Initialized
+INFO - 2019-11-09 09:39:51 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:39:51 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:39:51 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:39:51 --> URI Class Initialized
+INFO - 2019-11-09 09:39:51 --> Router Class Initialized
+INFO - 2019-11-09 09:39:51 --> Output Class Initialized
+INFO - 2019-11-09 09:39:51 --> Security Class Initialized
+DEBUG - 2019-11-09 09:39:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:39:51 --> CSRF cookie sent
+INFO - 2019-11-09 09:39:51 --> Input Class Initialized
+INFO - 2019-11-09 09:39:51 --> Language Class Initialized
+INFO - 2019-11-09 09:39:51 --> Loader Class Initialized
+INFO - 2019-11-09 09:39:51 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:39:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:39:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:39:51 --> Controller Class Initialized
+INFO - 2019-11-09 09:39:51 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:39:51 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:39:51 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:39:51 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:39:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:39:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:39:51 --> Final output sent to browser
+DEBUG - 2019-11-09 09:39:51 --> Total execution time: 0.0485
+INFO - 2019-11-09 09:40:45 --> Config Class Initialized
+INFO - 2019-11-09 09:40:45 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:40:45 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:40:45 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:40:45 --> URI Class Initialized
+INFO - 2019-11-09 09:40:45 --> Router Class Initialized
+INFO - 2019-11-09 09:40:45 --> Output Class Initialized
+INFO - 2019-11-09 09:40:45 --> Security Class Initialized
+DEBUG - 2019-11-09 09:40:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:40:45 --> CSRF cookie sent
+INFO - 2019-11-09 09:40:45 --> Input Class Initialized
+INFO - 2019-11-09 09:40:45 --> Language Class Initialized
+INFO - 2019-11-09 09:40:45 --> Loader Class Initialized
+INFO - 2019-11-09 09:40:45 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:40:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:40:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:40:45 --> Controller Class Initialized
+INFO - 2019-11-09 09:40:45 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:40:45 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:40:45 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:40:45 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:40:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:40:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:40:45 --> Final output sent to browser
+DEBUG - 2019-11-09 09:40:45 --> Total execution time: 0.0419
+INFO - 2019-11-09 09:41:41 --> Config Class Initialized
+INFO - 2019-11-09 09:41:41 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:41:41 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:41:41 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:41:41 --> URI Class Initialized
+INFO - 2019-11-09 09:41:41 --> Router Class Initialized
+INFO - 2019-11-09 09:41:41 --> Output Class Initialized
+INFO - 2019-11-09 09:41:41 --> Security Class Initialized
+DEBUG - 2019-11-09 09:41:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:41:41 --> CSRF cookie sent
+INFO - 2019-11-09 09:41:41 --> Input Class Initialized
+INFO - 2019-11-09 09:41:41 --> Language Class Initialized
+INFO - 2019-11-09 09:41:41 --> Loader Class Initialized
+INFO - 2019-11-09 09:41:41 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:41:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:41:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:41:41 --> Controller Class Initialized
+INFO - 2019-11-09 09:41:41 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:41:41 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:41:41 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:41:41 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:41:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:41:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:41:41 --> Final output sent to browser
+DEBUG - 2019-11-09 09:41:41 --> Total execution time: 0.0535
+INFO - 2019-11-09 09:46:14 --> Config Class Initialized
+INFO - 2019-11-09 09:46:14 --> Hooks Class Initialized
+DEBUG - 2019-11-09 09:46:14 --> UTF-8 Support Enabled
+INFO - 2019-11-09 09:46:14 --> Utf8 Class Initialized
+INFO - 2019-11-09 09:46:14 --> URI Class Initialized
+INFO - 2019-11-09 09:46:14 --> Router Class Initialized
+INFO - 2019-11-09 09:46:14 --> Output Class Initialized
+INFO - 2019-11-09 09:46:14 --> Security Class Initialized
+DEBUG - 2019-11-09 09:46:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-09 09:46:14 --> CSRF cookie sent
+INFO - 2019-11-09 09:46:14 --> Input Class Initialized
+INFO - 2019-11-09 09:46:14 --> Language Class Initialized
+INFO - 2019-11-09 09:46:14 --> Loader Class Initialized
+INFO - 2019-11-09 09:46:14 --> Helper loaded: url_helper
+DEBUG - 2019-11-09 09:46:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-09 09:46:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-09 09:46:14 --> Controller Class Initialized
+INFO - 2019-11-09 09:46:14 --> Helper loaded: form_helper
+INFO - 2019-11-09 09:46:14 --> Form Validation Class Initialized
+INFO - 2019-11-09 09:46:14 --> Database Driver Class Initialized
+INFO - 2019-11-09 09:46:14 --> Model "Job_apply_model" initialized
+INFO - 2019-11-09 09:46:14 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-09 09:46:14 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-09 09:46:14 --> Final output sent to browser
+DEBUG - 2019-11-09 09:46:14 --> Total execution time: 0.0445
