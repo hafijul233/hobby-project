@@ -2,7 +2,11 @@
  * Created by User on 11/4/2019.
  */
 function baseUrl(nextPart) {
-    return 'http://localhost/bcsir/' + nextPart;
+    //Local
+    var str = "http://localhost/bcsir/" + nextPart;
+    //Server
+    //var str = "http://bcsir.bipanani.com/" + nextPart;
+    return str;
 }
 
 $(document).ready(function () {
@@ -10,7 +14,6 @@ $(document).ready(function () {
         format: 'yyyy-mm-dd',
         viewMode: 'years'
     });
-
     //hide spouse name by default
     $('.spouseName').hide();
     //Spouse name Show
@@ -36,11 +39,16 @@ $(document).ready(function () {
         if (districtId != '') {
             $.ajax({
                 type: "POST",
-                url: baseUrl("job_apply/ajax_upzila_list"),
+                url: baseUrl("Job_apply/ajax_upzila_list"),
                 data: {'district': districtId},
                 success: function (upzilla) {
+                    console.log(upzilla);
                     $('#presentUpazila').html(upzilla);
-                }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+        alert(xhr.status);
+        alert(thrownError);
+      }
             });
         } else {
             $('#presentUpazila').html('<option selected="true" disabled>Select District</option>');
@@ -58,7 +66,11 @@ $(document).ready(function () {
                 data: {'district': districtId},
                 success: function (upzilla) {
                     $('#permanentUpazila').html(upzilla);
-                }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+        alert(xhr.status);
+        alert(thrownError);
+      }
             });
         } else {
             $('#permanentUpazila').html('<option selected="true" disabled>Select District</option>');
@@ -105,5 +117,24 @@ $(document).ready(function () {
             $('#mastersSubject').html('<option selected="true" disabled>Select Exam First</option>');
         }
     });
+    $('#sameAddress').click(function () {
+        if($('#sameAddress').is(':checked')) {
+            $('#permanentCareOf,#permanentAddress,#permanentDistrict,#permanentUpazila,#permanentPO,#permanentPC').hide();
+            $('#permanentCareOf').val($('present'))
+            $('#permanentAddress').val();
+            $('#permanentDistrict').val();
+            $('#permanentUpazila').val();
+            $('#permanentPO').val();
+            $('#permanentPC').val();
 
+
+        } else {
+            $('#permanentCareOf,#permanentAddress,#permanentDistrict,#permanentUpazila,#permanentPO,#permanentPC').show();
+            /*$('#permanentAddress').hide();
+            $('#permanentDistrict').hide();
+            $('#permanentUpazila').hide();
+            $('#permanentPO').hide();
+            $('#permanentPC').hide();*/
+        }
+    })
 });

@@ -852,3 +852,9 @@ body {
 .glyphicon-menu-up:before {
     content: "\e260";
 }
+
+@media (max-width: 768px) {
+    .card {
+        margin-top: 1rem !important;
+    }
+}

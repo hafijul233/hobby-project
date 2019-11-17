@@ -71,16 +71,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <h4 class="card-header text-center bg-secondary text-white">Application Form</h4>
       <div class="card-body">
           <?= form_open('job_apply/registration'); ?>
-
         <!-- name of post -->
         <div class="form-group row">
           <label for="postTitle" class="col-md-3 col-form-label">
             Name of Post
           </label>
           <div class="col-md-9">
-            <input type="text" class="form-control" id="postTitle"
-                   oninput="this.value = this.value.toUpperCase()"
-                   value="<?= $job_title ?>" readonly>
+            <p class="font-weight-bolder text-dark"><?= strtoupper($job_title) ?></p>
           </div>
         </div>
         <!-- applicant name -->
@@ -92,7 +89,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-9">
             <input type="text" class="form-control" id="applicantName"
                    oninput="this.value = this.value.toUpperCase()"
-                   value="<?= set_value("applicant_name") ?>" name="applicant_name">
+                   value="<?= set_value("applicant_name") ?>" name="applicant_name" autofocus>
             <span class="text-danger" id="applicantNameError"><?= form_error("applicant_name") ?></span>
           </div>
         </div>
@@ -130,11 +127,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </label>
           <div class="col-md-5">
             <input type="text" class="form-control date-picker" id="birthDate"
-                   value="<?= set_value("birth_date") ?>" name="birth_date" placeholder="yyyy-mm-dd" readonly>
+                   value="<?= set_value("birth_date") ?>" name="birth_date" placeholder="yyyy-mm-dd">
             <span class="text-danger" id="birthDateError"><?= form_error("birth_date") ?></span>
           </div>
         </div>
-        <!-- birth palce -->
+        <!-- birth place -->
         <div class="form-group row">
           <label for="placeOfBirth" class="col-md-3 col-form-label">
             Place of Birth
@@ -142,7 +139,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </label>
           <div class="col-md-9">
             <input type="text" class="form-control" id="placeOfBirth"
-                   oninput="this.value = this.value.toUpperCase()"
                    value="<?= set_value("place_of_birth") ?>" name="place_of_birth">
             <span class="text-danger" id="placeOfBirthError"><?= form_error("place_of_birth") ?></span>
           </div>
@@ -159,16 +155,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               if (!empty($genders)) {
                   foreach ($genders as $gender) { ?>
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="gender"
+                      <input class="form-check-input" type="radio" name="gender" id="<?= $gender['gender'] ?>"
                              value="<?= $gender['id'] ?>" <?= set_radio('gender', $gender['id']); ?> >
-                      <label class="form-check-label"><?= $gender['gender'] ?></label>
+                      <label class="form-check-label" for="<?= $gender['gender'] ?>"><?= $gender['gender'] ?></label>
                     </div>
                       <?php
                   }
               }
               ?>
 
-            <span class="text-danger" id="genderError"><?= form_error("applicant_name") ?></span>
+            <span class="text-danger" id="genderError"><?= form_error("gender") ?></span>
           </div>
         </div>
         <!-- nationality -->
@@ -183,9 +179,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <option value="" <?= set_select('nationality', '') ?>>Select Nationality</option>
               <option value="1" <?= set_select('nationality', '1') ?>>Bangladeshi</option>
             </select>
-            <span class="text-danger" id="nationalityError"><?= form_error("place_of_birth") ?></span>
+            <span class="text-danger" id="nationalityError"><?= form_error("nationality") ?></span>
           </div>
         </div>
+        <p class="text-danger text-center">Any of (National ID/ Birth Register No. / Passport ID) is Compulsory. More then One is Acceptable.</p>
         <!-- nation ID -->
         <div class="form-group row">
           <label for="nationalId" class="col-md-3 col-form-label">
@@ -238,7 +235,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     }
                 } ?>
             </select>
-            <span class="text-danger" id="religionError"><?= form_error("place_of_birth") ?></span>
+            <span class="text-danger" id="religionError"><?= form_error("religion") ?></span>
           </div>
         </div>
         <!-- matrial status -->
@@ -295,7 +292,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     }
                 } ?>
             </select>
-            <span class="text-danger" id="quotaError"><?= form_error("place_of_birth") ?></span>
+            <span class="text-danger" id="quotaError"><?= form_error("quota") ?></span>
           </div>
         </div>
         <!-- address present / permant-->
@@ -366,7 +363,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="col-md-8">
                     <select class="form-control" id="presentUpazila" name="present_upazila">
                     </select>
-                    <span class="text-danger" id="presentUpazilaError"><?= form_error("place_of_birth") ?></span>
+                    <span class="text-danger" id="presentUpazilaError"><?= form_error("present_upazila") ?></span>
                   </div>
                 </div>
                 <!-- post Office -->
@@ -379,7 +376,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <input type="text" class="form-control" id="presentPO"
                            oninput="this.value = this.value.toUpperCase()"
                            value="<?= set_value("present_p_o") ?>" name="present_p_o">
-                    <span class="text-danger" id="presentPO"><?= form_error("place_of_birth") ?></span>
+                    <span class="text-danger" id="presentPOError"><?= form_error("present_p_o") ?></span>
                   </div>
                 </div>
                 <!-- Post office code -->
@@ -392,7 +389,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <input type="number" class="form-control" id="presentPC"
                            value="<?= set_value("present_p_c") ?>" name="present_p_c"
                            min="1000" max="9999">
-                    <span class="text-danger"><?= form_error("present_p_c") ?></span>
+                    <span class="text-danger" id="presentPCError"><?= form_error("present_p_c") ?></span>
                   </div>
                 </div>
               </div>
@@ -402,7 +399,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-6">
             <div class="card">
               <p class="card-header bg-secondary text-white font-weight-bold">
-                Permanent Address
+                Permanent Address <span class="float-right"><input type="checkbox" id="sameAddress">   Same as Present Address. </span>
               </p>
               <div class="card-body">
                 <!-- care of -->
@@ -464,7 +461,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="col-md-8">
                     <select class="form-control" id="permanentUpazila" name="permanent_upazila">
                     </select>
-                    <span class="text-danger" id="permanentUpazilaError"><?= form_error("place_of_birth") ?></span>
+                    <span class="text-danger" id="permanentUpazilaError"><?= form_error("permanent_upazila") ?></span>
                   </div>
                 </div>
                 <!-- post Office -->
@@ -477,7 +474,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <input type="text" class="form-control" id="permanentPO"
                            oninput="this.value = this.value.toUpperCase()"
                            value="<?= set_value("permanent_p_o") ?>" name="permanent_p_o">
-                    <span class="text-danger" id="permanentPO"><?= form_error("place_of_birth") ?></span>
+                    <span class="text-danger" id="permanentPO"><?= form_error("permanent_p_o") ?></span>
                   </div>
                 </div>
                 <!-- Post office code -->
@@ -550,30 +547,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="col-md-7">
                     <!-- name of School -->
                     <div class="form-group row">
-                      <label for="applicantName" class="col-md-4 col-form-label">
+                      <label for="FiveSchoolName" class="col-md-4 col-form-label">
                         Name of School
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <textarea class="form-control" id="applicantName"
+                        <textarea class="form-control" id="FiveSchoolName"
                                   oninput="this.value = this.value.toUpperCase()"
-                                  name="applicant_name" rows="2"><?= set_value("applicant_name") ?></textarea>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                                  name="five_school_name" rows="2"><?= set_value("five_school_name") ?></textarea>
+                        <span class="text-danger"><?= form_error("five_school_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="FiveBoard" class="col-md-4 col-form-label">
                         Board
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Board</option>
+                        <select class="form-control" id="FiveBoard" name="five_board">
+                          <option value="" <?= set_select('five_board', '') ?>>Select Board</option>
                             <?php if (!empty($boards)) {
                                 foreach ($boards as $board) { ?>
                                   <option value="<?= $board['id'] ?>"
-                                      <?= set_select('board', $board['id']) ?> >
+                                      <?= set_select('five_board', $board['id']) ?> >
                                       <?= $board['board'] ?>
                                   </option>
                                     <?php
@@ -581,50 +578,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("five_board") ?></span>
                       </div>
                     </div>
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="FiveRoll" class="col-md-4 col-form-label">
                         Roll
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="FiveRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("five_roll") ?>" name="five_roll">
+                        <span class="text-danger"><?= form_error("five_roll") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="FivePassYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="FivePassYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("five_pass_year") ?>" name="five_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("five_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="FiveResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="FiveResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("five_result") ?>" name="five_result">
+                        <span class="text-danger"><?= form_error("five_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -645,30 +640,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="col-md-7">
                     <!-- name of School -->
                     <div class="form-group row">
-                      <label for="applicantName" class="col-md-4 col-form-label">
+                      <label for="EightSchoolName" class="col-md-4 col-form-label">
                         Name of School
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <textarea class="form-control" id="applicantName"
+                        <textarea class="form-control" id="EightSchoolName"
                                   oninput="this.value = this.value.toUpperCase()"
-                                  name="applicant_name" rows="2"><?= set_value("applicant_name") ?></textarea>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                                  name="five_school_name" rows="2"><?= set_value("eight_school_name") ?></textarea>
+                        <span class="text-danger"><?= form_error("eight_school_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="EightBoard" class="col-md-4 col-form-label">
                         Board
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Board</option>
+                        <select class="form-control" id="EightBoard" name="eight_board">
+                          <option value="" <?= set_select('eight_board', '') ?>>Select Board</option>
                             <?php if (!empty($boards)) {
                                 foreach ($boards as $board) { ?>
                                   <option value="<?= $board['id'] ?>"
-                                      <?= set_select('board', $board['id']) ?> >
+                                      <?= set_select('eight_board', $board['id']) ?> >
                                       <?= $board['board'] ?>
                                   </option>
                                     <?php
@@ -676,50 +671,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("eight_board") ?></span>
                       </div>
                     </div>
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="EightRoll" class="col-md-4 col-form-label">
                         Roll
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="EightRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("eight_roll") ?>" name="eight_roll">
+                        <span class="text-danger"><?= form_error("eight_roll") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="EightPassYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="EightPassYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("eight_pass_year") ?>" name="eight_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("eight_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="EightResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="EightResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("eight_result") ?>" name="eight_result">
+                        <span class="text-danger"><?= form_error("eight_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -738,19 +731,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="card-body">
                 <div class="row">
                   <div class="col-md-7">
-                    <!-- name of School -->
+                    <!-- name of exam -->
                     <div class="form-group row">
-                      <label for="applicantName" class="col-md-4 col-form-label">
+                      <label for="sscExamName" class="col-md-4 col-form-label">
                         Examination
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="ssc_exam">
-                          <option value="" <?= set_select('ssc_exam', '') ?>>Select Exam</option>
+                        <select class="form-control" id="sscExamName" name="ssc_exam_name">
+                          <option value="" <?= set_select('ssc_exam_name', '') ?>>Select Exam</option>
                             <?php if (!empty($ssc_exams)) {
                                 foreach ($ssc_exams as $ssc_exam) { ?>
                                   <option value="<?= $ssc_exam['id'] ?>"
-                                      <?= set_select('ssc_exam', $ssc_exam['id']) ?> >
+                                      <?= set_select('ssc_exam_name', $ssc_exam['id']) ?> >
                                       <?= $ssc_exam['exam_name'] ?>
                                   </option>
                                     <?php
@@ -758,23 +751,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("ssc_exam_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="sscExamBoard" class="col-md-4 col-form-label">
                         Board
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Board</option>
+                        <select class="form-control" id="sscExamBoard" name="ssc_exam_board">
+                          <option value="" <?= set_select('ssc_exam_board', '') ?>>Select Board</option>
                             <?php if (!empty($boards)) {
                                 foreach ($boards as $board) { ?>
                                   <option value="<?= $board['id'] ?>"
-                                      <?= set_select('board', $board['id']) ?> >
+                                      <?= set_select('ssc_exam_board', $board['id']) ?> >
                                       <?= $board['board'] ?>
                                   </option>
                                     <?php
@@ -782,23 +775,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("ssc_exam_board") ?></span>
                       </div>
                     </div>
                     <!-- Group / Subject -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="sscGroup" class="col-md-4 col-form-label">
                         Group/Subject
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Subject/Group</option>
+                        <select class="form-control" id="sscGroup" name="ssc_group">
+                          <option value="" <?= set_select('ssc_group', '') ?>>Select Subject/Group</option>
                             <?php if (!empty($subjects)) {
                                 foreach ($subjects as $subject) { ?>
                                   <option value="<?= $subject['id'] ?>"
-                                      <?= set_select('subject', $subject['id']) ?> >
+                                      <?= set_select('ssc_group', $subject['id']) ?> >
                                       <?= $subject['name'] ?>
                                   </option>
                                     <?php
@@ -806,52 +798,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("ssc_group") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="sscRoll" class="col-md-4 col-form-label">
                         Roll
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="sscRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("ssc_roll") ?>" name="ssc_roll">
+                        <span class="text-danger"><?= form_error("ssc_roll") ?></span>
                       </div>
                     </div>
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="sscPassingYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="sscPassingYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("ssc_pass_year") ?>" name="ssc_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("ssc_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="sscResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="sscResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("ssc_result") ?>" name="ssc_result">
+                        <span class="text-danger"><?= form_error("ssc_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -870,20 +861,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="card-body">
                 <div class="row">
                   <div class="col-md-7">
-                    <!-- name of School -->
+                    <!-- name of exam -->
                     <div class="form-group row">
-                      <label for="applicantName" class="col-md-4 col-form-label">
+                      <label for="hscExamName" class="col-md-4 col-form-label">
                         Examination
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="hsc_exam">
-                          <option value="" <?= set_select('hsc_exam', '') ?>>Select Exam</option>
+                        <select class="form-control" id="hscExamName" name="hsc_exam_name">
+                          <option value="" <?= set_select('hsc_exam_name', '') ?>>Select Exam</option>
                             <?php if (!empty($hsc_exams)) {
                                 foreach ($hsc_exams as $hsc_exam) { ?>
                                   <option value="<?= $hsc_exam['id'] ?>"
-                                      <?= set_select('hsc_exam', $hsc_exam['id']) ?> >
+                                      <?= set_select('hsc_exam_name', $hsc_exam['id']) ?> >
                                       <?= $hsc_exam['exam_name'] ?>
                                   </option>
                                     <?php
@@ -891,23 +881,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("hsc_exam_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="hscExamBoard" class="col-md-4 col-form-label">
                         Board
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Board</option>
+                        <select class="form-control" id="hscExamBoard" name="hsc_exam_board">
+                          <option value="" <?= set_select('hsc_exam_board', '') ?>>Select Board</option>
                             <?php if (!empty($boards)) {
                                 foreach ($boards as $board) { ?>
                                   <option value="<?= $board['id'] ?>"
-                                      <?= set_select('board', $board['id']) ?> >
+                                      <?= set_select('hsc_exam_board', $board['id']) ?> >
                                       <?= $board['board'] ?>
                                   </option>
                                     <?php
@@ -915,22 +905,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("hsc_exam_board") ?></span>
                       </div>
                     </div>
                     <!-- Group / Subject -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="hscGroup" class="col-md-4 col-form-label">
                         Group/Subject
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Subject/Group</option>
+                        <select class="form-control" id="hscGroup" name="hsc_group">
+                          <option value="" <?= set_select('hsc_group', '') ?>>Select Subject/Group</option>
                             <?php if (!empty($subjects)) {
                                 foreach ($subjects as $subject) { ?>
                                   <option value="<?= $subject['id'] ?>"
-                                      <?= set_select('subject', $subject['id']) ?> >
+                                      <?= set_select('hsc_group', $subject['id']) ?> >
                                       <?= $subject['name'] ?>
                                   </option>
                                     <?php
@@ -938,52 +928,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("hsc_group") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="hscRoll" class="col-md-4 col-form-label">
                         Roll
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="hscRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("hsc_roll") ?>" name="hsc_roll">
+                        <span class="text-danger"><?= form_error("hsc_roll") ?></span>
                       </div>
                     </div>
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="hscPassingYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="hscPassingYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("hsc_pass_year") ?>" name="hsc_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("hsc_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="hscResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="hscResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("hsc_result") ?>" name="hsc_result">
+                        <span class="text-danger"><?= form_error("hsc_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1010,7 +999,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <select class="form-control" id="graduateExam" name="graduate_exam">
-                          <option value="" <?= set_select('hsc_exam', '') ?>>Select Exam</option>
+                          <option value="" <?= set_select('graduate_exam', '') ?>>Select Exam</option>
                             <?php if (!empty($graduate_exams)) {
                                 foreach ($graduate_exams as $graduate_exam) { ?>
                                   <option value="<?= $graduate_exam['id'] ?>"
@@ -1022,22 +1011,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("graduate_exam") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="graduateUni" class="col-md-4 col-form-label">
                         University/ Institute
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Name</option>
+                        <select class="form-control" id="graduateUni" name="graduate_university">
+                          <option value="" <?= set_select('graduate_university', '') ?>>Select Name</option>
                             <?php if (!empty($univeristys)) {
                                 foreach ($univeristys as $univeristy) { ?>
                                   <option value="<?= $univeristy['id'] ?>"
-                                      <?= set_select('univeristy', $univeristy['id']) ?> >
+                                      <?= set_select('graduate_university', $univeristy['id']) ?> >
                                       <?= $univeristy['name'] ?>
                                   </option>
                                     <?php
@@ -1045,7 +1034,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("graduate_university") ?></span>
                       </div>
                     </div>
                     <!-- Group / Subject -->
@@ -1057,52 +1046,52 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="col-md-8">
                         <select class="form-control" id="graduateSubject" name="graduate_subject">
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("graduate_subject") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="graduateRoll" class="col-md-4 col-form-label">
                         Roll
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="graduateRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("graduate_roll") ?>" name="graduate_roll">
+                        <span class="text-danger"><?= form_error("graduate_roll") ?></span>
                       </div>
                     </div>
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="graduateYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="graduateYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("graduate_pass_year") ?>" name="graduate_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("graduate_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="graduateResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="graduateResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("graduate_result") ?>" name="graduate_result">
+                        <span class="text-danger"><?= form_error("graduate_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1129,7 +1118,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <select class="form-control" id="mastersExam" name="masters_exam">
-                          <option value="" <?= set_select('hsc_exam', '') ?>>Select Exam</option>
+                          <option value="" <?= set_select('masters_exam', '') ?>>Select Exam</option>
                             <?php if (!empty($masters_exams)) {
                                 foreach ($masters_exams as $masters_exam) { ?>
                                   <option value="<?= $masters_exam['id'] ?>"
@@ -1141,22 +1130,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("masters_exam") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="mastersUni" class="col-md-4 col-form-label">
                         University/ Institute
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="board" name="board">
-                          <option value="" <?= set_select('board', '') ?>>Select Name</option>
+                        <select class="form-control" id="mastersUni" name="masters_university">
+                          <option value="" <?= set_select('masters_university', '') ?>>Select Name</option>
                             <?php if (!empty($univeristys)) {
                                 foreach ($univeristys as $univeristy) { ?>
                                   <option value="<?= $univeristy['id'] ?>"
-                                      <?= set_select('univeristy', $univeristy['id']) ?> >
+                                      <?= set_select('masters_university', $univeristy['id']) ?> >
                                       <?= $univeristy['name'] ?>
                                   </option>
                                     <?php
@@ -1164,7 +1153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("masters_university") ?></span>
                       </div>
                     </div>
                     <!-- Group / Subject -->
@@ -1176,52 +1165,52 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="col-md-8">
                         <select class="form-control" id="mastersSubject" name="masters_subject">
                         </select>
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <span class="text-danger"><?= form_error("masters_subject") ?></span>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <!-- roll -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="mastersRoll" class="col-md-4 col-form-label">
                         Roll
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="mastersRoll"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("masters_roll") ?>" name="masters_roll">
+                        <span class="text-danger"><?= form_error("masters_roll") ?></span>
                       </div>
                     </div>
                     <!-- Passing year -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="mastersYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="number" class="form-control" id="applicantName"
+                        <input type="number" class="form-control" id="mastersYear"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name"
+                               value="<?= set_value("masters_pass_year") ?>" name="masters_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                        <span class="text-danger"><?= form_error("masters_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="mastersResult" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="applicantName"
+                        <input type="text" class="form-control" id="mastersResult"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("applicant_name") ?>" name="applicant_name">
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                               value="<?= set_value("masters_result") ?>" name="masters_result">
+                        <span class="text-danger"><?= form_error("masters_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1237,8 +1226,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <p class="card-header bg-secondary text-white font-weight-bold">
                 Professional Experience (Current Job Fill Up First)
               </p>
-              <div class="card-body">
-                <div class="row">
+              <div class="card-body sections">
+                <div class="row section">
                   <div class="col-md-7">
                     <!-- name of School -->
                     <div class="form-group row">
@@ -1247,9 +1236,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <input type="text" class="form-control" id="designationName"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("designation_name") ?>" name="designation_name">
-                        <span class="text-danger"><?= form_error("designation_name") ?></span>
+                               oninput="this.value = this.value.toUpperCase()" name="designation_name[]">
+                        <span class="text-danger"><?= form_error("designation_name[]") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
@@ -1258,7 +1246,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         Service Start Date
                       </label>
                       <div class="col-md-8">
-                        <input type="date" class="form-control" id="designationName"
+                        <input type="text" class="form-control date" id="designationName"
                                oninput="this.value = this.value.toUpperCase()"
                                value="<?= set_value("designation_name") ?>" name="designation_name">
                         <span class="text-danger"><?= form_error("place_of_birth") ?></span>
@@ -1272,7 +1260,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="col-md-8">
                                      <textarea class="form-control" id="applicantName"
                                                oninput="this.value = this.value.toUpperCase()"
-                                               name="applicant_name" rows="2"><?= set_value("designation_name") ?></textarea>
+                                               name="applicant_name"
+                                               rows="2"><?= set_value("designation_name") ?></textarea>
                         <span class="text-danger"><?= form_error("applicant_name") ?></span>
                       </div>
                     </div>
@@ -1285,43 +1274,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <input type="text" class="form-control" id="designationName"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("designation_name") ?>" name="designation_name">
-                        <span class="text-danger"><?= form_error("designation_name") ?></span>
+                               oninput="this.value = this.value.toUpperCase()" name="designation_name[]">
                       </div>
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="serviceStartDate" class="col-md-4 col-form-label">
                         Service Start Date
                       </label>
                       <div class="col-md-8">
-                        <input type="date" class="form-control" id="designationName"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("designation_name") ?>" name="designation_name">
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                        <input type="text" class="form-control date-picker" id="serviceStartDate"
+                               name="service_start_date[]" placeholder="yyyy-mm-dd" readonly>
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label for="dd" class="col-md-4 col-form-label">
-                        Till Now
+                      <label for="presentWork" class="col-md-7 col-form-label">
+                        Currently Working
                       </label>
-                      <div class="col-md-9">
+                      <div class="col-md-5">
                         <!-- Radio Buttons -->
-                          <?php
-                          if (!empty($genders)) {
-                              foreach ($genders as $gender) { ?>
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input" type="radio" name="gender"
-                                         value="<?= $gender['id'] ?>" <?= set_radio('gender', $gender['id']); ?> >
-                                  <label class="form-check-label"><?= $gender['gender'] ?></label>
-                                </div>
-                                  <?php
-                              }
-                          }
-                          ?>
-
-                        <span class="text-danger" id="genderError"><?= form_error("applicant_name") ?></span>
+                        <div class="form-check form-check-inline float-right">
+                          <input class="form-check-input" type="checkbox" id="presentWork" name="present_work">
+                          <label class="form-check-label">Yes. Working</label>
+                        </div>
+                        <span class="text-danger" id="genderError"><?= form_error("gender") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1348,6 +1324,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script type="text/javascript" src="<?= base_url('plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 <script type="text/javascript" src="<?= base_url('plugins/datepicker/js/bootstrap-datepicker.js') ?>"></script>
 <script type="text/javascript" src="<?= base_url('assets/js/career_recruitment.js') ?>"></script>
+<script type="text/javascript" src="<?= base_url('assets/js/form_query.js') ?>"></script>
 </body>
 </html>
 

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb45743-fa4d-487b-89e6-9735b94a940e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/form_query.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Job_apply.php" afterPath="$PROJECT_DIR$/application/controllers/Job_apply.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/logs/log-2019-11-09.log" afterPath="$PROJECT_DIR$/application/logs/log-2019-11-09.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Job_apply_model.php" afterPath="$PROJECT_DIR$/application/models/Job_apply_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job_registration_form.php" afterPath="$PROJECT_DIR$/application/views/job_registration_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/career_recruitment.css" afterPath="$PROJECT_DIR$/assets/css/career_recruitment.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/career_recruitment.js" afterPath="$PROJECT_DIR$/assets/js/career_recruitment.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,90 +28,39 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="1311" column="49" lean-forward="true" selection-start-line="1311" selection-start-column="49" selection-end-line="1311" selection-end-column="49" />
+            <state relative-caret-position="292">
+              <caret line="401" column="126" lean-forward="false" selection-start-line="401" selection-start-column="126" selection-end-line="401" selection-end-column="126" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <element signature="n#div#18;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#19;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#20;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#21;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#14;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="career_recruitment.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="career_recruitment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-              <folding>
-                <element signature="e#187#250#0" expanded="false" />
-                <element signature="e#376#474#0" expanded="false" />
-                <element signature="e#536#633#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="1932" column="9" lean-forward="false" selection-start-line="1932" selection-start-column="1" selection-end-line="1932" selection-end-column="9" />
+            <state relative-caret-position="377">
+              <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job_apply.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
+      <file leaf-file-name="form_query.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="159" column="41" lean-forward="false" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="41" />
+            <state relative-caret-position="2363">
+              <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
               <folding>
-                <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
-                <element signature="n#circular#0;n#Job_apply#0;n#!!top" expanded="false" />
-                <element signature="n#ajax_upzila_list#0;n#Job_apply#0;n#!!top" expanded="false" />
-                <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-                <element signature="e#6538#7111#0#PHP" expanded="false" />
-                <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Job_apply_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Job_apply_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="154" column="41" lean-forward="false" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
-              <folding>
-                <element signature="n#__construct#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#selected_post_title#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_post_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_religion_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_gender_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_martial_status#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_quota_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_board_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_district_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_upzila_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_ssc_exam_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_hsc_exam_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_graduate_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_masters_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-                <element signature="n#get_ssc_hsc_subject#0;n#Job_apply_model#0;n#!!top" expanded="false" />
+                <element signature="e#0#41#0" expanded="false" />
+                <element signature="e#4456#4797#0" expanded="false" />
+                <element signature="e#4840#5119#0" expanded="false" />
+                <element signature="e#5162#5505#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,68 +78,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>`</find>
-      <find>day</find>
-      <find>calende</find>
-      <find>auto</find>
-      <find>nationality</find>
-      <find>gender</find>
-      <find>religion</find>
-      <find>form-control-</find>
-      <find>mother_name</find>
-      <find>Passing Year</find>
-      <find>Result</find>
-      <find>&lt;span class=&quot;float-right&quot;&gt;:&lt;/span&gt;</find>
-      <find>applicant_name</find>
-      <find>present</find>
-      <find>P.S./ Upazila</find>
-      <find>Class VIII or JSC or JDC or Equivalent Level</find>
-      <find>SSC or Equivalent Level</find>
-      <find>ssc</find>
-      <find>Examination</find>
-      <find>board</find>
-      <find>col-md-6</find>
-      <find>Group / Subject</find>
-      <find>hsc</find>
       <find>Graduation or Equivalent Level</find>
       <find>col-form</find>
       <find>Class V or PSC or Ebtedayee or Equivalent Level</find>
       <find>col-md-9</find>
       <find>upzila</find>
-      <find>graduate</find>
       <find>graduact</find>
+      <find>set_r</find>
+      <find>Gender</find>
+      <find>Religion</find>
+      <find>P.S./ Upazila</find>
+      <find>media</find>
+      <find>$space</find>
+      <find>card</find>
+      <find>mt-3</find>
+      <find>&lt;p&gt;</find>
+      <find>_five</find>
+      <find>__</find>
+      <find>_ei</find>
+      <find>cls_</find>
+      <find>ssc</find>
+      <find>hsc</find>
+      <find>graduate</find>
+      <find>Date</find>
+      <find>applicant_name</find>
+      <find>stringText</find>
+      <find>form_op</find>
+      <find>stringName</find>
+      <find>alpha_numeric_spaces</find>
+      <find>gender</find>
+      <find>present</find>
     </findStrings>
     <replaceStrings>
-      <replace>place_of_birth</replace>
-      <replace>gender</replace>
-      <replace>national_id</replace>
-      <replace>birth_reg_id</replace>
-      <replace>passport</replace>
-      <replace>religion</replace>
-      <replace>quota</replace>
-      <replace>col-md-4</replace>
-      <replace>mobileNumber</replace>
-      <replace>mobile_number</replace>
-      <replace>confirm_mobile</replace>
-      <replace>maritalStatus</replace>
-      <replace>email_address</replace>
-      <replace>board</replace>
-      <replace />
-      <replace>district</replace>
-      <replace>bg-secondary</replace>
-      <replace>care_of</replace>
-      <replace>permanent</replace>
       <replace>ssc_exams</replace>
       <replace>ssc_exam</replace>
-      <replace>hsc</replace>
       <replace>subject</replace>
       <replace>col-md-7</replace>
       <replace>col-md-5</replace>
       <replace>univeristy</replace>
       <replace>col-md-4 col-form-label</replace>
       <replace>col-md-8</replace>
+      <replace>sEight</replace>
+      <replace>_eight</replace>
+      <replace>_</replace>
+      <replace>sscExamName</replace>
+      <replace>ei</replace>
+      <replace>ssc_roll</replace>
+      <replace>ssc_pass_year</replace>
+      <replace>ssc_result</replace>
+      <replace>hsc</replace>
+      <replace>graduate_roll</replace>
+      <replace>graduate_pass_year</replace>
+      <replace>graduate_result</replace>
       <replace>graduate</replace>
+      <replace>masters_roll</replace>
+      <replace>masters_pass_year</replace>
+      <replace>masters_result</replace>
       <replace>masters</replace>
+      <replace>stringText</replace>
+      <replace>stringNumber</replace>
+      <replace>stringName</replace>
+      <replace>permanent</replace>
+      <replace>val</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +156,6 @@
         <option value="$PROJECT_DIR$/application/libraries/Pdf_generator.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/controllers/Payment.php" />
         <option value="$PROJECT_DIR$/application/controllers/Admit_card.php" />
         <option value="$PROJECT_DIR$/application/logs/block code.log" />
@@ -219,16 +168,18 @@
         <option value="$PROJECT_DIR$/application/views/header_layout.php" />
         <option value="$PROJECT_DIR$/application/views/post_list.php" />
         <option value="$PROJECT_DIR$/plugins/datepicker/css/datepicker.css" />
-        <option value="$PROJECT_DIR$/assets/css/career_recruitment.css" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/../ftp/uploads/Demo BCSIR/Bangladesh Council of Scientific and Industrial Research (BCSIR)4.html" />
         <option value="$PROJECT_DIR$/fgfg.php" />
+        <option value="$PROJECT_DIR$/assets/css/career_recruitment.css" />
         <option value="$PROJECT_DIR$/application/controllers/Job_apply.php" />
         <option value="$PROJECT_DIR$/application/models/Job_apply_model.php" />
-        <option value="$PROJECT_DIR$/assets/js/career_recruitment.js" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/assets/js/form_query.js" />
         <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
+        <option value="$PROJECT_DIR$/assets/js/career_recruitment.js" />
       </list>
     </option>
   </component>
@@ -285,6 +236,9 @@
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -300,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,6 +300,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,17 +414,21 @@
       <workItem from="1573538178536" duration="2710000" />
       <workItem from="1573542016679" duration="4122000" />
       <workItem from="1573554624904" duration="5507000" />
+      <workItem from="1573623506546" duration="15710000" />
+      <workItem from="1573709892068" duration="5901000" />
+      <workItem from="1573969012619" duration="9000000" />
+      <workItem from="1573989460895" duration="4973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106926000" />
+    <option name="totallyTimeSpent" value="142510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23381877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24514563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,38 +455,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <element signature="n#div#18;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#19;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#20;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#21;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6766">
@@ -542,12 +473,9 @@
         <state relative-caret-position="442">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
-            <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#circular#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#ajax_upzila_list#0;n#Job_apply#0;n#!!top" expanded="false" />
             <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="e#6538#7111#0#PHP" expanded="false" />
             <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="e#16603#17176#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,13 +545,6 @@
     <entry file="file://$PROJECT_DIR$/bootstrap/js/npm.js" />
     <entry file="file://$PROJECT_DIR$/jquery/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php" />
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Payment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -725,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="398" column="1" lean-forward="false" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="450" column="35" lean-forward="false" selection-start-line="450" selection-start-column="35" selection-end-line="450" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -768,82 +675,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="857" column="36" lean-forward="false" selection-start-line="857" selection-start-column="36" selection-end-line="857" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1932" column="9" lean-forward="false" selection-start-line="1932" selection-start-column="1" selection-end-line="1932" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="295">
+          <caret line="7994" column="30" lean-forward="false" selection-start-line="7994" selection-start-column="2" selection-end-line="7994" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1329" column="34" lean-forward="true" selection-start-line="1329" selection-start-column="34" selection-end-line="1329" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Job_apply_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="154" column="41" lean-forward="false" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
-          <folding>
-            <element signature="n#__construct#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#selected_post_title#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_post_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_religion_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_gender_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_martial_status#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_quota_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_board_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_district_list#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_upzila_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_ssc_exam_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_hsc_exam_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_graduate_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_masters_names#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-            <element signature="n#get_ssc_hsc_subject#0;n#Job_apply_model#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="159" column="41" lean-forward="false" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="41" />
+        <state relative-caret-position="424">
+          <caret line="63" column="165" lean-forward="false" selection-start-line="63" selection-start-column="114" selection-end-line="63" selection-end-column="165" />
           <folding>
-            <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#circular#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#ajax_upzila_list#0;n#Job_apply#0;n#!!top" expanded="false" />
             <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="e#6538#7111#0#PHP" expanded="false" />
             <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="e#16603#17176#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="401" column="126" lean-forward="false" selection-start-line="401" selection-start-column="126" selection-end-line="401" selection-end-column="126" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#14;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#4456#4797#0" expanded="false" />
+            <element signature="e#4840#5119#0" expanded="false" />
+            <element signature="e#5162#5505#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding>
-            <element signature="e#187#250#0" expanded="false" />
-            <element signature="e#376#474#0" expanded="false" />
-            <element signature="e#536#633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="1311" column="49" lean-forward="true" selection-start-line="1311" selection-start-column="49" selection-end-line="1311" selection-end-column="49" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <element signature="n#div#18;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#19;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#20;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#21;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#23;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#24;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="377">
+          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
