@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <title><?= $page_title ?> - Bangladesh Council of Scientific and Industrial Research (BCSIR)</title>
   <link href="<?= base_url('favicon.ico') ?>" type="image/png" rel="icon">
   <!-- Bootstrap core CSS -->
-  <link href="<?= base_url('bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css">
+  <link href="<?= base_url('plugins/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template -->
   <link href="<?= base_url('assets/css/career_recruitment.css') ?>" rel="stylesheet">
   <!-- dataTables -->
@@ -76,8 +76,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <!-- /container-->
 
-<script type="text/javascript" src="<?= base_url('jquery/jquery-3.4.1.min.js') ?>"></script>
-<script type="text/javascript" src="<?= base_url('bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script type="text/javascript" src="<?= base_url('plugins/jquery/jquery-3.4.1.min.js') ?>"></script>
+<script type="text/javascript" src="<?= base_url('plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 <script type="text/javascript" src="<?= base_url('assets/js/career_recruitment.js') ?>"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>

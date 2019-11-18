@@ -858,3 +858,42 @@ body {
         margin-top: 1rem !important;
     }
 }
+
+.main-form {
+    border: 0px;
+}
+
+.simName {
+    float: right;
+    height: 23px;
+    width: 23px;
+    background-size: cover;
+}
+
+.gp-logo {
+    background-image: url("./assets/img/grameenphone.png");
+}
+
+.bl-logo {
+    background-image: url("./assets/img/banglalink.png");
+}
+
+.rb-logo {
+    background-image: url("./assets/img/Robi_Axiata_logo.png");
+}
+
+.ar-logo {
+    background-image: url("./assets/img/airtel.png");
+}
+
+.ta-logo {
+    background-image: url("./assets/img/teletalk.png");
+}
+
+.cc-logo {
+    background-image: url("./assets/img/citycell.jpg");
+}
+
+.df-logo {
+    background-image: url("./assets/img/default.png");
+}

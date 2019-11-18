@@ -54,9 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       border: 1px solid #006699;
     }
 
-    .main-form {
-      border: 0px;
-    }
+
   </style>
 </head>
 <body>
@@ -182,7 +180,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <span class="text-danger" id="nationalityError"><?= form_error("nationality") ?></span>
           </div>
         </div>
-        <p class="text-danger text-center">Any of (National ID/ Birth Register No. / Passport ID) is Compulsory. More then One is Acceptable.</p>
+        <p class="text-danger text-center">Any of (National ID/ Birth Register No. / Passport ID) is Compulsory. More
+          then One is Acceptable.</p>
         <!-- nation ID -->
         <div class="form-group row">
           <label for="nationalId" class="col-md-3 col-form-label">
@@ -499,13 +498,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <label for="mobileNumber" class="col-md-3 col-form-label">
             Mobile Number
             <span class="text-danger font-weight-bolder">*</span>
-
+            <div class="simName" id="smName"></div>
           </label>
           <div class="col-md-9">
             <input type="text" class="form-control" id="mobileNumber"
-                   oninput="this.value = this.value.toUpperCase()"
                    value="<?= set_value("mobile_number") ?>" name="mobile_number">
-            <span class="text-danger"><?= form_error("mobile_number") ?></span>
+            <span class="text-danger" id="mobileNumberError"><?= form_error("mobile_number") ?></span>
           </div>
         </div>
         <!-- confirm mobile -->
@@ -513,14 +511,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <label for="confirmMobile" class="col-md-3 col-form-label">
             Confirm Mobile
             <span class="text-danger font-weight-bolder">*</span>
-
           </label>
           <div class="col-md-9">
             <input type="text" class="form-control" id="confirmMobile"
-                   oninput="this.value = this.value.toUpperCase()"
                    value="<?= set_value("confirm_mobile") ?>" name="confirm_mobile"
                    placeholder="Please Re-type Mobile Number">
-            <span class="text-danger"><?= form_error("confirm_mobile") ?></span>
+            <span class="text-danger" id="confirmMobileError"><?= form_error("confirm_mobile") ?></span>
           </div>
         </div>
         <!-- email address -->
@@ -532,7 +528,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <input type="email" class="form-control" id="emailAddress"
                    oninput="this.value = this.value.toUpperCase()"
                    value="<?= set_value("email_address") ?>" name="email_address">
-            <span class="text-danger"><?= form_error("email_address") ?></span>
+            <span class="text-danger" id="emailAddressError"><?= form_error("email_address") ?></span>
           </div>
         </div>
         <!-- class five education-->
@@ -554,9 +550,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <textarea class="form-control" id="FiveSchoolName"
-                                  oninput="this.value = this.value.toUpperCase()"
                                   name="five_school_name" rows="2"><?= set_value("five_school_name") ?></textarea>
-                        <span class="text-danger"><?= form_error("five_school_name") ?></span>
+                        <span class="text-danger" id="FiveSchoolNameError"><?= form_error("five_school_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
@@ -578,7 +573,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 }
                             } ?>
                         </select>
-                        <span class="text-danger"><?= form_error("five_board") ?></span>
+                        <span class="text-danger" id="FiveBoardError"><?= form_error("five_board") ?></span>
                       </div>
                     </div>
                     <!-- roll -->
@@ -590,7 +585,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <input type="text" class="form-control" id="FiveRoll"
                                oninput="this.value = this.value.toUpperCase()"
                                value="<?= set_value("five_roll") ?>" name="five_roll">
-                        <span class="text-danger"><?= form_error("five_roll") ?></span>
+                        <span class="text-danger" id="FiveRollError"><?= form_error("five_roll") ?></span>
                       </div>
                     </div>
                   </div>
@@ -606,7 +601,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                oninput="this.value = this.value.toUpperCase()"
                                value="<?= set_value("five_pass_year") ?>" name="five_pass_year"
                                min="1970" max="<?= date('Y') - 1 ?>">
-                        <span class="text-danger"><?= form_error("five_pass_year") ?></span>
+                        <span class="text-danger" id="FivePassYearError"><?= form_error("five_pass_year") ?></span>
                       </div>
                     </div>
                     <!-- result -->
@@ -616,10 +611,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="FiveResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("five_result") ?>" name="five_result">
-                        <span class="text-danger"><?= form_error("five_result") ?></span>
+                        <select class="form-control" id="FiveResult">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control" id="FiveGpaResult"
+                               value="<?= set_value("five_gpa_result") ?>" name="five_gpa_result">
+                        <span class="text-danger"><?= form_error("five_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1237,7 +1239,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="col-md-8">
                         <input type="text" class="form-control" id="designationName"
                                oninput="this.value = this.value.toUpperCase()" name="designation_name[]">
-                        <span class="text-danger"><?= form_error("designation_name[]") ?></span>
                       </div>
                     </div>
                     <!-- Board -->

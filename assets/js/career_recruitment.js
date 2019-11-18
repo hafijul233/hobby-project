@@ -10,6 +10,8 @@ function baseUrl(nextPart) {
 }
 
 $(document).ready(function () {
+    $('.simName').addClass('df-logo');
+    $('#FiveGpaResult').hide();
     $('.date-picker').datepicker({
         format: 'yyyy-mm-dd',
         viewMode: 'years'
@@ -46,9 +48,9 @@ $(document).ready(function () {
                     $('#presentUpazila').html(upzilla);
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
-        alert(xhr.status);
-        alert(thrownError);
-      }
+                    alert(xhr.status);
+                    alert(thrownError);
+                }
             });
         } else {
             $('#presentUpazila').html('<option selected="true" disabled>Select District</option>');
@@ -68,9 +70,9 @@ $(document).ready(function () {
                     $('#permanentUpazila').html(upzilla);
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
-        alert(xhr.status);
-        alert(thrownError);
-      }
+                    alert(xhr.status);
+                    alert(thrownError);
+                }
             });
         } else {
             $('#permanentUpazila').html('<option selected="true" disabled>Select District</option>');
@@ -118,23 +120,88 @@ $(document).ready(function () {
         }
     });
     $('#sameAddress').click(function () {
-        if($('#sameAddress').is(':checked')) {
+        if ($('#sameAddress').is(':checked')) {
             $('#permanentCareOf,#permanentAddress,#permanentDistrict,#permanentUpazila,#permanentPO,#permanentPC').hide();
-            $('#permanentCareOf').val($('present'))
-            $('#permanentAddress').val();
-            $('#permanentDistrict').val();
-            $('#permanentUpazila').val();
-            $('#permanentPO').val();
-            $('#permanentPC').val();
+            $('#permanentCareOf').val($('#presentCareOf').val());
+            $('#permanentAddress').val($('#presentAddress').val());
+            $('#permanentDistrict').val($('#presentDistrict').val());
+            $('#permanentUpazila').val($('#presentUpazila').val());
+            $('#permanentPO').val($('#presentPO').val());
+            $('#permanentPC').val($('#presentPC').val());
 
 
         } else {
             $('#permanentCareOf,#permanentAddress,#permanentDistrict,#permanentUpazila,#permanentPO,#permanentPC').show();
-            /*$('#permanentAddress').hide();
-            $('#permanentDistrict').hide();
-            $('#permanentUpazila').hide();
-            $('#permanentPO').hide();
-            $('#permanentPC').hide();*/
+            $('#permanentAddress').attr("value", "");
+            $('#permanentDistrict').attr("value", "");
+            $('#permanentUpazila').attr("value", "");
+            $('#permanentPO').attr("value", "");
+            $('#permanentPC').attr("value", "");
         }
-    })
+    });
+
+    $('#mobileNumber, #confirmMobile').keydown(function (e) {
+        var key = e.which || e.charCode || e.keyCode || 0;
+        $phone = $(this);
+        // Auto-format- do not expose the mask as the user begins to type
+        if (key !== 8 && key !== 9) {
+            if ($phone.val().length === 3) {
+                $phone.val($phone.val() + '-');
+            }
+            if ($phone.val().length === 8) {
+                $phone.val($phone.val() + '-');
+            }
+            if ($phone.val().length === 12) {
+                $phone.val($phone.val() + '');
+            }
+
+        }
+
+        // Allow numeric (and tab, backspace, delete) keys only
+        return (key == 8 || key == 9 || key == 46 || (key >= 48 && key <= 57) || (key >= 96 && key <= 105));
+    });
+
+    $('#mobileNumber').keydown(function () {
+        if ($('#mobileNumber').val().length >= 2 ) {
+            var simCode = $('#mobileNumber').val().substr(0,3);
+            var sim = $('#smName');
+            sim.removeClass();
+            sim.addClass("simName " + sim_selector(simCode));
+        }
+    });
+
+    $('#FiveResult').change(function() {
+        var selected = $(this).val();
+        if(selected == 4 || selected == 5) {
+            $('#FiveGpaResult').show();
+        } else {
+            $('#FiveGpaResult').hide();
+        }
+    });
 });
+
+function sim_selector(code) {
+    console.log(code);
+    switch (code) {
+        case "011" :
+            return "cc-logo";
+        case "012" :
+            return "df-logo";
+        case "013" :
+            return "gp-logo";
+        case "014" :
+            return "bl-logo";
+        case "015" :
+            return "ta-logo";
+        case "016" :
+            return "ar-logo";
+        case "017" :
+            return "gp-logo";
+        case "018" :
+            return "rb-logo";
+        case "019" :
+            return "bl-logo";
+        default :
+            return "df-logo";
+    }
+}

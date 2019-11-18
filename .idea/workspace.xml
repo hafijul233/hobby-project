@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb45743-fa4d-487b-89e6-9735b94a940e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/form_query.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Job_apply.php" afterPath="$PROJECT_DIR$/application/controllers/Job_apply.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Job_apply_model.php" afterPath="$PROJECT_DIR$/application/models/Job_apply_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job_circular.php" afterPath="$PROJECT_DIR$/application/views/job_circular.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job_registration_form.php" afterPath="$PROJECT_DIR$/application/views/job_registration_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/career_recruitment.css" afterPath="$PROJECT_DIR$/assets/css/career_recruitment.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/career_recruitment.js" afterPath="$PROJECT_DIR$/assets/js/career_recruitment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/form_query.js" afterPath="$PROJECT_DIR$/assets/js/form_query.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,40 +25,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+      <file leaf-file-name="form_query.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="401" column="126" lean-forward="false" selection-start-line="401" selection-start-column="126" selection-end-line="401" selection-end-column="126" />
+            <state relative-caret-position="527">
+              <caret line="207" column="4" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
               <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#14;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#0#41#0" expanded="false" />
+                <element signature="e#3261#4415#0" expanded="false" />
+                <element signature="e#6728#7069#0" expanded="false" />
+                <element signature="e#7112#7391#0" expanded="false" />
+                <element signature="e#7434#7777#0" expanded="false" />
+                <element signature="e#7824#8051#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="career_recruitment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="career_recruitment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+            <state relative-caret-position="723">
+              <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_query.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
+      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
+            <state relative-caret-position="133">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#4456#4797#0" expanded="false" />
-                <element signature="e#4840#5119#0" expanded="false" />
-                <element signature="e#5162#5505#0" expanded="false" />
+                <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="career_recruitment.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="892" column="10" lean-forward="true" selection-start-line="892" selection-start-column="10" selection-end-line="892" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,14 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Graduation or Equivalent Level</find>
-      <find>col-form</find>
-      <find>Class V or PSC or Ebtedayee or Equivalent Level</find>
-      <find>col-md-9</find>
-      <find>upzila</find>
-      <find>graduact</find>
-      <find>set_r</find>
-      <find>Gender</find>
       <find>Religion</find>
       <find>P.S./ Upazila</find>
       <find>media</find>
@@ -108,13 +108,16 @@
       <find>alpha_numeric_spaces</find>
       <find>gender</find>
       <find>present</find>
+      <find>val('')</find>
+      <find>mobileNumber</find>
+      <find>'</find>
+      <find>valid_ema</find>
+      <find>mobile</find>
+      <find>phoneNumber</find>
+      <find>') ?&gt;</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
-      <replace>ssc_exams</replace>
-      <replace>ssc_exam</replace>
-      <replace>subject</replace>
-      <replace>col-md-7</replace>
-      <replace>col-md-5</replace>
       <replace>univeristy</replace>
       <replace>col-md-4 col-form-label</replace>
       <replace>col-md-8</replace>
@@ -140,6 +143,11 @@
       <replace>stringName</replace>
       <replace>permanent</replace>
       <replace>val</replace>
+      <replace>attr(&quot;value&quot;, &quot;&quot;)</replace>
+      <replace>&quot;</replace>
+      <replace>email</replace>
+      <replace>//</replace>
+      <replace>./</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,7 +172,6 @@
         <option value="$PROJECT_DIR$/application/views/base_layout.php" />
         <option value="$PROJECT_DIR$/application/views/apply/register.php" />
         <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
-        <option value="$PROJECT_DIR$/application/views/job_circular.php" />
         <option value="$PROJECT_DIR$/application/views/header_layout.php" />
         <option value="$PROJECT_DIR$/application/views/post_list.php" />
         <option value="$PROJECT_DIR$/plugins/datepicker/css/datepicker.css" />
@@ -172,14 +179,15 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/../ftp/uploads/Demo BCSIR/Bangladesh Council of Scientific and Industrial Research (BCSIR)4.html" />
         <option value="$PROJECT_DIR$/fgfg.php" />
-        <option value="$PROJECT_DIR$/assets/css/career_recruitment.css" />
         <option value="$PROJECT_DIR$/application/controllers/Job_apply.php" />
         <option value="$PROJECT_DIR$/application/models/Job_apply_model.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/assets/js/form_query.js" />
+        <option value="$PROJECT_DIR$/application/views/job_circular.php" />
         <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
         <option value="$PROJECT_DIR$/assets/js/career_recruitment.js" />
+        <option value="$PROJECT_DIR$/assets/css/career_recruitment.css" />
+        <option value="$PROJECT_DIR$/assets/js/form_query.js" />
       </list>
     </option>
   </component>
@@ -266,42 +274,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,22 +393,23 @@
       <workItem from="1573623506546" duration="15710000" />
       <workItem from="1573709892068" duration="5901000" />
       <workItem from="1573969012619" duration="9000000" />
-      <workItem from="1573989460895" duration="4973000" />
+      <workItem from="1573989460895" duration="5026000" />
+      <workItem from="1574055715856" duration="18093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142510000" />
+    <option name="totallyTimeSpent" value="160656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24514563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17152104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -472,11 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="e#16603#17176#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/job_circular.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/datepicker/css/datepicker.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1218">
@@ -675,24 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="857" column="36" lean-forward="false" selection-start-line="857" selection-start-column="36" selection-end-line="857" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="7994" column="30" lean-forward="false" selection-start-line="7994" selection-start-column="2" selection-end-line="7994" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1329" column="34" lean-forward="true" selection-start-line="1329" selection-start-column="34" selection-end-line="1329" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -707,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,11 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="63" column="165" lean-forward="false" selection-start-line="63" selection-start-column="114" selection-end-line="63" selection-end-column="165" />
-          <folding>
-            <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
-            <element signature="e#16603#17176#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,39 +672,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="1238" column="60" lean-forward="false" selection-start-line="1238" selection-start-column="60" selection-end-line="1238" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/job_circular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="79" column="58" lean-forward="false" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="401" column="126" lean-forward="false" selection-start-line="401" selection-start-column="126" selection-end-line="401" selection-end-column="126" />
+        <state relative-caret-position="133">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#14;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#4456#4797#0" expanded="false" />
-            <element signature="e#4840#5119#0" expanded="false" />
-            <element signature="e#5162#5505#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+        <state relative-caret-position="723">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="892" column="10" lean-forward="true" selection-start-line="892" selection-start-column="10" selection-end-line="892" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/form_query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="207" column="4" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#3261#4415#0" expanded="false" />
+            <element signature="e#6728#7069#0" expanded="false" />
+            <element signature="e#7112#7391#0" expanded="false" />
+            <element signature="e#7434#7777#0" expanded="false" />
+            <element signature="e#7824#8051#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
