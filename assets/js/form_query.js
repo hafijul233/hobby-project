@@ -4,46 +4,42 @@
 $(document).ready(function () {
     //Applicant name
     $('#applicantName').focusout(function () {
-        $('#applicantNameError').text(name_validation($(this).val()));
+        $('#applicantNameError').text(name_validation($(this).val(),true));
     });
 
     //father name
     $('#fatherName').focusout(function () {
-        $('#fatherNameError').text(name_validation($(this).val()));
+        $('#fatherNameError').text(name_validation($(this).val(), true));
     });
 
     //mother name
     $('#motherName').focusout(function () {
-        $('#motherNameError').text(name_validation($(this).val()));
+        $('#motherNameError').text(name_validation($(this).val(),true));
     });
 
     //date of birth
     $('#birthDate').focusout(function () {
-        $('#birthDateError').text(date_validation($(this).val()));
+        $('#birthDateError').text(date_validation($(this).val(),true));
     });
 
     //place of birth
     $('#placeOfBirth').focusout(function () {
-        $('#placeOfBirthError').text(text_validation($(this).val()));
+        $('#placeOfBirthError').text(text_validation($(this).val(),true));
     });
 
     //Gender
     $('#Male, #Female, #Others').click(function() {
        if($(this).is(':checked') == false) {
-           $('genderError').text(number_validation($(this).val()));
+           $('genderError').text(number_validation($(this).val(),true));
        } else {
            $('genderError').text("This Field is Required");
        }
     });
     //nationality
     $('#nationality').change(function () {
-        $('#nationalityError').text(number_validation($(this).val()));
+        $('#nationalityError').text(number_validation($(this).val(),true));
     });
-/*
-    if($('#nationalId').val() == '' && $('#birthRegId').val() == '' && $('#passportId').val() == '' ) {
-        $('#passportIdError').text("Any of NID/ Birth Reg No/ Passport ID required");
-    }*/
-    //NID
+   //NID
     $('#nationalId').focusout(function () {
         $('#nationalIdError').text(number_validation($(this).val()));
     });
@@ -206,8 +202,8 @@ $(document).ready(function () {
         $('#FiveResultError').text(number_validation($(this).val()));
     });
 
-    function name_validation(stringName) {
-        if (stringName == '') {
+    function name_validation(stringName, required=false) {
+        if (stringName == '' && required == true) {
             return "This Field is Required.";
         } else if (stringName.match(/^[a-zA-Z ]*$/) == null) {
             return "Invalid Characters Inserted.";
@@ -218,8 +214,8 @@ $(document).ready(function () {
         }
     }
 
-    function date_validation(stringDate) {
-        if (stringDate == '') {
+    function date_validation(stringDate, required=false) {
+        if (stringDate == '' && required == true) {
             return "This Field is Required.";
         } else if (stringDate.match(/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/) == null) {
             return "Invalid Date Format";
@@ -228,7 +224,7 @@ $(document).ready(function () {
         }
     }
 
-    function text_validation(stringText) {
+    function text_validation(stringText, required=false) {
         if (stringName == '') {
             return "This Field is Required.";
         } else if (stringName.match(/^[a-zA-Z0-9]*$/) == null) {
@@ -240,8 +236,8 @@ $(document).ready(function () {
         }
     }
 
-    function number_validation(stringNumber) {
-        if (stringNumber == '') {
+    function number_validation(stringNumber, required=false) {
+        if (stringNumber == ''  && required == true) {
             return "This Field is Required.";
         } else if (isNaN(stringNumber) == true) {
             return "Invalid Choice.";

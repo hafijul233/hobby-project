@@ -1,27 +1,4 @@
-<?php
-
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 11/4/2019
- * Time: 3:57 PM
- */
-class Admit_card extends CI_Controller
-{
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-    public function index()
-    {
-        $this->load->view('welcome_message');
-    }
-
-    public function generate_pdf()
-    {
-        $this->load->library('pdf');
-        $file = '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
@@ -48,18 +25,18 @@ class Admit_card extends CI_Controller
 	}
 	</style>
 </head>
-<body>
+<body style="border: 2px solid black; padding: 40px;">
 	<div style="height:215px; background-color:#50c601; ">
 		<div style="width:20%; float:left; display:block; padding:8px 0px 0px 15px; ">
-			<img style="height:200px;" src="./2000px-Government_Seal_of_Bangladesh.png" alt="">
+			<img style="height:200px;" src="smoiti_files/2000px-Government_Seal_of_Bangladesh.png" alt="">
 		</div>
 		<div style="width:70%; float:left; padding-top:20px;">
-			<h4>Government of the People\'s Republic of Bangladesh</h4>
+			<h4>Government of the People's Republic of Bangladesh</h4>
 			<h3>Bangladesh Council of Scientific And Industrial Research</h3>
 			<h2>(BCSIR)</h2>
 		</div>
 	</div>
-		<p style="text-align:center; font-size:20px;">Application Form(Applicant\'s Copy)</p>
+		<p style="text-align:center; font-size:20px;">Application Form(Applicant's Copy)</p>
 	<table>
 			<tbody><tr>
 				<td style="width:50%;">User ID: MM1S6W</td>
@@ -70,12 +47,12 @@ class Admit_card extends CI_Controller
 	<div>
 		<div></div>
 		<div class="mid">
-			<img style="width:20%; float:left;" src="./images.jpg" alt="">
+			<img style="width:20%; float:left;" src="smoiti_files/images.jpg" alt="">
 			<table style="width:75%; float:right;">
 				<tbody><tr><td>Post Name</td><td>Post Name</td></tr>
-				<tr><td>Applicant\'s Name</td><td></td></tr>
-				<tr><td>Father\'s Name</td><td></td></tr>
-				<tr><td>Mother\'s Name</td><td></td></tr>
+				<tr><td>Applicant's Name</td><td></td></tr>
+				<tr><td>Father's Name</td><td></td></tr>
+				<tr><td>Mother's Name</td><td></td></tr>
 				<tr><td>Date of Birth</td><td></td></tr>
 				<tr><td>Contact Mobile</td><td></td></tr>
 				<tr><td>E-Mail</td><td></td></tr>
@@ -260,7 +237,7 @@ information is found
 before or after the examination, any action can be taken against me by 
 the Authority
 						including cancellation of my candidature.
-					<p style="text-align:right;">-------------- Applicant\'s Signature --------------</p>
+					<p style="text-align:right;">-------------- Applicant's Signature --------------</p>
 					
 			<table>
 				<tbody>
@@ -297,8 +274,4 @@ the Authority
 			</table>
 	
 
-</body></html>';
-        $this->pdf->download_pdf('admitcard.pdf', $file);
-    }
-
-}
+</body></html>

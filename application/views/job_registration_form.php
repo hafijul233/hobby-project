@@ -606,12 +606,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="FiveResult" class="col-md-4 col-form-label">
+                      <label for="FiveResultType" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <select class="form-control" id="FiveResult">
+                        <select class="form-control" id="FiveResultType" name="five_result_type">
                           <option value=""> Select</option>
                           <option value="1">1st Division</option>
                           <option value="2">2nd Division</option>
@@ -619,9 +619,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <option value="4">GPA(Out of 4)</option>
                           <option value="5">GPA(Out of 5)</option>
                         </select>
-                        <input type="text" class="form-control" id="FiveGpaResult"
+                        <input type="text" class="form-control mt-4" id="FiveGpaResult"
                                value="<?= set_value("five_gpa_result") ?>" name="five_gpa_result">
-                        <span class="text-danger"><?= form_error("five_gpa_result") ?></span>
+                        <span class="text-danger" id="FiveResultTypeError"><?= form_error("five_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -651,7 +651,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <textarea class="form-control" id="EightSchoolName"
                                   oninput="this.value = this.value.toUpperCase()"
                                   name="five_school_name" rows="2"><?= set_value("eight_school_name") ?></textarea>
-                        <span class="text-danger"><?= form_error("eight_school_name") ?></span>
+                        <span class="text-danger" id="EightResultTypeError"><?= form_error("eight_school_name") ?></span>
                       </div>
                     </div>
                     <!-- Board -->
@@ -706,15 +706,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="EightResult" class="col-md-4 col-form-label">
+                      <label for="EightResultType" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="EightResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("eight_result") ?>" name="eight_result">
-                        <span class="text-danger"><?= form_error("eight_result") ?></span>
+                        <select class="form-control" id="EightResultType" name="eight_result_type">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control mt-4" id="EightGpaResult"
+                               value="<?= set_value("eight_gpa_result") ?>" name="Eight_gpa_result">
+                        <span class="text-danger" id="EightResultTypeError"><?= form_error("eight_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -836,15 +843,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="sscResult" class="col-md-4 col-form-label">
+                      <label for="sscResultType" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="sscResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("ssc_result") ?>" name="ssc_result">
-                        <span class="text-danger"><?= form_error("ssc_result") ?></span>
+                        <select class="form-control" id="sscResultType" name="ssc_result_type">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control mt-4" id="sscGpaResult"
+                               value="<?= set_value("ssc_gpa_result") ?>" name="ssc_gpa_result">
+                        <span class="text-danger" id="sscResultTypeError"><?= form_error("ssc_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -954,7 +968,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <label for="hscPassingYear" class="col-md-4 col-form-label">
                         Passing Year
                         <span class="text-danger font-weight-bolder">*</span>
-
                       </label>
                       <div class="col-md-8">
                         <input type="number" class="form-control" id="hscPassingYear"
@@ -966,15 +979,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <!-- result -->
                     <div class="form-group row">
-                      <label for="hscResult" class="col-md-4 col-form-label">
+                      <label for="hscResultType" class="col-md-4 col-form-label">
                         Result
                         <span class="text-danger font-weight-bolder">*</span>
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="hscResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("hsc_result") ?>" name="hsc_result">
-                        <span class="text-danger"><?= form_error("hsc_result") ?></span>
+                        <select class="form-control" id="hscResultType" name="hsc_result_type">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control mt-4" id="hscGpaResult"
+                               value="<?= set_value("hsc_gpa_result") ?>" name="hsc_gpa_result">
+                        <span class="text-danger" id="hscResultTypeError"><?= form_error("hsc_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1090,10 +1110,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="graduateResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("graduate_result") ?>" name="graduate_result">
-                        <span class="text-danger"><?= form_error("graduate_result") ?></span>
+                        <select class="form-control" id="hscResultType" name="hsc_result_type">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control mt-4" id="hscGpaResult"
+                               value="<?= set_value("hsc_gpa_result") ?>" name="hsc_gpa_result">
+                        <span class="text-danger" id="hscResultTypeError"><?= form_error("hsc_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1209,10 +1236,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control" id="mastersResult"
-                               oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("masters_result") ?>" name="masters_result">
-                        <span class="text-danger"><?= form_error("masters_result") ?></span>
+                        <select class="form-control" id="hscResultType" name="hsc_result_type">
+                          <option value=""> Select</option>
+                          <option value="1">1st Division</option>
+                          <option value="2">2nd Division</option>
+                          <option value="3">3rd Division</option>
+                          <option value="4">GPA(Out of 4)</option>
+                          <option value="5">GPA(Out of 5)</option>
+                        </select>
+                        <input type="text" class="form-control mt-4" id="hscGpaResult"
+                               value="<?= set_value("hsc_gpa_result") ?>" name="hsc_gpa_result">
+                        <span class="text-danger" id="hscResultTypeError"><?= form_error("hsc_gpa_result") ?></span>
                       </div>
                     </div>
                   </div>

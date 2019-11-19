@@ -162,22 +162,52 @@ $(document).ready(function () {
     });
 
     $('#mobileNumber').keydown(function () {
-        if ($('#mobileNumber').val().length >= 2 ) {
-            var simCode = $('#mobileNumber').val().substr(0,3);
+        if ($('#mobileNumber').val().length >= 2) {
+            var simCode = $('#mobileNumber').val().substr(0, 3);
             var sim = $('#smName');
             sim.removeClass();
             sim.addClass("simName " + sim_selector(simCode));
         }
     });
-
-    $('#FiveResult').change(function() {
+    //Five
+    $('#FiveResultType').change(function () {
         var selected = $(this).val();
-        if(selected == 4 || selected == 5) {
+        if (selected == 4 || selected == 5) {
             $('#FiveGpaResult').show();
         } else {
             $('#FiveGpaResult').hide();
         }
     });
+    //Eight
+    $('#EightResultType').change(function () {
+        var selected = $(this).val();
+        if (selected == 4 || selected == 5) {
+            $('#EightGpaResult').show();
+        } else {
+            $('#EightGpaResult').hide();
+        }
+    });
+
+    //SSC
+    $('#SscResultType').change(function () {
+        var selected = $(this).val();
+        if (selected == 4 || selected == 5) {
+            $('#sscGpaResult').show();
+        } else {
+            $('#sscGpaResult').hide();
+        }
+    });
+//HSC
+    $('#SscResultType').change(function () {
+        var selected = $(this).val();
+        if (selected == 4 || selected == 5) {
+            $('#sscGpaResult').show();
+        } else {
+            $('#sscGpaResult').hide();
+        }
+    });
+
+
 });
 
 function sim_selector(code) {
