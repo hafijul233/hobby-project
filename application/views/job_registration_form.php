@@ -1295,9 +1295,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="col-md-8">
                                      <textarea class="form-control" id="applicantName"
                                                oninput="this.value = this.value.toUpperCase()"
-                                               name="applicant_name"
-                                               rows="2"><?= set_value("designation_name") ?></textarea>
-                        <span class="text-danger"><?= form_error("applicant_name") ?></span>
+                                               name="responsibility"
+                                               rows="2"><?= set_value("responsibility") ?></textarea>
+                        <span class="text-danger"><?= form_error("responsibility") ?></span>
                       </div>
                     </div>
                   </div>
@@ -1319,7 +1319,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </label>
                       <div class="col-md-8">
                         <input type="text" class="form-control date-picker" id="serviceStartDate"
-                               name="service_start_date[]" placeholder="yyyy-mm-dd" readonly>
+                               name="service_start_date" placeholder="yyyy-mm-dd" readonly>
                       </div>
                     </div>
                     <div class="form-group row">

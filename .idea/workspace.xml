@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb45743-fa4d-487b-89e6-9735b94a940e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2000px-Government_Seal_of_Bangladesh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoiti.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Designer_files.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Applicant_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Admit_card.php" afterPath="$PROJECT_DIR$/application/controllers/Admit_card.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Job_apply.php" afterPath="$PROJECT_DIR$/application/controllers/Job_apply.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job_registration_form.php" afterPath="$PROJECT_DIR$/application/views/job_registration_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/career_recruitment.js" afterPath="$PROJECT_DIR$/assets/js/career_recruitment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/form_query.js" afterPath="$PROJECT_DIR$/assets/js/form_query.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/models/Job_apply_model.php" afterPath="$PROJECT_DIR$/application/models/Applicant_form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,170 +26,59 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="career_recruitment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
+      <file leaf-file-name="Applicant_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Applicant_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="200" column="8" lean-forward="true" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6907">
-              <caret line="1249" column="22" lean-forward="false" selection-start-line="1249" selection-start-column="22" selection-end-line="1249" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
               <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
+                <element signature="n#selected_post_title#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_post_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_religion_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_gender_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_martial_status#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_quota_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_board_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_district_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_upzila_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_graduate_sub_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_masters_sub_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_ssc_exam_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_hsc_exam_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_graduate_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_masters_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_ssc_hsc_subject#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#get_university_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+                <element signature="n#insert_new_user#0;n#Applicant_form#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admit_card.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Admit_card.php">
+      <file leaf-file-name="Job_apply.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="72" column="55" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+            <state relative-caret-position="589">
+              <caret line="306" column="50" lean-forward="false" selection-start-line="306" selection-start-column="50" selection-end-line="306" selection-end-column="50" />
               <folding>
-                <marker date="1574164624216" expanded="true" signature="424:11442" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="430:921" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="564:913" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="588:622" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="644:678" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="686:735" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="762:781" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="812:844" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="872:904" ph="{...}" />
-                <marker date="1574164624216" expanded="true" signature="928:11435" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="943:983" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="984:1387" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1000:1064" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1065:1161" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1082:1095" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1177:1217" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1218:1379" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1401:1435" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1484:1636" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1495:1628" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1499:1618" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1516:1526" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1646:2313" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1680:2305" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1697:1719" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="1765:1788" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1789:2296" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="1801:2288" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2320:3722" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2330:2610" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2341:2602" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2345:2454" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2462:2591" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="2628:2643" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2688:3714" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2699:3706" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2703:2809" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2817:2914" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="2922:3103" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3111:3256" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3264:3401" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3409:3558" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3566:3695" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3761:4876" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3773:3984" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3782:3971" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="3996:4864" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4005:4167" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4176:4338" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4347:4509" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4518:4680" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4689:4851" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4918:5327" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4929:5319" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="4938:5115" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5124:5307" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5368:5674" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5379:5662" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5388:5475" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5484:5571" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="5580:5649" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="6057:6074" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6148:7120" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6160:7103" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6170:6250" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6254:6265" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6269:7090" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6280:7079" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6291:6480" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6491:6927" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6531:6923" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6544:6915" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6702:6908" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6708:6900" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6716:6894" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="6722:6886" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="6823:6828" ph="&amp;" />
-                <marker date="1574164624216" expanded="true" signature="6938:7067" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="6980:6985" ph="&amp;" />
-                <marker date="1574164624216" expanded="false" signature="7018:7023" ph="&amp;" />
-                <marker date="1574164624216" expanded="true" signature="7136:11424" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="7148:11411" ph="..." />
-                <marker date="1574164624216" expanded="true" signature="7158:11398" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="7291:7303" ph="..." />
-                <marker date="1574164624216" expanded="false" signature="7310:11372" ph="data:" />
-                <marker date="1574164624216" expanded="true" signature="11382:11393" ph="..." />
+                <element signature="n#__construct#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#circular#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#post_list#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#reg_form_meta_data#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#ajax_upzila_list#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
+                <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <file leaf-file-name="Applicant_insert.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/Applicant_insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pdf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/Pdf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smoiti.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smoiti.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="276" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="career_recruitment.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15164">
-              <caret line="892" column="10" lean-forward="false" selection-start-line="892" selection-start-column="10" selection-end-line="892" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -208,15 +96,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_five</find>
-      <find>__</find>
-      <find>_ei</find>
       <find>cls_</find>
       <find>ssc</find>
       <find>hsc</find>
       <find>graduate</find>
       <find>Date</find>
-      <find>applicant_name</find>
       <find>stringText</find>
       <find>form_op</find>
       <find>stringName</find>
@@ -238,12 +122,12 @@
       <find>Five</find>
       <find>com</find>
       <find>comp</find>
+      <find>people_examinations</find>
+      <find>job_apply_model</find>
+      <find>applicant_name</find>
+      <find>applicant_form-&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>col-md-4 col-form-label</replace>
-      <replace>col-md-8</replace>
-      <replace>sEight</replace>
-      <replace>_eight</replace>
       <replace>_</replace>
       <replace>sscExamName</replace>
       <replace>ei</replace>
@@ -270,6 +154,10 @@
       <replace>./</replace>
       <replace>email</replace>
       <replace>Eight</replace>
+      <replace>sys</replace>
+      <replace>sys_edu_examinations</replace>
+      <replace>applicant_form</replace>
+      <replace>Applicant_form-&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -300,16 +188,20 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/../ftp/uploads/Demo BCSIR/Bangladesh Council of Scientific and Industrial Research (BCSIR)4.html" />
         <option value="$PROJECT_DIR$/fgfg.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Job_apply.php" />
-        <option value="$PROJECT_DIR$/application/models/Job_apply_model.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/job_circular.php" />
         <option value="$PROJECT_DIR$/assets/css/career_recruitment.css" />
         <option value="$PROJECT_DIR$/assets/js/form_query.js" />
-        <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
         <option value="$PROJECT_DIR$/assets/js/career_recruitment.js" />
         <option value="$PROJECT_DIR$/application/controllers/Admit_card.php" />
+        <option value="$PROJECT_DIR$/temp.php" />
+        <option value="$PROJECT_DIR$/application/models/Job_apply_model.php" />
+        <option value="$PROJECT_DIR$/application/models/Applicant_form.php" />
+        <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
+        <option value="$PROJECT_DIR$/application/models/Applicant_Insert.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Job_apply.php" />
+        <option value="$PROJECT_DIR$/application/models/Applicant_insert.php" />
       </list>
     </option>
   </component>
@@ -396,42 +288,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bcsir" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,18 +302,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\bcsir\assets" />
+      <recent name="D:\xampp\htdocs\bcsir\plugins" />
+      <recent name="D:\xampp\htdocs\bcsir\assets\img" />
+      <recent name="D:\xampp\htdocs\bcsir" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\bcsir" />
       <recent name="D:\xampp\htdocs\bcsir\plugins" />
       <recent name="D:\xampp\htdocs\bcsir\assets\img" />
       <recent name="D:\xampp\htdocs\bcsir\application\controllers" />
       <recent name="D:\xampp\htdocs\bcsir\jquery" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\bcsir\assets" />
-      <recent name="D:\xampp\htdocs\bcsir\plugins" />
-      <recent name="D:\xampp\htdocs\bcsir\assets\img" />
-      <recent name="D:\xampp\htdocs\bcsir" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.BCSIR LOCAL">
@@ -551,24 +411,36 @@
       <workItem from="1574055715856" duration="18194000" />
       <workItem from="1574144287877" duration="329000" />
       <workItem from="1574147306260" duration="9673000" />
+      <workItem from="1574244099825" duration="2936000" />
+      <workItem from="1574254794053" duration="4807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170759000" />
+    <option name="totallyTimeSpent" value="178502000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19579288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20226537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -576,7 +448,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -588,19 +459,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php" />
-    <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/apply/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,20 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Job_apply_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="63" column="165" lean-forward="false" selection-start-line="63" selection-start-column="114" selection-end-line="63" selection-end-column="165" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -803,19 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15164">
-          <caret line="892" column="10" lean-forward="false" selection-start-line="892" selection-start-column="10" selection-end-line="892" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577">
           <caret line="1561" column="42" lean-forward="true" selection-start-line="1561" selection-start-column="42" selection-end-line="1561" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,29 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1493">
           <caret line="216" column="53" lean-forward="false" selection-start-line="216" selection-start-column="53" selection-end-line="216" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#3095#4249#0" expanded="false" />
-            <element signature="e#7352#7695#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="200" column="8" lean-forward="true" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6907">
-          <caret line="1249" column="22" lean-forward="false" selection-start-line="1249" selection-start-column="22" selection-end-line="1249" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,15 +677,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="276" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="779">
+          <caret line="892" column="10" lean-forward="false" selection-start-line="892" selection-start-column="10" selection-end-line="892" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -877,13 +691,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Admit_card.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
+        <state relative-caret-position="1224">
           <caret line="72" column="55" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
           <folding>
             <marker date="1574164624216" expanded="true" signature="424:11442" ph="..." />
@@ -973,6 +793,83 @@
             <marker date="1574164624216" expanded="false" signature="7310:11372" ph="data:" />
             <marker date="1574164624216" expanded="true" signature="11382:11393" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/career_recruitment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="200" column="8" lean-forward="false" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="1321" column="55" lean-forward="false" selection-start-line="1321" selection-start-column="55" selection-end-line="1321" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Applicant_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="n#selected_post_title#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_post_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_religion_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_gender_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_martial_status#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_quota_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_board_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_district_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_upzila_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_graduate_sub_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_masters_sub_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_ssc_exam_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_hsc_exam_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_graduate_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_masters_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_ssc_hsc_subject#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#get_university_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
+            <element signature="n#insert_new_user#0;n#Applicant_form#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="306" column="50" lean-forward="false" selection-start-line="306" selection-start-column="50" selection-end-line="306" selection-end-column="50" />
+          <folding>
+            <element signature="n#__construct#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#circular#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#post_list#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#reg_form_meta_data#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_upzila_list#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_graduate_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_masters_subjects#0;n#Job_apply#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Applicant_insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
