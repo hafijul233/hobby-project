@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb45743-fa4d-487b-89e6-9735b94a940e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Designer_files.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Applicant_insert.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Job_apply.php" afterPath="$PROJECT_DIR$/application/controllers/Job_apply.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Applicant_form.php" afterPath="$PROJECT_DIR$/application/models/Applicant_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Applicant_insert.php" afterPath="$PROJECT_DIR$/application/models/Applicant_insert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job_registration_form.php" afterPath="$PROJECT_DIR$/application/views/job_registration_form.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/models/Job_apply_model.php" afterPath="$PROJECT_DIR$/application/models/Applicant_form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="Applicant_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Applicant_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="218">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="n#selected_post_title#0;n#Applicant_form#0;n#!!top" expanded="false" />
                 <element signature="n#get_post_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
@@ -49,7 +47,6 @@
                 <element signature="n#get_masters_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
                 <element signature="n#get_ssc_hsc_subject#0;n#Applicant_form#0;n#!!top" expanded="false" />
                 <element signature="n#get_university_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
-                <element signature="n#insert_new_user#0;n#Applicant_form#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,8 +55,8 @@
       <file leaf-file-name="Job_apply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="306" column="50" lean-forward="false" selection-start-line="306" selection-start-column="50" selection-end-line="306" selection-end-column="50" />
+            <state relative-caret-position="510">
+              <caret line="85" column="146" lean-forward="false" selection-start-line="85" selection-start-column="146" selection-end-line="85" selection-end-column="146" />
               <folding>
                 <element signature="n#__construct#0;n#Job_apply#0;n#!!top" expanded="false" />
                 <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
@@ -74,11 +71,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="job_registration_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="528" column="66" lean-forward="true" selection-start-line="528" selection-start-column="66" selection-end-line="528" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Applicant_insert.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/Applicant_insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="2280">
+              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -96,10 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cls_</find>
-      <find>ssc</find>
-      <find>hsc</find>
-      <find>graduate</find>
       <find>Date</find>
       <find>stringText</find>
       <find>form_op</find>
@@ -126,9 +129,12 @@
       <find>job_apply_model</find>
       <find>applicant_name</find>
       <find>applicant_form-&gt;</find>
+      <find>Service Start Dat</find>
+      <find>email</find>
+      <find>`</find>
+      <find>echo</find>
     </findStrings>
     <replaceStrings>
-      <replace>_</replace>
       <replace>sscExamName</replace>
       <replace>ei</replace>
       <replace>ssc_roll</replace>
@@ -158,6 +164,7 @@
       <replace>sys_edu_examinations</replace>
       <replace>applicant_form</replace>
       <replace>Applicant_form-&gt;</replace>
+      <replace>echo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -197,10 +204,10 @@
         <option value="$PROJECT_DIR$/application/controllers/Admit_card.php" />
         <option value="$PROJECT_DIR$/temp.php" />
         <option value="$PROJECT_DIR$/application/models/Job_apply_model.php" />
-        <option value="$PROJECT_DIR$/application/models/Applicant_form.php" />
-        <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
         <option value="$PROJECT_DIR$/application/models/Applicant_Insert.php" />
+        <option value="$PROJECT_DIR$/application/models/Applicant_form.php" />
         <option value="$PROJECT_DIR$/application/controllers/Job_apply.php" />
+        <option value="$PROJECT_DIR$/application/views/job_registration_form.php" />
         <option value="$PROJECT_DIR$/application/models/Applicant_insert.php" />
       </list>
     </option>
@@ -288,10 +295,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcsir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcsir" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcsir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcsir" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,11 +348,11 @@
       <recent name="D:\xampp\htdocs\bcsir" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\bcsir\database" />
       <recent name="D:\xampp\htdocs\bcsir" />
       <recent name="D:\xampp\htdocs\bcsir\plugins" />
       <recent name="D:\xampp\htdocs\bcsir\assets\img" />
       <recent name="D:\xampp\htdocs\bcsir\application\controllers" />
-      <recent name="D:\xampp\htdocs\bcsir\jquery" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.BCSIR LOCAL">
@@ -412,12 +451,13 @@
       <workItem from="1574144287877" duration="329000" />
       <workItem from="1574147306260" duration="9673000" />
       <workItem from="1574244099825" duration="2936000" />
-      <workItem from="1574254794053" duration="4807000" />
+      <workItem from="1574254794053" duration="4951000" />
+      <workItem from="1574322730592" duration="12909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178502000" />
+    <option name="totallyTimeSpent" value="191555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,18 +469,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20226537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20550162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -448,8 +487,28 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20550162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -459,18 +518,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/apply/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome/home.php" />
     <entry file="file://$PROJECT_DIR$/assets/css/career_recruitment.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,94 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="55" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
-          <folding>
-            <marker date="1574164624216" expanded="true" signature="424:11442" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="430:921" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="564:913" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="588:622" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="644:678" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="686:735" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="762:781" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="812:844" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="872:904" ph="{...}" />
-            <marker date="1574164624216" expanded="true" signature="928:11435" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="943:983" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="984:1387" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1000:1064" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1065:1161" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1082:1095" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1177:1217" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1218:1379" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1401:1435" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1484:1636" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1495:1628" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1499:1618" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1516:1526" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1646:2313" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1680:2305" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1697:1719" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="1765:1788" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1789:2296" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="1801:2288" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2320:3722" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2330:2610" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2341:2602" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2345:2454" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2462:2591" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="2628:2643" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2688:3714" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2699:3706" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2703:2809" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2817:2914" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="2922:3103" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3111:3256" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3264:3401" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3409:3558" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3566:3695" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3761:4876" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3773:3984" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3782:3971" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="3996:4864" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4005:4167" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4176:4338" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4347:4509" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4518:4680" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4689:4851" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4918:5327" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4929:5319" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="4938:5115" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5124:5307" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5368:5674" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5379:5662" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5388:5475" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5484:5571" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="5580:5649" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="6057:6074" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6148:7120" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6160:7103" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6170:6250" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6254:6265" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6269:7090" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6280:7079" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6291:6480" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6491:6927" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6531:6923" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6544:6915" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6702:6908" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6708:6900" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6716:6894" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="6722:6886" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="6823:6828" ph="&amp;" />
-            <marker date="1574164624216" expanded="true" signature="6938:7067" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="6980:6985" ph="&amp;" />
-            <marker date="1574164624216" expanded="false" signature="7018:7023" ph="&amp;" />
-            <marker date="1574164624216" expanded="true" signature="7136:11424" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="7148:11411" ph="..." />
-            <marker date="1574164624216" expanded="true" signature="7158:11398" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="7291:7303" ph="..." />
-            <marker date="1574164624216" expanded="false" signature="7310:11372" ph="data:" />
-            <marker date="1574164624216" expanded="true" signature="11382:11393" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,18 +777,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+    <entry file="file://$PROJECT_DIR$/database/career_recruitment-20191120-2050.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="1321" column="55" lean-forward="false" selection-start-line="1321" selection-start-column="55" selection-end-line="1321" selection-end-column="55" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Applicant_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="218">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="n#selected_post_title#0;n#Applicant_form#0;n#!!top" expanded="false" />
             <element signature="n#get_post_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
@@ -843,15 +807,14 @@
             <element signature="n#get_masters_names#0;n#Applicant_form#0;n#!!top" expanded="false" />
             <element signature="n#get_ssc_hsc_subject#0;n#Applicant_form#0;n#!!top" expanded="false" />
             <element signature="n#get_university_list#0;n#Applicant_form#0;n#!!top" expanded="false" />
-            <element signature="n#insert_new_user#0;n#Applicant_form#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Job_apply.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="306" column="50" lean-forward="false" selection-start-line="306" selection-start-column="50" selection-end-line="306" selection-end-column="50" />
+        <state relative-caret-position="510">
+          <caret line="85" column="146" lean-forward="false" selection-start-line="85" selection-start-column="146" selection-end-line="85" selection-end-column="146" />
           <folding>
             <element signature="n#__construct#0;n#Job_apply#0;n#!!top" expanded="false" />
             <element signature="n#index#0;n#Job_apply#0;n#!!top" expanded="false" />
@@ -865,10 +828,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/job_registration_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="528" column="66" lean-forward="true" selection-start-line="528" selection-start-column="66" selection-end-line="528" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Applicant_insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="2280">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
           <folding />
         </state>
       </provider>

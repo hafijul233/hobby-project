@@ -100,9 +100,7 @@ class Applicant_form extends CI_Model
         //Available Education Board List
         $query = $this->db->get_where('sys_upazilas', array('district_id' => $district_id));
         if ($query->num_rows() > 0){
-            echo $this->db->last_query();
             return $query->result_array();
-            
         }
         else {
                         echo $this->db->last_query();
@@ -183,11 +181,6 @@ class Applicant_form extends CI_Model
             return $query->result_array();
         else
             return NULL;
-    }
-
-    public function insert_new_user($applicant = NULL)
-    {
-        var_dump($applicant);
     }
 
 }

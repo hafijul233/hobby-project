@@ -1,0 +1,1684 @@
+INFO - 2019-11-21 09:18:36 --> Config Class Initialized
+INFO - 2019-11-21 09:18:36 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:18:36 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:18:36 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:18:36 --> URI Class Initialized
+DEBUG - 2019-11-21 09:18:36 --> No URI present. Default controller set.
+INFO - 2019-11-21 09:18:36 --> Router Class Initialized
+INFO - 2019-11-21 09:18:36 --> Output Class Initialized
+INFO - 2019-11-21 09:18:36 --> Security Class Initialized
+DEBUG - 2019-11-21 09:18:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:18:36 --> Input Class Initialized
+INFO - 2019-11-21 09:18:36 --> Language Class Initialized
+ERROR - 2019-11-21 09:18:36 --> Severity: error --> Exception: syntax error, unexpected '/' D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 202
+INFO - 2019-11-21 09:19:56 --> Config Class Initialized
+INFO - 2019-11-21 09:19:56 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:19:56 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:19:56 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:19:56 --> URI Class Initialized
+DEBUG - 2019-11-21 09:19:56 --> No URI present. Default controller set.
+INFO - 2019-11-21 09:19:56 --> Router Class Initialized
+INFO - 2019-11-21 09:19:56 --> Output Class Initialized
+INFO - 2019-11-21 09:19:56 --> Security Class Initialized
+DEBUG - 2019-11-21 09:19:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:19:56 --> Input Class Initialized
+INFO - 2019-11-21 09:19:56 --> Language Class Initialized
+INFO - 2019-11-21 09:19:56 --> Loader Class Initialized
+INFO - 2019-11-21 09:19:56 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:19:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:19:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:19:56 --> Controller Class Initialized
+INFO - 2019-11-21 09:19:57 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 09:19:57 --> File loaded: D:\xampp\htdocs\bcsir\application\views\home.php
+INFO - 2019-11-21 09:19:57 --> Final output sent to browser
+DEBUG - 2019-11-21 09:19:57 --> Total execution time: 0.1451
+INFO - 2019-11-21 09:19:57 --> Config Class Initialized
+INFO - 2019-11-21 09:19:57 --> Hooks Class Initialized
+INFO - 2019-11-21 09:19:57 --> Config Class Initialized
+INFO - 2019-11-21 09:19:57 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:19:57 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:19:57 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:19:57 --> URI Class Initialized
+DEBUG - 2019-11-21 09:19:57 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:19:57 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:19:57 --> Router Class Initialized
+INFO - 2019-11-21 09:19:57 --> URI Class Initialized
+INFO - 2019-11-21 09:19:57 --> Output Class Initialized
+INFO - 2019-11-21 09:19:57 --> Security Class Initialized
+INFO - 2019-11-21 09:19:57 --> Router Class Initialized
+DEBUG - 2019-11-21 09:19:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:19:57 --> Output Class Initialized
+INFO - 2019-11-21 09:19:57 --> Input Class Initialized
+INFO - 2019-11-21 09:19:57 --> Security Class Initialized
+INFO - 2019-11-21 09:19:57 --> Language Class Initialized
+DEBUG - 2019-11-21 09:19:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:19:57 --> Input Class Initialized
+ERROR - 2019-11-21 09:19:57 --> 404 Page Not Found: Jquery/jquery-3.4.1.min.js
+INFO - 2019-11-21 09:19:57 --> Language Class Initialized
+ERROR - 2019-11-21 09:19:57 --> 404 Page Not Found: Bootstrap/js
+INFO - 2019-11-21 09:19:58 --> Config Class Initialized
+INFO - 2019-11-21 09:19:58 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:19:58 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:19:58 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:19:58 --> URI Class Initialized
+INFO - 2019-11-21 09:19:58 --> Router Class Initialized
+INFO - 2019-11-21 09:19:58 --> Output Class Initialized
+INFO - 2019-11-21 09:19:58 --> Security Class Initialized
+DEBUG - 2019-11-21 09:19:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:19:58 --> Input Class Initialized
+INFO - 2019-11-21 09:19:58 --> Language Class Initialized
+INFO - 2019-11-21 09:19:58 --> Loader Class Initialized
+INFO - 2019-11-21 09:19:58 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:19:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:19:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:19:58 --> Controller Class Initialized
+INFO - 2019-11-21 09:19:58 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:19:58 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:19:58 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:19:58 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:19:58 --> File loaded: D:\xampp\htdocs\bcsir\application\views\post_list.php
+INFO - 2019-11-21 09:19:58 --> Final output sent to browser
+DEBUG - 2019-11-21 09:19:58 --> Total execution time: 0.2390
+INFO - 2019-11-21 09:20:02 --> Config Class Initialized
+INFO - 2019-11-21 09:20:02 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:20:02 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:20:02 --> URI Class Initialized
+INFO - 2019-11-21 09:20:02 --> Router Class Initialized
+INFO - 2019-11-21 09:20:02 --> Output Class Initialized
+INFO - 2019-11-21 09:20:02 --> Security Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:20:02 --> Input Class Initialized
+INFO - 2019-11-21 09:20:02 --> Language Class Initialized
+INFO - 2019-11-21 09:20:02 --> Loader Class Initialized
+INFO - 2019-11-21 09:20:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:20:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:20:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:20:02 --> Controller Class Initialized
+INFO - 2019-11-21 09:20:02 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:20:02 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:20:02 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:20:02 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:20:02 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 09:20:02 --> Config Class Initialized
+INFO - 2019-11-21 09:20:02 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:20:02 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:20:02 --> URI Class Initialized
+INFO - 2019-11-21 09:20:02 --> Router Class Initialized
+INFO - 2019-11-21 09:20:02 --> Output Class Initialized
+INFO - 2019-11-21 09:20:02 --> Security Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:20:02 --> Input Class Initialized
+INFO - 2019-11-21 09:20:02 --> Language Class Initialized
+INFO - 2019-11-21 09:20:02 --> Loader Class Initialized
+INFO - 2019-11-21 09:20:02 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:20:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:20:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:20:02 --> Controller Class Initialized
+INFO - 2019-11-21 09:20:02 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:20:02 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:20:02 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:20:02 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:20:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 09:20:02 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 09:20:02 --> Final output sent to browser
+DEBUG - 2019-11-21 09:20:02 --> Total execution time: 0.1367
+INFO - 2019-11-21 09:20:02 --> Config Class Initialized
+INFO - 2019-11-21 09:20:02 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:20:02 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:20:02 --> URI Class Initialized
+INFO - 2019-11-21 09:20:02 --> Router Class Initialized
+INFO - 2019-11-21 09:20:02 --> Output Class Initialized
+INFO - 2019-11-21 09:20:02 --> Security Class Initialized
+DEBUG - 2019-11-21 09:20:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:20:02 --> Input Class Initialized
+INFO - 2019-11-21 09:20:02 --> Language Class Initialized
+ERROR - 2019-11-21 09:20:02 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 09:30:00 --> Config Class Initialized
+INFO - 2019-11-21 09:30:00 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:00 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:00 --> URI Class Initialized
+DEBUG - 2019-11-21 09:30:00 --> No URI present. Default controller set.
+INFO - 2019-11-21 09:30:00 --> Router Class Initialized
+INFO - 2019-11-21 09:30:00 --> Output Class Initialized
+INFO - 2019-11-21 09:30:00 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:00 --> Input Class Initialized
+INFO - 2019-11-21 09:30:00 --> Language Class Initialized
+INFO - 2019-11-21 09:30:00 --> Loader Class Initialized
+INFO - 2019-11-21 09:30:00 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:30:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:30:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:30:00 --> Controller Class Initialized
+INFO - 2019-11-21 09:30:00 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 09:30:00 --> File loaded: D:\xampp\htdocs\bcsir\application\views\home.php
+INFO - 2019-11-21 09:30:00 --> Final output sent to browser
+DEBUG - 2019-11-21 09:30:00 --> Total execution time: 0.0466
+INFO - 2019-11-21 09:30:00 --> Config Class Initialized
+INFO - 2019-11-21 09:30:00 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:00 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:00 --> URI Class Initialized
+INFO - 2019-11-21 09:30:00 --> Router Class Initialized
+INFO - 2019-11-21 09:30:00 --> Config Class Initialized
+INFO - 2019-11-21 09:30:00 --> Hooks Class Initialized
+INFO - 2019-11-21 09:30:00 --> Output Class Initialized
+INFO - 2019-11-21 09:30:00 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:00 --> UTF-8 Support Enabled
+DEBUG - 2019-11-21 09:30:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:00 --> Input Class Initialized
+INFO - 2019-11-21 09:30:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:00 --> Language Class Initialized
+ERROR - 2019-11-21 09:30:00 --> 404 Page Not Found: Jquery/jquery-3.4.1.min.js
+INFO - 2019-11-21 09:30:00 --> URI Class Initialized
+INFO - 2019-11-21 09:30:00 --> Router Class Initialized
+INFO - 2019-11-21 09:30:01 --> Output Class Initialized
+INFO - 2019-11-21 09:30:01 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:01 --> Input Class Initialized
+INFO - 2019-11-21 09:30:01 --> Language Class Initialized
+ERROR - 2019-11-21 09:30:01 --> 404 Page Not Found: Bootstrap/js
+INFO - 2019-11-21 09:30:04 --> Config Class Initialized
+INFO - 2019-11-21 09:30:04 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:04 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:04 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:04 --> URI Class Initialized
+INFO - 2019-11-21 09:30:04 --> Router Class Initialized
+INFO - 2019-11-21 09:30:04 --> Output Class Initialized
+INFO - 2019-11-21 09:30:04 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:04 --> Input Class Initialized
+INFO - 2019-11-21 09:30:04 --> Language Class Initialized
+INFO - 2019-11-21 09:30:04 --> Loader Class Initialized
+INFO - 2019-11-21 09:30:04 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:30:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:30:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:30:04 --> Controller Class Initialized
+INFO - 2019-11-21 09:30:04 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:30:04 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:30:04 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:30:04 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:30:04 --> File loaded: D:\xampp\htdocs\bcsir\application\views\post_list.php
+INFO - 2019-11-21 09:30:04 --> Final output sent to browser
+DEBUG - 2019-11-21 09:30:04 --> Total execution time: 0.0385
+INFO - 2019-11-21 09:30:07 --> Config Class Initialized
+INFO - 2019-11-21 09:30:07 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:07 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:07 --> URI Class Initialized
+INFO - 2019-11-21 09:30:07 --> Router Class Initialized
+INFO - 2019-11-21 09:30:07 --> Output Class Initialized
+INFO - 2019-11-21 09:30:07 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:07 --> Input Class Initialized
+INFO - 2019-11-21 09:30:07 --> Language Class Initialized
+INFO - 2019-11-21 09:30:07 --> Loader Class Initialized
+INFO - 2019-11-21 09:30:07 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:30:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:30:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:30:07 --> Controller Class Initialized
+INFO - 2019-11-21 09:30:07 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:30:07 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:30:07 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:30:07 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:30:07 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 09:30:07 --> Config Class Initialized
+INFO - 2019-11-21 09:30:07 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:07 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:07 --> URI Class Initialized
+INFO - 2019-11-21 09:30:07 --> Router Class Initialized
+INFO - 2019-11-21 09:30:07 --> Output Class Initialized
+INFO - 2019-11-21 09:30:07 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:07 --> Input Class Initialized
+INFO - 2019-11-21 09:30:07 --> Language Class Initialized
+INFO - 2019-11-21 09:30:07 --> Loader Class Initialized
+INFO - 2019-11-21 09:30:07 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:30:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:30:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:30:07 --> Controller Class Initialized
+INFO - 2019-11-21 09:30:07 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:30:07 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:30:07 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:30:07 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:30:07 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 09:30:07 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 09:30:07 --> Final output sent to browser
+DEBUG - 2019-11-21 09:30:07 --> Total execution time: 0.0367
+INFO - 2019-11-21 09:30:07 --> Config Class Initialized
+INFO - 2019-11-21 09:30:07 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:30:07 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:30:07 --> URI Class Initialized
+INFO - 2019-11-21 09:30:07 --> Router Class Initialized
+INFO - 2019-11-21 09:30:07 --> Output Class Initialized
+INFO - 2019-11-21 09:30:07 --> Security Class Initialized
+DEBUG - 2019-11-21 09:30:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:30:07 --> Input Class Initialized
+INFO - 2019-11-21 09:30:07 --> Language Class Initialized
+ERROR - 2019-11-21 09:30:07 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 09:34:59 --> Config Class Initialized
+INFO - 2019-11-21 09:34:59 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:34:59 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:34:59 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:34:59 --> URI Class Initialized
+INFO - 2019-11-21 09:34:59 --> Router Class Initialized
+INFO - 2019-11-21 09:34:59 --> Output Class Initialized
+INFO - 2019-11-21 09:34:59 --> Security Class Initialized
+DEBUG - 2019-11-21 09:34:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:34:59 --> Input Class Initialized
+INFO - 2019-11-21 09:34:59 --> Language Class Initialized
+INFO - 2019-11-21 09:34:59 --> Loader Class Initialized
+INFO - 2019-11-21 09:34:59 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:34:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:34:59 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:34:59 --> Controller Class Initialized
+INFO - 2019-11-21 09:34:59 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:34:59 --> Model "Applicant_form" initialized
+ERROR - 2019-11-21 09:34:59 --> Severity: Notice --> Undefined property: Job_apply::$Applicant_form D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+ERROR - 2019-11-21 09:34:59 --> Severity: error --> Exception: Call to a member function get_upzila_names() on null D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+INFO - 2019-11-21 09:37:53 --> Config Class Initialized
+INFO - 2019-11-21 09:37:53 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:37:53 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:37:53 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:37:53 --> URI Class Initialized
+INFO - 2019-11-21 09:37:53 --> Router Class Initialized
+INFO - 2019-11-21 09:37:53 --> Output Class Initialized
+INFO - 2019-11-21 09:37:53 --> Security Class Initialized
+DEBUG - 2019-11-21 09:37:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:37:53 --> Input Class Initialized
+INFO - 2019-11-21 09:37:53 --> Language Class Initialized
+INFO - 2019-11-21 09:37:53 --> Loader Class Initialized
+INFO - 2019-11-21 09:37:53 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:37:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:37:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:37:53 --> Controller Class Initialized
+INFO - 2019-11-21 09:37:53 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:37:53 --> Model "Applicant_form" initialized
+ERROR - 2019-11-21 09:37:53 --> Severity: Notice --> Undefined property: Job_apply::$Applicant_form D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+ERROR - 2019-11-21 09:37:53 --> Severity: error --> Exception: Call to a member function get_upzila_names() on null D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+INFO - 2019-11-21 09:38:52 --> Config Class Initialized
+INFO - 2019-11-21 09:38:52 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:38:52 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:38:52 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:38:52 --> URI Class Initialized
+INFO - 2019-11-21 09:38:52 --> Router Class Initialized
+INFO - 2019-11-21 09:38:52 --> Output Class Initialized
+INFO - 2019-11-21 09:38:52 --> Security Class Initialized
+DEBUG - 2019-11-21 09:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:38:52 --> Input Class Initialized
+INFO - 2019-11-21 09:38:52 --> Language Class Initialized
+INFO - 2019-11-21 09:38:52 --> Loader Class Initialized
+INFO - 2019-11-21 09:38:52 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:38:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:38:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:38:52 --> Controller Class Initialized
+INFO - 2019-11-21 09:38:52 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:38:52 --> Model "Applicant_form" initialized
+ERROR - 2019-11-21 09:38:52 --> Severity: Notice --> Undefined property: Job_apply::$Applicant_form D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+ERROR - 2019-11-21 09:38:52 --> Severity: error --> Exception: Call to a member function get_upzila_names() on null D:\xampp\htdocs\bcsir\application\controllers\Job_apply.php 252
+INFO - 2019-11-21 09:40:18 --> Config Class Initialized
+INFO - 2019-11-21 09:40:18 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:40:18 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:40:18 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:40:18 --> URI Class Initialized
+INFO - 2019-11-21 09:40:18 --> Router Class Initialized
+INFO - 2019-11-21 09:40:18 --> Output Class Initialized
+INFO - 2019-11-21 09:40:18 --> Security Class Initialized
+DEBUG - 2019-11-21 09:40:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:40:18 --> Input Class Initialized
+INFO - 2019-11-21 09:40:18 --> Language Class Initialized
+INFO - 2019-11-21 09:40:18 --> Loader Class Initialized
+INFO - 2019-11-21 09:40:18 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:40:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:40:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:40:18 --> Controller Class Initialized
+INFO - 2019-11-21 09:40:18 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:40:18 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:40:18 --> Final output sent to browser
+DEBUG - 2019-11-21 09:40:18 --> Total execution time: 0.0404
+INFO - 2019-11-21 09:42:06 --> Config Class Initialized
+INFO - 2019-11-21 09:42:06 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:42:06 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:42:06 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:42:06 --> URI Class Initialized
+INFO - 2019-11-21 09:42:06 --> Router Class Initialized
+INFO - 2019-11-21 09:42:06 --> Output Class Initialized
+INFO - 2019-11-21 09:42:06 --> Security Class Initialized
+DEBUG - 2019-11-21 09:42:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:42:06 --> Input Class Initialized
+INFO - 2019-11-21 09:42:06 --> Language Class Initialized
+INFO - 2019-11-21 09:42:06 --> Loader Class Initialized
+INFO - 2019-11-21 09:42:06 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:42:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:42:06 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:42:06 --> Controller Class Initialized
+INFO - 2019-11-21 09:42:06 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:42:06 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:42:06 --> Final output sent to browser
+DEBUG - 2019-11-21 09:42:06 --> Total execution time: 0.0498
+INFO - 2019-11-21 09:43:08 --> Config Class Initialized
+INFO - 2019-11-21 09:43:08 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:43:08 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:43:08 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:43:08 --> URI Class Initialized
+INFO - 2019-11-21 09:43:08 --> Router Class Initialized
+INFO - 2019-11-21 09:43:08 --> Output Class Initialized
+INFO - 2019-11-21 09:43:08 --> Security Class Initialized
+DEBUG - 2019-11-21 09:43:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:43:08 --> Input Class Initialized
+INFO - 2019-11-21 09:43:08 --> Language Class Initialized
+INFO - 2019-11-21 09:43:08 --> Loader Class Initialized
+INFO - 2019-11-21 09:43:08 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:43:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:43:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:43:08 --> Controller Class Initialized
+INFO - 2019-11-21 09:43:08 --> Helper loaded: form_helper
+INFO - 2019-11-21 09:43:08 --> Form Validation Class Initialized
+INFO - 2019-11-21 09:43:08 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:43:08 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:43:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 09:43:08 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 09:43:08 --> Final output sent to browser
+DEBUG - 2019-11-21 09:43:08 --> Total execution time: 0.0603
+INFO - 2019-11-21 09:43:09 --> Config Class Initialized
+INFO - 2019-11-21 09:43:09 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:43:09 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:43:09 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:43:09 --> URI Class Initialized
+INFO - 2019-11-21 09:43:09 --> Router Class Initialized
+INFO - 2019-11-21 09:43:09 --> Output Class Initialized
+INFO - 2019-11-21 09:43:09 --> Security Class Initialized
+DEBUG - 2019-11-21 09:43:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:43:09 --> Input Class Initialized
+INFO - 2019-11-21 09:43:09 --> Language Class Initialized
+ERROR - 2019-11-21 09:43:09 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 09:43:18 --> Config Class Initialized
+INFO - 2019-11-21 09:43:18 --> Hooks Class Initialized
+DEBUG - 2019-11-21 09:43:18 --> UTF-8 Support Enabled
+INFO - 2019-11-21 09:43:18 --> Utf8 Class Initialized
+INFO - 2019-11-21 09:43:18 --> URI Class Initialized
+INFO - 2019-11-21 09:43:18 --> Router Class Initialized
+INFO - 2019-11-21 09:43:18 --> Output Class Initialized
+INFO - 2019-11-21 09:43:18 --> Security Class Initialized
+DEBUG - 2019-11-21 09:43:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 09:43:18 --> Input Class Initialized
+INFO - 2019-11-21 09:43:18 --> Language Class Initialized
+INFO - 2019-11-21 09:43:18 --> Loader Class Initialized
+INFO - 2019-11-21 09:43:18 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 09:43:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 09:43:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 09:43:18 --> Controller Class Initialized
+INFO - 2019-11-21 09:43:18 --> Database Driver Class Initialized
+INFO - 2019-11-21 09:43:18 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 09:43:18 --> Final output sent to browser
+DEBUG - 2019-11-21 09:43:18 --> Total execution time: 0.0371
+INFO - 2019-11-21 11:01:56 --> Config Class Initialized
+INFO - 2019-11-21 11:01:56 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:01:56 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:01:56 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:01:56 --> URI Class Initialized
+INFO - 2019-11-21 11:01:56 --> Router Class Initialized
+INFO - 2019-11-21 11:01:56 --> Output Class Initialized
+INFO - 2019-11-21 11:01:56 --> Security Class Initialized
+DEBUG - 2019-11-21 11:01:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:01:56 --> Input Class Initialized
+INFO - 2019-11-21 11:01:56 --> Language Class Initialized
+INFO - 2019-11-21 11:01:56 --> Loader Class Initialized
+INFO - 2019-11-21 11:01:56 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:01:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:01:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:01:56 --> Controller Class Initialized
+INFO - 2019-11-21 11:01:56 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:01:56 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:01:56 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:01:56 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:01:56 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 11:01:56 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 11:01:56 --> Final output sent to browser
+DEBUG - 2019-11-21 11:01:56 --> Total execution time: 0.0474
+INFO - 2019-11-21 11:01:56 --> Config Class Initialized
+INFO - 2019-11-21 11:01:56 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:01:56 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:01:56 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:01:56 --> URI Class Initialized
+INFO - 2019-11-21 11:01:56 --> Router Class Initialized
+INFO - 2019-11-21 11:01:56 --> Output Class Initialized
+INFO - 2019-11-21 11:01:56 --> Security Class Initialized
+DEBUG - 2019-11-21 11:01:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:01:56 --> Input Class Initialized
+INFO - 2019-11-21 11:01:56 --> Language Class Initialized
+ERROR - 2019-11-21 11:01:56 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:03:25 --> Config Class Initialized
+INFO - 2019-11-21 11:03:25 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:03:25 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:03:25 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:03:25 --> URI Class Initialized
+INFO - 2019-11-21 11:03:25 --> Router Class Initialized
+INFO - 2019-11-21 11:03:25 --> Output Class Initialized
+INFO - 2019-11-21 11:03:25 --> Security Class Initialized
+DEBUG - 2019-11-21 11:03:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:03:25 --> Input Class Initialized
+INFO - 2019-11-21 11:03:25 --> Language Class Initialized
+INFO - 2019-11-21 11:03:25 --> Loader Class Initialized
+INFO - 2019-11-21 11:03:25 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:03:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:03:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:03:25 --> Controller Class Initialized
+INFO - 2019-11-21 11:03:25 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:03:25 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:03:25 --> Final output sent to browser
+DEBUG - 2019-11-21 11:03:25 --> Total execution time: 0.0316
+INFO - 2019-11-21 11:03:53 --> Config Class Initialized
+INFO - 2019-11-21 11:03:53 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:03:53 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:03:53 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:03:53 --> URI Class Initialized
+INFO - 2019-11-21 11:03:53 --> Router Class Initialized
+INFO - 2019-11-21 11:03:53 --> Output Class Initialized
+INFO - 2019-11-21 11:03:53 --> Security Class Initialized
+DEBUG - 2019-11-21 11:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:03:53 --> Input Class Initialized
+INFO - 2019-11-21 11:03:53 --> Language Class Initialized
+INFO - 2019-11-21 11:03:53 --> Loader Class Initialized
+INFO - 2019-11-21 11:03:53 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:03:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:03:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:03:53 --> Controller Class Initialized
+INFO - 2019-11-21 11:03:53 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:03:53 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:03:53 --> Final output sent to browser
+DEBUG - 2019-11-21 11:03:53 --> Total execution time: 0.0334
+INFO - 2019-11-21 11:04:24 --> Config Class Initialized
+INFO - 2019-11-21 11:04:24 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:04:24 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:04:24 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:04:24 --> URI Class Initialized
+INFO - 2019-11-21 11:04:24 --> Router Class Initialized
+INFO - 2019-11-21 11:04:24 --> Output Class Initialized
+INFO - 2019-11-21 11:04:24 --> Security Class Initialized
+DEBUG - 2019-11-21 11:04:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:04:24 --> Input Class Initialized
+INFO - 2019-11-21 11:04:24 --> Language Class Initialized
+ERROR - 2019-11-21 11:04:24 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:05:51 --> Config Class Initialized
+INFO - 2019-11-21 11:05:51 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:05:51 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:05:51 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:05:51 --> URI Class Initialized
+INFO - 2019-11-21 11:05:51 --> Router Class Initialized
+INFO - 2019-11-21 11:05:51 --> Output Class Initialized
+INFO - 2019-11-21 11:05:51 --> Security Class Initialized
+DEBUG - 2019-11-21 11:05:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:05:51 --> Input Class Initialized
+INFO - 2019-11-21 11:05:51 --> Language Class Initialized
+INFO - 2019-11-21 11:05:51 --> Loader Class Initialized
+INFO - 2019-11-21 11:05:51 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:05:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:05:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:05:51 --> Controller Class Initialized
+INFO - 2019-11-21 11:05:51 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:05:51 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:05:51 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:05:51 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:05:51 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:05:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+ERROR - 2019-11-21 11:05:51 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\bcsir\application\views\job_registration_form.php 1286
+INFO - 2019-11-21 11:05:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 11:05:51 --> Final output sent to browser
+DEBUG - 2019-11-21 11:05:51 --> Total execution time: 0.0635
+INFO - 2019-11-21 11:05:51 --> Config Class Initialized
+INFO - 2019-11-21 11:05:51 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:05:51 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:05:51 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:05:51 --> URI Class Initialized
+INFO - 2019-11-21 11:05:51 --> Router Class Initialized
+INFO - 2019-11-21 11:05:51 --> Output Class Initialized
+INFO - 2019-11-21 11:05:51 --> Security Class Initialized
+DEBUG - 2019-11-21 11:05:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:05:51 --> Input Class Initialized
+INFO - 2019-11-21 11:05:51 --> Language Class Initialized
+ERROR - 2019-11-21 11:05:51 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:08:15 --> Config Class Initialized
+INFO - 2019-11-21 11:08:15 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:08:15 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:08:15 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:08:15 --> URI Class Initialized
+INFO - 2019-11-21 11:08:15 --> Router Class Initialized
+INFO - 2019-11-21 11:08:15 --> Output Class Initialized
+INFO - 2019-11-21 11:08:15 --> Security Class Initialized
+DEBUG - 2019-11-21 11:08:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:08:15 --> Input Class Initialized
+INFO - 2019-11-21 11:08:15 --> Language Class Initialized
+INFO - 2019-11-21 11:08:15 --> Loader Class Initialized
+INFO - 2019-11-21 11:08:15 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:08:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:08:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:08:15 --> Controller Class Initialized
+INFO - 2019-11-21 11:08:15 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:08:15 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:08:15 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:08:15 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:08:15 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:08:15 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+ERROR - 2019-11-21 11:08:15 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\bcsir\application\views\job_registration_form.php 1286
+INFO - 2019-11-21 11:08:15 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 11:08:15 --> Final output sent to browser
+DEBUG - 2019-11-21 11:08:15 --> Total execution time: 0.0668
+INFO - 2019-11-21 11:08:15 --> Config Class Initialized
+INFO - 2019-11-21 11:08:15 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:08:15 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:08:15 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:08:15 --> URI Class Initialized
+INFO - 2019-11-21 11:08:15 --> Router Class Initialized
+INFO - 2019-11-21 11:08:15 --> Output Class Initialized
+INFO - 2019-11-21 11:08:15 --> Security Class Initialized
+DEBUG - 2019-11-21 11:08:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:08:15 --> Input Class Initialized
+INFO - 2019-11-21 11:08:15 --> Language Class Initialized
+ERROR - 2019-11-21 11:08:15 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:12:15 --> Config Class Initialized
+INFO - 2019-11-21 11:12:15 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:12:15 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:12:15 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:12:15 --> URI Class Initialized
+INFO - 2019-11-21 11:12:15 --> Router Class Initialized
+INFO - 2019-11-21 11:12:15 --> Output Class Initialized
+INFO - 2019-11-21 11:12:15 --> Security Class Initialized
+DEBUG - 2019-11-21 11:12:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:12:15 --> Input Class Initialized
+INFO - 2019-11-21 11:12:15 --> Language Class Initialized
+INFO - 2019-11-21 11:12:15 --> Loader Class Initialized
+INFO - 2019-11-21 11:12:15 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:12:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:12:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:12:15 --> Controller Class Initialized
+INFO - 2019-11-21 11:12:15 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:12:15 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:12:15 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:12:15 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:12:15 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:12:15 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 11:12:15 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 11:12:15 --> Final output sent to browser
+DEBUG - 2019-11-21 11:12:15 --> Total execution time: 0.0467
+INFO - 2019-11-21 11:12:15 --> Config Class Initialized
+INFO - 2019-11-21 11:12:15 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:12:15 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:12:15 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:12:15 --> URI Class Initialized
+INFO - 2019-11-21 11:12:15 --> Router Class Initialized
+INFO - 2019-11-21 11:12:15 --> Output Class Initialized
+INFO - 2019-11-21 11:12:15 --> Security Class Initialized
+DEBUG - 2019-11-21 11:12:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:12:15 --> Input Class Initialized
+INFO - 2019-11-21 11:12:15 --> Language Class Initialized
+ERROR - 2019-11-21 11:12:15 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:25:38 --> Config Class Initialized
+INFO - 2019-11-21 11:25:38 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:25:38 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:25:38 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:25:38 --> URI Class Initialized
+INFO - 2019-11-21 11:25:38 --> Router Class Initialized
+INFO - 2019-11-21 11:25:38 --> Output Class Initialized
+INFO - 2019-11-21 11:25:38 --> Security Class Initialized
+DEBUG - 2019-11-21 11:25:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:25:38 --> Input Class Initialized
+INFO - 2019-11-21 11:25:38 --> Language Class Initialized
+INFO - 2019-11-21 11:25:38 --> Loader Class Initialized
+INFO - 2019-11-21 11:25:38 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:25:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:25:38 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:25:38 --> Controller Class Initialized
+INFO - 2019-11-21 11:25:38 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:25:38 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:25:38 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:25:38 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:25:38 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:25:38 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 11:25:38 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 11:25:38 --> Final output sent to browser
+DEBUG - 2019-11-21 11:25:38 --> Total execution time: 0.0527
+INFO - 2019-11-21 11:25:39 --> Config Class Initialized
+INFO - 2019-11-21 11:25:39 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:25:39 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:25:39 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:25:39 --> URI Class Initialized
+INFO - 2019-11-21 11:25:39 --> Router Class Initialized
+INFO - 2019-11-21 11:25:39 --> Output Class Initialized
+INFO - 2019-11-21 11:25:39 --> Security Class Initialized
+DEBUG - 2019-11-21 11:25:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:25:39 --> Input Class Initialized
+INFO - 2019-11-21 11:25:39 --> Language Class Initialized
+ERROR - 2019-11-21 11:25:39 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 11:25:48 --> Config Class Initialized
+INFO - 2019-11-21 11:25:48 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:25:48 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:25:48 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:25:48 --> URI Class Initialized
+INFO - 2019-11-21 11:25:48 --> Router Class Initialized
+INFO - 2019-11-21 11:25:48 --> Output Class Initialized
+INFO - 2019-11-21 11:25:48 --> Security Class Initialized
+DEBUG - 2019-11-21 11:25:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:25:48 --> Input Class Initialized
+INFO - 2019-11-21 11:25:48 --> Language Class Initialized
+INFO - 2019-11-21 11:25:48 --> Loader Class Initialized
+INFO - 2019-11-21 11:25:48 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:25:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:25:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:25:48 --> Controller Class Initialized
+INFO - 2019-11-21 11:25:48 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:25:48 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:25:48 --> Final output sent to browser
+DEBUG - 2019-11-21 11:25:48 --> Total execution time: 0.0433
+INFO - 2019-11-21 11:25:52 --> Config Class Initialized
+INFO - 2019-11-21 11:25:52 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:25:52 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:25:52 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:25:52 --> URI Class Initialized
+INFO - 2019-11-21 11:25:52 --> Router Class Initialized
+INFO - 2019-11-21 11:25:52 --> Output Class Initialized
+INFO - 2019-11-21 11:25:52 --> Security Class Initialized
+DEBUG - 2019-11-21 11:25:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:25:52 --> Input Class Initialized
+INFO - 2019-11-21 11:25:52 --> Language Class Initialized
+INFO - 2019-11-21 11:25:52 --> Loader Class Initialized
+INFO - 2019-11-21 11:25:52 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:25:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:25:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:25:52 --> Controller Class Initialized
+INFO - 2019-11-21 11:25:52 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:25:52 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:25:52 --> Final output sent to browser
+DEBUG - 2019-11-21 11:25:52 --> Total execution time: 0.0363
+INFO - 2019-11-21 11:26:00 --> Config Class Initialized
+INFO - 2019-11-21 11:26:00 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:26:00 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:26:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:26:00 --> URI Class Initialized
+INFO - 2019-11-21 11:26:00 --> Router Class Initialized
+INFO - 2019-11-21 11:26:00 --> Output Class Initialized
+INFO - 2019-11-21 11:26:00 --> Security Class Initialized
+DEBUG - 2019-11-21 11:26:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:26:00 --> Input Class Initialized
+INFO - 2019-11-21 11:26:00 --> Language Class Initialized
+INFO - 2019-11-21 11:26:00 --> Loader Class Initialized
+INFO - 2019-11-21 11:26:00 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:26:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:26:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:26:00 --> Controller Class Initialized
+INFO - 2019-11-21 11:26:00 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:26:00 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:26:00 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:26:00 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:26:00 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:26:00 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 11:27:25 --> Config Class Initialized
+INFO - 2019-11-21 11:27:25 --> Hooks Class Initialized
+DEBUG - 2019-11-21 11:27:25 --> UTF-8 Support Enabled
+INFO - 2019-11-21 11:27:25 --> Utf8 Class Initialized
+INFO - 2019-11-21 11:27:25 --> URI Class Initialized
+INFO - 2019-11-21 11:27:25 --> Router Class Initialized
+INFO - 2019-11-21 11:27:25 --> Output Class Initialized
+INFO - 2019-11-21 11:27:25 --> Security Class Initialized
+DEBUG - 2019-11-21 11:27:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 11:27:25 --> Input Class Initialized
+INFO - 2019-11-21 11:27:25 --> Language Class Initialized
+INFO - 2019-11-21 11:27:25 --> Loader Class Initialized
+INFO - 2019-11-21 11:27:25 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 11:27:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 11:27:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 11:27:25 --> Controller Class Initialized
+INFO - 2019-11-21 11:27:25 --> Helper loaded: form_helper
+INFO - 2019-11-21 11:27:25 --> Form Validation Class Initialized
+INFO - 2019-11-21 11:27:25 --> Database Driver Class Initialized
+INFO - 2019-11-21 11:27:25 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 11:27:25 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 11:27:25 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 12:11:05 --> Config Class Initialized
+INFO - 2019-11-21 12:11:05 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:05 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:05 --> URI Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> No URI present. Default controller set.
+INFO - 2019-11-21 12:11:05 --> Router Class Initialized
+INFO - 2019-11-21 12:11:05 --> Output Class Initialized
+INFO - 2019-11-21 12:11:05 --> Security Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:05 --> Input Class Initialized
+INFO - 2019-11-21 12:11:05 --> Language Class Initialized
+INFO - 2019-11-21 12:11:05 --> Loader Class Initialized
+INFO - 2019-11-21 12:11:05 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:11:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:11:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:11:05 --> Controller Class Initialized
+INFO - 2019-11-21 12:11:05 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:11:05 --> File loaded: D:\xampp\htdocs\bcsir\application\views\home.php
+INFO - 2019-11-21 12:11:05 --> Final output sent to browser
+DEBUG - 2019-11-21 12:11:05 --> Total execution time: 0.0347
+INFO - 2019-11-21 12:11:05 --> Config Class Initialized
+INFO - 2019-11-21 12:11:05 --> Config Class Initialized
+INFO - 2019-11-21 12:11:05 --> Hooks Class Initialized
+INFO - 2019-11-21 12:11:05 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:05 --> Utf8 Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:05 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:05 --> URI Class Initialized
+INFO - 2019-11-21 12:11:05 --> Router Class Initialized
+INFO - 2019-11-21 12:11:05 --> URI Class Initialized
+INFO - 2019-11-21 12:11:05 --> Output Class Initialized
+INFO - 2019-11-21 12:11:05 --> Router Class Initialized
+INFO - 2019-11-21 12:11:05 --> Security Class Initialized
+INFO - 2019-11-21 12:11:05 --> Output Class Initialized
+DEBUG - 2019-11-21 12:11:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:05 --> Input Class Initialized
+INFO - 2019-11-21 12:11:05 --> Language Class Initialized
+INFO - 2019-11-21 12:11:05 --> Security Class Initialized
+ERROR - 2019-11-21 12:11:05 --> 404 Page Not Found: Jquery/jquery-3.4.1.min.js
+DEBUG - 2019-11-21 12:11:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:05 --> Input Class Initialized
+INFO - 2019-11-21 12:11:05 --> Language Class Initialized
+ERROR - 2019-11-21 12:11:05 --> 404 Page Not Found: Bootstrap/js
+INFO - 2019-11-21 12:11:06 --> Config Class Initialized
+INFO - 2019-11-21 12:11:06 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:06 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:06 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:06 --> URI Class Initialized
+INFO - 2019-11-21 12:11:06 --> Router Class Initialized
+INFO - 2019-11-21 12:11:07 --> Output Class Initialized
+INFO - 2019-11-21 12:11:07 --> Security Class Initialized
+DEBUG - 2019-11-21 12:11:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:07 --> Input Class Initialized
+INFO - 2019-11-21 12:11:07 --> Language Class Initialized
+INFO - 2019-11-21 12:11:07 --> Loader Class Initialized
+INFO - 2019-11-21 12:11:07 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:11:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:11:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:11:07 --> Controller Class Initialized
+INFO - 2019-11-21 12:11:07 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:11:07 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:11:07 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:11:07 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:11:07 --> File loaded: D:\xampp\htdocs\bcsir\application\views\post_list.php
+INFO - 2019-11-21 12:11:07 --> Final output sent to browser
+DEBUG - 2019-11-21 12:11:07 --> Total execution time: 0.0521
+INFO - 2019-11-21 12:11:09 --> Config Class Initialized
+INFO - 2019-11-21 12:11:09 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:09 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:09 --> URI Class Initialized
+INFO - 2019-11-21 12:11:09 --> Router Class Initialized
+INFO - 2019-11-21 12:11:09 --> Output Class Initialized
+INFO - 2019-11-21 12:11:09 --> Security Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:09 --> Input Class Initialized
+INFO - 2019-11-21 12:11:09 --> Language Class Initialized
+INFO - 2019-11-21 12:11:09 --> Loader Class Initialized
+INFO - 2019-11-21 12:11:09 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:11:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:11:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:11:09 --> Controller Class Initialized
+INFO - 2019-11-21 12:11:09 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:11:09 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:11:09 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:11:09 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:11:09 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:11:09 --> Config Class Initialized
+INFO - 2019-11-21 12:11:09 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:09 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:09 --> URI Class Initialized
+INFO - 2019-11-21 12:11:09 --> Router Class Initialized
+INFO - 2019-11-21 12:11:09 --> Output Class Initialized
+INFO - 2019-11-21 12:11:09 --> Security Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:09 --> Input Class Initialized
+INFO - 2019-11-21 12:11:09 --> Language Class Initialized
+INFO - 2019-11-21 12:11:09 --> Loader Class Initialized
+INFO - 2019-11-21 12:11:09 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:11:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:11:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:11:09 --> Controller Class Initialized
+INFO - 2019-11-21 12:11:09 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:11:09 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:11:09 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:11:09 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:11:09 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:11:09 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:11:09 --> Final output sent to browser
+DEBUG - 2019-11-21 12:11:09 --> Total execution time: 0.0407
+INFO - 2019-11-21 12:11:09 --> Config Class Initialized
+INFO - 2019-11-21 12:11:09 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:11:09 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:11:09 --> URI Class Initialized
+INFO - 2019-11-21 12:11:09 --> Router Class Initialized
+INFO - 2019-11-21 12:11:09 --> Output Class Initialized
+INFO - 2019-11-21 12:11:09 --> Security Class Initialized
+DEBUG - 2019-11-21 12:11:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:11:09 --> Input Class Initialized
+INFO - 2019-11-21 12:11:09 --> Language Class Initialized
+ERROR - 2019-11-21 12:11:09 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:12:06 --> Config Class Initialized
+INFO - 2019-11-21 12:12:06 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:12:06 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:12:06 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:12:06 --> URI Class Initialized
+INFO - 2019-11-21 12:12:06 --> Router Class Initialized
+INFO - 2019-11-21 12:12:06 --> Output Class Initialized
+INFO - 2019-11-21 12:12:06 --> Security Class Initialized
+DEBUG - 2019-11-21 12:12:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:12:06 --> Input Class Initialized
+INFO - 2019-11-21 12:12:06 --> Language Class Initialized
+INFO - 2019-11-21 12:12:06 --> Loader Class Initialized
+INFO - 2019-11-21 12:12:06 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:12:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:12:06 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:12:06 --> Controller Class Initialized
+INFO - 2019-11-21 12:12:06 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:12:07 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:12:07 --> Final output sent to browser
+DEBUG - 2019-11-21 12:12:07 --> Total execution time: 0.0534
+INFO - 2019-11-21 12:12:09 --> Config Class Initialized
+INFO - 2019-11-21 12:12:09 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:12:09 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:12:09 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:12:09 --> URI Class Initialized
+INFO - 2019-11-21 12:12:09 --> Router Class Initialized
+INFO - 2019-11-21 12:12:09 --> Output Class Initialized
+INFO - 2019-11-21 12:12:09 --> Security Class Initialized
+DEBUG - 2019-11-21 12:12:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:12:09 --> Input Class Initialized
+INFO - 2019-11-21 12:12:09 --> Language Class Initialized
+INFO - 2019-11-21 12:12:09 --> Loader Class Initialized
+INFO - 2019-11-21 12:12:09 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:12:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:12:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:12:09 --> Controller Class Initialized
+INFO - 2019-11-21 12:12:09 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:12:09 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:12:09 --> Final output sent to browser
+DEBUG - 2019-11-21 12:12:09 --> Total execution time: 0.0456
+INFO - 2019-11-21 12:12:27 --> Config Class Initialized
+INFO - 2019-11-21 12:12:27 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:12:27 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:12:27 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:12:27 --> URI Class Initialized
+INFO - 2019-11-21 12:12:27 --> Router Class Initialized
+INFO - 2019-11-21 12:12:27 --> Output Class Initialized
+INFO - 2019-11-21 12:12:27 --> Security Class Initialized
+DEBUG - 2019-11-21 12:12:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:12:27 --> Input Class Initialized
+INFO - 2019-11-21 12:12:27 --> Language Class Initialized
+INFO - 2019-11-21 12:12:27 --> Loader Class Initialized
+INFO - 2019-11-21 12:12:27 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:12:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:12:27 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:12:27 --> Controller Class Initialized
+INFO - 2019-11-21 12:12:27 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:12:27 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:12:27 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:12:27 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:12:27 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:12:27 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:12:27 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:12:27 --> Final output sent to browser
+DEBUG - 2019-11-21 12:12:27 --> Total execution time: 0.0656
+INFO - 2019-11-21 12:12:28 --> Config Class Initialized
+INFO - 2019-11-21 12:12:28 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:12:28 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:12:28 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:12:28 --> URI Class Initialized
+INFO - 2019-11-21 12:12:28 --> Router Class Initialized
+INFO - 2019-11-21 12:12:28 --> Output Class Initialized
+INFO - 2019-11-21 12:12:28 --> Security Class Initialized
+DEBUG - 2019-11-21 12:12:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:12:28 --> Input Class Initialized
+INFO - 2019-11-21 12:12:28 --> Language Class Initialized
+ERROR - 2019-11-21 12:12:28 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:12:52 --> Config Class Initialized
+INFO - 2019-11-21 12:12:52 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:12:52 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:12:52 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:12:52 --> URI Class Initialized
+INFO - 2019-11-21 12:12:52 --> Router Class Initialized
+INFO - 2019-11-21 12:12:52 --> Output Class Initialized
+INFO - 2019-11-21 12:12:52 --> Security Class Initialized
+DEBUG - 2019-11-21 12:12:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:12:52 --> Input Class Initialized
+INFO - 2019-11-21 12:12:52 --> Language Class Initialized
+ERROR - 2019-11-21 12:12:52 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:13:47 --> Config Class Initialized
+INFO - 2019-11-21 12:13:47 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:13:47 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:13:47 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:13:47 --> URI Class Initialized
+INFO - 2019-11-21 12:13:47 --> Router Class Initialized
+INFO - 2019-11-21 12:13:47 --> Output Class Initialized
+INFO - 2019-11-21 12:13:47 --> Security Class Initialized
+DEBUG - 2019-11-21 12:13:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:13:47 --> Input Class Initialized
+INFO - 2019-11-21 12:13:47 --> Language Class Initialized
+INFO - 2019-11-21 12:13:47 --> Loader Class Initialized
+INFO - 2019-11-21 12:13:47 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:13:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:13:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:13:47 --> Controller Class Initialized
+INFO - 2019-11-21 12:13:47 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:13:47 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:13:47 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:13:47 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:13:47 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:13:47 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:13:47 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:13:47 --> Final output sent to browser
+DEBUG - 2019-11-21 12:13:47 --> Total execution time: 0.0626
+INFO - 2019-11-21 12:13:47 --> Config Class Initialized
+INFO - 2019-11-21 12:13:47 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:13:47 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:13:47 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:13:47 --> URI Class Initialized
+INFO - 2019-11-21 12:13:47 --> Router Class Initialized
+INFO - 2019-11-21 12:13:47 --> Output Class Initialized
+INFO - 2019-11-21 12:13:47 --> Security Class Initialized
+DEBUG - 2019-11-21 12:13:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:13:47 --> Input Class Initialized
+INFO - 2019-11-21 12:13:47 --> Language Class Initialized
+ERROR - 2019-11-21 12:13:47 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:13:56 --> Config Class Initialized
+INFO - 2019-11-21 12:13:56 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:13:56 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:13:56 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:13:56 --> URI Class Initialized
+INFO - 2019-11-21 12:13:56 --> Router Class Initialized
+INFO - 2019-11-21 12:13:56 --> Output Class Initialized
+INFO - 2019-11-21 12:13:56 --> Security Class Initialized
+DEBUG - 2019-11-21 12:13:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:13:56 --> Input Class Initialized
+INFO - 2019-11-21 12:13:56 --> Language Class Initialized
+INFO - 2019-11-21 12:13:56 --> Loader Class Initialized
+INFO - 2019-11-21 12:13:56 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:13:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:13:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:13:56 --> Controller Class Initialized
+INFO - 2019-11-21 12:13:56 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:13:56 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:13:56 --> Final output sent to browser
+DEBUG - 2019-11-21 12:13:56 --> Total execution time: 0.0521
+INFO - 2019-11-21 12:13:58 --> Config Class Initialized
+INFO - 2019-11-21 12:13:58 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:13:58 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:13:58 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:13:58 --> URI Class Initialized
+INFO - 2019-11-21 12:13:58 --> Router Class Initialized
+INFO - 2019-11-21 12:13:58 --> Output Class Initialized
+INFO - 2019-11-21 12:13:58 --> Security Class Initialized
+DEBUG - 2019-11-21 12:13:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:13:58 --> Input Class Initialized
+INFO - 2019-11-21 12:13:58 --> Language Class Initialized
+INFO - 2019-11-21 12:13:58 --> Loader Class Initialized
+INFO - 2019-11-21 12:13:58 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:13:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:13:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:13:58 --> Controller Class Initialized
+INFO - 2019-11-21 12:13:58 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:13:58 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:13:58 --> Final output sent to browser
+DEBUG - 2019-11-21 12:13:58 --> Total execution time: 0.0570
+INFO - 2019-11-21 12:14:10 --> Config Class Initialized
+INFO - 2019-11-21 12:14:10 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:14:10 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:14:10 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:14:10 --> URI Class Initialized
+INFO - 2019-11-21 12:14:10 --> Router Class Initialized
+INFO - 2019-11-21 12:14:10 --> Output Class Initialized
+INFO - 2019-11-21 12:14:10 --> Security Class Initialized
+DEBUG - 2019-11-21 12:14:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:14:10 --> Input Class Initialized
+INFO - 2019-11-21 12:14:10 --> Language Class Initialized
+INFO - 2019-11-21 12:14:10 --> Loader Class Initialized
+INFO - 2019-11-21 12:14:10 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:14:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:14:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:14:10 --> Controller Class Initialized
+INFO - 2019-11-21 12:14:10 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:14:10 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:14:10 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:14:10 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:14:10 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:14:11 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 12:17:51 --> Config Class Initialized
+INFO - 2019-11-21 12:17:51 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:17:51 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:17:51 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:17:51 --> URI Class Initialized
+INFO - 2019-11-21 12:17:51 --> Router Class Initialized
+INFO - 2019-11-21 12:17:51 --> Output Class Initialized
+INFO - 2019-11-21 12:17:51 --> Security Class Initialized
+DEBUG - 2019-11-21 12:17:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:17:51 --> Input Class Initialized
+INFO - 2019-11-21 12:17:51 --> Language Class Initialized
+INFO - 2019-11-21 12:17:51 --> Loader Class Initialized
+INFO - 2019-11-21 12:17:51 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:17:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:17:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:17:51 --> Controller Class Initialized
+INFO - 2019-11-21 12:17:51 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:17:51 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:17:51 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:17:51 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:17:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:17:51 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:17:51 --> Final output sent to browser
+DEBUG - 2019-11-21 12:17:51 --> Total execution time: 0.0499
+INFO - 2019-11-21 12:21:56 --> Config Class Initialized
+INFO - 2019-11-21 12:21:56 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:21:56 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:21:56 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:21:56 --> URI Class Initialized
+INFO - 2019-11-21 12:21:56 --> Router Class Initialized
+INFO - 2019-11-21 12:21:56 --> Output Class Initialized
+INFO - 2019-11-21 12:21:56 --> Security Class Initialized
+DEBUG - 2019-11-21 12:21:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:21:56 --> Input Class Initialized
+INFO - 2019-11-21 12:21:56 --> Language Class Initialized
+INFO - 2019-11-21 12:21:56 --> Loader Class Initialized
+INFO - 2019-11-21 12:21:56 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:21:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:21:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:21:56 --> Controller Class Initialized
+INFO - 2019-11-21 12:21:56 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:21:56 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:21:56 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:21:56 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:21:56 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:21:56 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:21:56 --> Final output sent to browser
+DEBUG - 2019-11-21 12:21:56 --> Total execution time: 0.0500
+INFO - 2019-11-21 12:21:57 --> Config Class Initialized
+INFO - 2019-11-21 12:21:57 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:21:57 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:21:57 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:21:57 --> URI Class Initialized
+INFO - 2019-11-21 12:21:57 --> Router Class Initialized
+INFO - 2019-11-21 12:21:57 --> Output Class Initialized
+INFO - 2019-11-21 12:21:57 --> Security Class Initialized
+DEBUG - 2019-11-21 12:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:21:57 --> Input Class Initialized
+INFO - 2019-11-21 12:21:57 --> Language Class Initialized
+ERROR - 2019-11-21 12:21:57 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:22:25 --> Config Class Initialized
+INFO - 2019-11-21 12:22:25 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:22:25 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:22:25 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:22:25 --> URI Class Initialized
+INFO - 2019-11-21 12:22:25 --> Router Class Initialized
+INFO - 2019-11-21 12:22:25 --> Output Class Initialized
+INFO - 2019-11-21 12:22:25 --> Security Class Initialized
+DEBUG - 2019-11-21 12:22:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:22:25 --> Input Class Initialized
+INFO - 2019-11-21 12:22:25 --> Language Class Initialized
+INFO - 2019-11-21 12:22:25 --> Loader Class Initialized
+INFO - 2019-11-21 12:22:25 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:22:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:22:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:22:25 --> Controller Class Initialized
+INFO - 2019-11-21 12:22:25 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:22:25 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:22:25 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:22:25 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:22:25 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:22:25 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:22:25 --> Final output sent to browser
+DEBUG - 2019-11-21 12:22:25 --> Total execution time: 0.0418
+INFO - 2019-11-21 12:22:25 --> Config Class Initialized
+INFO - 2019-11-21 12:22:25 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:22:25 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:22:25 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:22:25 --> URI Class Initialized
+INFO - 2019-11-21 12:22:25 --> Router Class Initialized
+INFO - 2019-11-21 12:22:25 --> Output Class Initialized
+INFO - 2019-11-21 12:22:25 --> Security Class Initialized
+DEBUG - 2019-11-21 12:22:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:22:25 --> Input Class Initialized
+INFO - 2019-11-21 12:22:25 --> Language Class Initialized
+ERROR - 2019-11-21 12:22:25 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:35:58 --> Config Class Initialized
+INFO - 2019-11-21 12:35:58 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:35:58 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:35:58 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:35:58 --> URI Class Initialized
+INFO - 2019-11-21 12:35:58 --> Router Class Initialized
+INFO - 2019-11-21 12:35:58 --> Output Class Initialized
+INFO - 2019-11-21 12:35:58 --> Security Class Initialized
+DEBUG - 2019-11-21 12:35:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:35:58 --> Input Class Initialized
+INFO - 2019-11-21 12:35:58 --> Language Class Initialized
+INFO - 2019-11-21 12:35:58 --> Loader Class Initialized
+INFO - 2019-11-21 12:35:58 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:35:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:35:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:35:58 --> Controller Class Initialized
+INFO - 2019-11-21 12:35:58 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:35:59 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:35:59 --> Final output sent to browser
+DEBUG - 2019-11-21 12:35:59 --> Total execution time: 0.0306
+INFO - 2019-11-21 12:36:00 --> Config Class Initialized
+INFO - 2019-11-21 12:36:00 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:36:00 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:36:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:36:00 --> URI Class Initialized
+INFO - 2019-11-21 12:36:00 --> Router Class Initialized
+INFO - 2019-11-21 12:36:00 --> Output Class Initialized
+INFO - 2019-11-21 12:36:00 --> Security Class Initialized
+DEBUG - 2019-11-21 12:36:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:36:00 --> Input Class Initialized
+INFO - 2019-11-21 12:36:00 --> Language Class Initialized
+INFO - 2019-11-21 12:36:00 --> Loader Class Initialized
+INFO - 2019-11-21 12:36:00 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:36:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:36:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:36:00 --> Controller Class Initialized
+INFO - 2019-11-21 12:36:00 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:36:00 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:36:00 --> Final output sent to browser
+DEBUG - 2019-11-21 12:36:00 --> Total execution time: 0.0363
+INFO - 2019-11-21 12:36:22 --> Config Class Initialized
+INFO - 2019-11-21 12:36:22 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:36:22 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:36:22 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:36:22 --> URI Class Initialized
+INFO - 2019-11-21 12:36:22 --> Router Class Initialized
+INFO - 2019-11-21 12:36:22 --> Output Class Initialized
+INFO - 2019-11-21 12:36:22 --> Security Class Initialized
+DEBUG - 2019-11-21 12:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:36:22 --> Input Class Initialized
+INFO - 2019-11-21 12:36:22 --> Language Class Initialized
+ERROR - 2019-11-21 12:36:22 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:38:34 --> Config Class Initialized
+INFO - 2019-11-21 12:38:34 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:38:34 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:38:34 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:38:34 --> URI Class Initialized
+INFO - 2019-11-21 12:38:34 --> Router Class Initialized
+INFO - 2019-11-21 12:38:34 --> Output Class Initialized
+INFO - 2019-11-21 12:38:34 --> Security Class Initialized
+DEBUG - 2019-11-21 12:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:38:34 --> Input Class Initialized
+INFO - 2019-11-21 12:38:34 --> Language Class Initialized
+INFO - 2019-11-21 12:38:34 --> Loader Class Initialized
+INFO - 2019-11-21 12:38:34 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:38:35 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:38:35 --> Controller Class Initialized
+INFO - 2019-11-21 12:38:35 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:38:35 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:38:35 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:38:35 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:38:35 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:38:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:38:35 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:38:35 --> Final output sent to browser
+DEBUG - 2019-11-21 12:38:35 --> Total execution time: 0.0643
+INFO - 2019-11-21 12:38:35 --> Config Class Initialized
+INFO - 2019-11-21 12:38:35 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:38:35 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:38:35 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:38:35 --> URI Class Initialized
+INFO - 2019-11-21 12:38:35 --> Router Class Initialized
+INFO - 2019-11-21 12:38:35 --> Output Class Initialized
+INFO - 2019-11-21 12:38:35 --> Security Class Initialized
+DEBUG - 2019-11-21 12:38:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:38:35 --> Input Class Initialized
+INFO - 2019-11-21 12:38:35 --> Language Class Initialized
+ERROR - 2019-11-21 12:38:35 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:38:45 --> Config Class Initialized
+INFO - 2019-11-21 12:38:45 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:38:45 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:38:45 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:38:45 --> URI Class Initialized
+INFO - 2019-11-21 12:38:45 --> Router Class Initialized
+INFO - 2019-11-21 12:38:45 --> Output Class Initialized
+INFO - 2019-11-21 12:38:45 --> Security Class Initialized
+DEBUG - 2019-11-21 12:38:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:38:45 --> Input Class Initialized
+INFO - 2019-11-21 12:38:45 --> Language Class Initialized
+INFO - 2019-11-21 12:38:45 --> Loader Class Initialized
+INFO - 2019-11-21 12:38:45 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:38:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:38:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:38:45 --> Controller Class Initialized
+INFO - 2019-11-21 12:38:45 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:38:45 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:38:45 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:38:45 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:38:45 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:38:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:38:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:38:45 --> Final output sent to browser
+DEBUG - 2019-11-21 12:38:45 --> Total execution time: 0.0604
+INFO - 2019-11-21 12:38:46 --> Config Class Initialized
+INFO - 2019-11-21 12:38:46 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:38:46 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:38:46 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:38:46 --> URI Class Initialized
+INFO - 2019-11-21 12:38:46 --> Router Class Initialized
+INFO - 2019-11-21 12:38:46 --> Output Class Initialized
+INFO - 2019-11-21 12:38:46 --> Security Class Initialized
+DEBUG - 2019-11-21 12:38:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:38:46 --> Input Class Initialized
+INFO - 2019-11-21 12:38:46 --> Language Class Initialized
+ERROR - 2019-11-21 12:38:46 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:38:52 --> Config Class Initialized
+INFO - 2019-11-21 12:38:52 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:38:52 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:38:52 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:38:52 --> URI Class Initialized
+INFO - 2019-11-21 12:38:52 --> Router Class Initialized
+INFO - 2019-11-21 12:38:52 --> Output Class Initialized
+INFO - 2019-11-21 12:38:52 --> Security Class Initialized
+DEBUG - 2019-11-21 12:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:38:52 --> Input Class Initialized
+INFO - 2019-11-21 12:38:52 --> Language Class Initialized
+INFO - 2019-11-21 12:38:52 --> Loader Class Initialized
+INFO - 2019-11-21 12:38:52 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:38:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:38:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:38:52 --> Controller Class Initialized
+INFO - 2019-11-21 12:38:52 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:38:52 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:38:52 --> Final output sent to browser
+DEBUG - 2019-11-21 12:38:52 --> Total execution time: 0.0357
+INFO - 2019-11-21 12:40:49 --> Config Class Initialized
+INFO - 2019-11-21 12:40:49 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:40:49 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:40:49 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:40:49 --> URI Class Initialized
+INFO - 2019-11-21 12:40:49 --> Router Class Initialized
+INFO - 2019-11-21 12:40:49 --> Output Class Initialized
+INFO - 2019-11-21 12:40:49 --> Security Class Initialized
+DEBUG - 2019-11-21 12:40:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:40:49 --> Input Class Initialized
+INFO - 2019-11-21 12:40:49 --> Language Class Initialized
+INFO - 2019-11-21 12:40:49 --> Loader Class Initialized
+INFO - 2019-11-21 12:40:49 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:40:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:40:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:40:49 --> Controller Class Initialized
+INFO - 2019-11-21 12:40:49 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:40:49 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:40:49 --> Final output sent to browser
+DEBUG - 2019-11-21 12:40:49 --> Total execution time: 0.0432
+INFO - 2019-11-21 12:41:17 --> Config Class Initialized
+INFO - 2019-11-21 12:41:17 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:41:17 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:41:17 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:41:17 --> URI Class Initialized
+INFO - 2019-11-21 12:41:17 --> Router Class Initialized
+INFO - 2019-11-21 12:41:17 --> Output Class Initialized
+INFO - 2019-11-21 12:41:17 --> Security Class Initialized
+DEBUG - 2019-11-21 12:41:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:41:17 --> Input Class Initialized
+INFO - 2019-11-21 12:41:17 --> Language Class Initialized
+INFO - 2019-11-21 12:41:17 --> Loader Class Initialized
+INFO - 2019-11-21 12:41:17 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:41:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:41:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:41:17 --> Controller Class Initialized
+INFO - 2019-11-21 12:41:17 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:41:17 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:41:17 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:41:17 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:41:17 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:41:17 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 12:41:17 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 12:41:17 --> Final output sent to browser
+DEBUG - 2019-11-21 12:41:17 --> Total execution time: 0.0477
+INFO - 2019-11-21 12:41:17 --> Config Class Initialized
+INFO - 2019-11-21 12:41:17 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:41:17 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:41:17 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:41:18 --> URI Class Initialized
+INFO - 2019-11-21 12:41:18 --> Router Class Initialized
+INFO - 2019-11-21 12:41:18 --> Output Class Initialized
+INFO - 2019-11-21 12:41:18 --> Security Class Initialized
+DEBUG - 2019-11-21 12:41:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:41:18 --> Input Class Initialized
+INFO - 2019-11-21 12:41:18 --> Language Class Initialized
+ERROR - 2019-11-21 12:41:18 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 12:41:31 --> Config Class Initialized
+INFO - 2019-11-21 12:41:31 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:41:31 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:41:31 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:41:31 --> URI Class Initialized
+INFO - 2019-11-21 12:41:31 --> Router Class Initialized
+INFO - 2019-11-21 12:41:31 --> Output Class Initialized
+INFO - 2019-11-21 12:41:31 --> Security Class Initialized
+DEBUG - 2019-11-21 12:41:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:41:31 --> Input Class Initialized
+INFO - 2019-11-21 12:41:31 --> Language Class Initialized
+INFO - 2019-11-21 12:41:31 --> Loader Class Initialized
+INFO - 2019-11-21 12:41:31 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:41:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:41:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:41:31 --> Controller Class Initialized
+INFO - 2019-11-21 12:41:31 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:41:31 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:41:31 --> Final output sent to browser
+DEBUG - 2019-11-21 12:41:31 --> Total execution time: 0.0412
+INFO - 2019-11-21 12:41:34 --> Config Class Initialized
+INFO - 2019-11-21 12:41:34 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:41:34 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:41:34 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:41:34 --> URI Class Initialized
+INFO - 2019-11-21 12:41:34 --> Router Class Initialized
+INFO - 2019-11-21 12:41:34 --> Output Class Initialized
+INFO - 2019-11-21 12:41:34 --> Security Class Initialized
+DEBUG - 2019-11-21 12:41:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:41:34 --> Input Class Initialized
+INFO - 2019-11-21 12:41:34 --> Language Class Initialized
+INFO - 2019-11-21 12:41:34 --> Loader Class Initialized
+INFO - 2019-11-21 12:41:34 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:41:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:41:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:41:34 --> Controller Class Initialized
+INFO - 2019-11-21 12:41:34 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:41:34 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:41:34 --> Final output sent to browser
+DEBUG - 2019-11-21 12:41:34 --> Total execution time: 0.0341
+INFO - 2019-11-21 12:41:38 --> Config Class Initialized
+INFO - 2019-11-21 12:41:38 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:41:38 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:41:38 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:41:38 --> URI Class Initialized
+INFO - 2019-11-21 12:41:38 --> Router Class Initialized
+INFO - 2019-11-21 12:41:38 --> Output Class Initialized
+INFO - 2019-11-21 12:41:38 --> Security Class Initialized
+DEBUG - 2019-11-21 12:41:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:41:38 --> Input Class Initialized
+INFO - 2019-11-21 12:41:38 --> Language Class Initialized
+INFO - 2019-11-21 12:41:38 --> Loader Class Initialized
+INFO - 2019-11-21 12:41:38 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:41:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:41:38 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:41:38 --> Controller Class Initialized
+INFO - 2019-11-21 12:41:38 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:41:38 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:41:38 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:41:38 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:41:38 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:41:38 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 12:42:48 --> Config Class Initialized
+INFO - 2019-11-21 12:42:48 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:42:48 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:42:48 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:42:48 --> URI Class Initialized
+INFO - 2019-11-21 12:42:48 --> Router Class Initialized
+INFO - 2019-11-21 12:42:48 --> Output Class Initialized
+INFO - 2019-11-21 12:42:48 --> Security Class Initialized
+DEBUG - 2019-11-21 12:42:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:42:48 --> Input Class Initialized
+INFO - 2019-11-21 12:42:48 --> Language Class Initialized
+INFO - 2019-11-21 12:42:48 --> Loader Class Initialized
+INFO - 2019-11-21 12:42:48 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:42:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:42:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:42:48 --> Controller Class Initialized
+INFO - 2019-11-21 12:42:48 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:42:48 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:42:48 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:42:48 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:42:48 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:42:48 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 12:43:14 --> Config Class Initialized
+INFO - 2019-11-21 12:43:14 --> Hooks Class Initialized
+DEBUG - 2019-11-21 12:43:14 --> UTF-8 Support Enabled
+INFO - 2019-11-21 12:43:14 --> Utf8 Class Initialized
+INFO - 2019-11-21 12:43:14 --> URI Class Initialized
+INFO - 2019-11-21 12:43:14 --> Router Class Initialized
+INFO - 2019-11-21 12:43:14 --> Output Class Initialized
+INFO - 2019-11-21 12:43:14 --> Security Class Initialized
+DEBUG - 2019-11-21 12:43:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 12:43:14 --> Input Class Initialized
+INFO - 2019-11-21 12:43:14 --> Language Class Initialized
+INFO - 2019-11-21 12:43:14 --> Loader Class Initialized
+INFO - 2019-11-21 12:43:14 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 12:43:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 12:43:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 12:43:14 --> Controller Class Initialized
+INFO - 2019-11-21 12:43:14 --> Helper loaded: form_helper
+INFO - 2019-11-21 12:43:14 --> Form Validation Class Initialized
+INFO - 2019-11-21 12:43:14 --> Database Driver Class Initialized
+INFO - 2019-11-21 12:43:14 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 12:43:14 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 12:43:14 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 13:16:41 --> Config Class Initialized
+INFO - 2019-11-21 13:16:41 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:16:41 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:16:41 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:16:41 --> URI Class Initialized
+INFO - 2019-11-21 13:16:41 --> Router Class Initialized
+INFO - 2019-11-21 13:16:41 --> Output Class Initialized
+INFO - 2019-11-21 13:16:41 --> Security Class Initialized
+DEBUG - 2019-11-21 13:16:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:16:41 --> Input Class Initialized
+INFO - 2019-11-21 13:16:41 --> Language Class Initialized
+INFO - 2019-11-21 13:16:41 --> Loader Class Initialized
+INFO - 2019-11-21 13:16:41 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:16:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:16:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:16:41 --> Controller Class Initialized
+INFO - 2019-11-21 13:16:41 --> Helper loaded: form_helper
+INFO - 2019-11-21 13:16:41 --> Form Validation Class Initialized
+INFO - 2019-11-21 13:16:41 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:16:41 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:16:41 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 13:16:41 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 13:44:41 --> Config Class Initialized
+INFO - 2019-11-21 13:44:41 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:41 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:41 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:41 --> URI Class Initialized
+DEBUG - 2019-11-21 13:44:41 --> No URI present. Default controller set.
+INFO - 2019-11-21 13:44:41 --> Router Class Initialized
+INFO - 2019-11-21 13:44:41 --> Output Class Initialized
+INFO - 2019-11-21 13:44:41 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:41 --> Input Class Initialized
+INFO - 2019-11-21 13:44:41 --> Language Class Initialized
+INFO - 2019-11-21 13:44:41 --> Loader Class Initialized
+INFO - 2019-11-21 13:44:41 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:44:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:44:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:44:41 --> Controller Class Initialized
+INFO - 2019-11-21 13:44:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 13:44:41 --> File loaded: D:\xampp\htdocs\bcsir\application\views\home.php
+INFO - 2019-11-21 13:44:41 --> Final output sent to browser
+DEBUG - 2019-11-21 13:44:41 --> Total execution time: 0.0342
+INFO - 2019-11-21 13:44:41 --> Config Class Initialized
+INFO - 2019-11-21 13:44:41 --> Config Class Initialized
+INFO - 2019-11-21 13:44:41 --> Hooks Class Initialized
+INFO - 2019-11-21 13:44:41 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:41 --> UTF-8 Support Enabled
+DEBUG - 2019-11-21 13:44:41 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:41 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:41 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:41 --> URI Class Initialized
+INFO - 2019-11-21 13:44:41 --> URI Class Initialized
+INFO - 2019-11-21 13:44:41 --> Router Class Initialized
+INFO - 2019-11-21 13:44:41 --> Router Class Initialized
+INFO - 2019-11-21 13:44:41 --> Output Class Initialized
+INFO - 2019-11-21 13:44:41 --> Output Class Initialized
+INFO - 2019-11-21 13:44:41 --> Security Class Initialized
+INFO - 2019-11-21 13:44:41 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-11-21 13:44:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:41 --> Input Class Initialized
+INFO - 2019-11-21 13:44:41 --> Input Class Initialized
+INFO - 2019-11-21 13:44:41 --> Language Class Initialized
+INFO - 2019-11-21 13:44:41 --> Language Class Initialized
+ERROR - 2019-11-21 13:44:41 --> 404 Page Not Found: Jquery/jquery-3.4.1.min.js
+ERROR - 2019-11-21 13:44:41 --> 404 Page Not Found: Bootstrap/js
+INFO - 2019-11-21 13:44:43 --> Config Class Initialized
+INFO - 2019-11-21 13:44:43 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:43 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:43 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:43 --> URI Class Initialized
+INFO - 2019-11-21 13:44:43 --> Router Class Initialized
+INFO - 2019-11-21 13:44:43 --> Output Class Initialized
+INFO - 2019-11-21 13:44:43 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:43 --> Input Class Initialized
+INFO - 2019-11-21 13:44:43 --> Language Class Initialized
+INFO - 2019-11-21 13:44:43 --> Loader Class Initialized
+INFO - 2019-11-21 13:44:43 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:44:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:44:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:44:43 --> Controller Class Initialized
+INFO - 2019-11-21 13:44:43 --> Helper loaded: form_helper
+INFO - 2019-11-21 13:44:43 --> Form Validation Class Initialized
+INFO - 2019-11-21 13:44:43 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:44:43 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:44:43 --> File loaded: D:\xampp\htdocs\bcsir\application\views\post_list.php
+INFO - 2019-11-21 13:44:43 --> Final output sent to browser
+DEBUG - 2019-11-21 13:44:43 --> Total execution time: 0.0363
+INFO - 2019-11-21 13:44:45 --> Config Class Initialized
+INFO - 2019-11-21 13:44:45 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:45 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:45 --> URI Class Initialized
+INFO - 2019-11-21 13:44:45 --> Router Class Initialized
+INFO - 2019-11-21 13:44:45 --> Output Class Initialized
+INFO - 2019-11-21 13:44:45 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:45 --> Input Class Initialized
+INFO - 2019-11-21 13:44:45 --> Language Class Initialized
+INFO - 2019-11-21 13:44:45 --> Loader Class Initialized
+INFO - 2019-11-21 13:44:45 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:44:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:44:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:44:45 --> Controller Class Initialized
+INFO - 2019-11-21 13:44:45 --> Helper loaded: form_helper
+INFO - 2019-11-21 13:44:45 --> Form Validation Class Initialized
+INFO - 2019-11-21 13:44:45 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:44:45 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:44:45 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 13:44:45 --> Config Class Initialized
+INFO - 2019-11-21 13:44:45 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:45 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:45 --> URI Class Initialized
+INFO - 2019-11-21 13:44:45 --> Router Class Initialized
+INFO - 2019-11-21 13:44:45 --> Output Class Initialized
+INFO - 2019-11-21 13:44:45 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:45 --> Input Class Initialized
+INFO - 2019-11-21 13:44:45 --> Language Class Initialized
+INFO - 2019-11-21 13:44:45 --> Loader Class Initialized
+INFO - 2019-11-21 13:44:45 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:44:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:44:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:44:45 --> Controller Class Initialized
+INFO - 2019-11-21 13:44:45 --> Helper loaded: form_helper
+INFO - 2019-11-21 13:44:45 --> Form Validation Class Initialized
+INFO - 2019-11-21 13:44:45 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:44:45 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:44:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 13:44:45 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 13:44:45 --> Final output sent to browser
+DEBUG - 2019-11-21 13:44:45 --> Total execution time: 0.0567
+INFO - 2019-11-21 13:44:45 --> Config Class Initialized
+INFO - 2019-11-21 13:44:45 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:44:45 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:44:45 --> URI Class Initialized
+INFO - 2019-11-21 13:44:45 --> Router Class Initialized
+INFO - 2019-11-21 13:44:45 --> Output Class Initialized
+INFO - 2019-11-21 13:44:45 --> Security Class Initialized
+DEBUG - 2019-11-21 13:44:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:44:45 --> Input Class Initialized
+INFO - 2019-11-21 13:44:45 --> Language Class Initialized
+ERROR - 2019-11-21 13:44:45 --> 404 Page Not Found: Assets/css
+INFO - 2019-11-21 13:47:00 --> Config Class Initialized
+INFO - 2019-11-21 13:47:00 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:47:00 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:47:00 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:47:00 --> URI Class Initialized
+INFO - 2019-11-21 13:47:00 --> Router Class Initialized
+INFO - 2019-11-21 13:47:00 --> Output Class Initialized
+INFO - 2019-11-21 13:47:00 --> Security Class Initialized
+DEBUG - 2019-11-21 13:47:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:47:00 --> Input Class Initialized
+INFO - 2019-11-21 13:47:00 --> Language Class Initialized
+INFO - 2019-11-21 13:47:00 --> Loader Class Initialized
+INFO - 2019-11-21 13:47:00 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:47:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:47:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:47:00 --> Controller Class Initialized
+INFO - 2019-11-21 13:47:00 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:47:00 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:47:00 --> Final output sent to browser
+DEBUG - 2019-11-21 13:47:00 --> Total execution time: 0.0455
+INFO - 2019-11-21 13:47:01 --> Config Class Initialized
+INFO - 2019-11-21 13:47:01 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:47:01 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:47:01 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:47:01 --> URI Class Initialized
+INFO - 2019-11-21 13:47:01 --> Router Class Initialized
+INFO - 2019-11-21 13:47:01 --> Output Class Initialized
+INFO - 2019-11-21 13:47:01 --> Security Class Initialized
+DEBUG - 2019-11-21 13:47:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:47:01 --> Input Class Initialized
+INFO - 2019-11-21 13:47:01 --> Language Class Initialized
+INFO - 2019-11-21 13:47:01 --> Loader Class Initialized
+INFO - 2019-11-21 13:47:01 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:47:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:47:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:47:01 --> Controller Class Initialized
+INFO - 2019-11-21 13:47:01 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:47:01 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:47:01 --> Final output sent to browser
+DEBUG - 2019-11-21 13:47:01 --> Total execution time: 0.0393
+INFO - 2019-11-21 13:47:29 --> Config Class Initialized
+INFO - 2019-11-21 13:47:29 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:47:29 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:47:29 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:47:29 --> URI Class Initialized
+INFO - 2019-11-21 13:47:29 --> Router Class Initialized
+INFO - 2019-11-21 13:47:29 --> Output Class Initialized
+INFO - 2019-11-21 13:47:29 --> Security Class Initialized
+DEBUG - 2019-11-21 13:47:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:47:29 --> Input Class Initialized
+INFO - 2019-11-21 13:47:29 --> Language Class Initialized
+INFO - 2019-11-21 13:47:29 --> Loader Class Initialized
+INFO - 2019-11-21 13:47:29 --> Helper loaded: url_helper
+DEBUG - 2019-11-21 13:47:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-11-21 13:47:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-11-21 13:47:29 --> Controller Class Initialized
+INFO - 2019-11-21 13:47:29 --> Helper loaded: form_helper
+INFO - 2019-11-21 13:47:29 --> Form Validation Class Initialized
+INFO - 2019-11-21 13:47:29 --> Database Driver Class Initialized
+INFO - 2019-11-21 13:47:29 --> Model "Applicant_form" initialized
+INFO - 2019-11-21 13:47:29 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-11-21 13:47:29 --> Model "Applicant_Insert" initialized
+INFO - 2019-11-21 13:47:29 --> File loaded: D:\xampp\htdocs\bcsir\application\views\header_layout.php
+INFO - 2019-11-21 13:47:29 --> File loaded: D:\xampp\htdocs\bcsir\application\views\job_registration_form.php
+INFO - 2019-11-21 13:47:29 --> Final output sent to browser
+DEBUG - 2019-11-21 13:47:29 --> Total execution time: 0.0589
+INFO - 2019-11-21 13:47:30 --> Config Class Initialized
+INFO - 2019-11-21 13:47:30 --> Hooks Class Initialized
+DEBUG - 2019-11-21 13:47:30 --> UTF-8 Support Enabled
+INFO - 2019-11-21 13:47:30 --> Utf8 Class Initialized
+INFO - 2019-11-21 13:47:30 --> URI Class Initialized
+INFO - 2019-11-21 13:47:30 --> Router Class Initialized
+INFO - 2019-11-21 13:47:30 --> Output Class Initialized
+INFO - 2019-11-21 13:47:30 --> Security Class Initialized
+DEBUG - 2019-11-21 13:47:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-11-21 13:47:30 --> Input Class Initialized
+INFO - 2019-11-21 13:47:30 --> Language Class Initialized
+ERROR - 2019-11-21 13:47:30 --> 404 Page Not Found: Assets/css

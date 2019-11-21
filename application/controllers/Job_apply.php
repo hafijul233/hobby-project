@@ -71,60 +71,60 @@ class Job_apply extends CI_Controller
         $this->form_validation->set_rules('marital_status', 'Marital Status', 'trim|required|integer');
         $this->form_validation->set_rules('spouse_name', 'Spouse Name', 'trim|max_length[255]|alpha_numeric_spaces');
         $this->form_validation->set_rules('quota', 'Quota', 'trim|required|integer');
-        /*        $this->form_validation->set_rules('present_care_of', 'Care Of', 'trim|required|max_length[255]|alpha_numeric_spaces');
-                $this->form_validation->set_rules('present_address', 'Village/Flat ...', 'trim|required|max_length[500]');
-                $this->form_validation->set_rules('present_district', 'District', 'trim|required|integer');
-                $this->form_validation->set_rules('present_upazila', 'P.S./ Upazila', 'trim|required|integer');
-                $this->form_validation->set_rules('present_p_o', 'Post Office', 'trim|required|integer');
-                $this->form_validation->set_rules('present_p_c', 'Post Code', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('permanent_care_of', 'Care Of', 'trim|required|max_length[255]|alpha_numeric_spaces');
-                $this->form_validation->set_rules('permanent_address', 'Village/Flat ...', 'trim|required|max_length[500]');
-                $this->form_validation->set_rules('permanent_district', 'District', 'trim|required|integer');
-                $this->form_validation->set_rules('permanent_upazila', 'P.S./ Upazila', 'trim|required|integer');
-                $this->form_validation->set_rules('permanent_p_o', 'Post Office', 'trim|required|integer');
-                $this->form_validation->set_rules('permanent_p_c', 'Post Code', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('mobile_number', 'Mobile Number', 'trim|required|exact_length[11]|integer');
-                $this->form_validation->set_rules('confirm_mobile', 'Confirm Mobile', 'trim|required|exact_length[11]|matches[mobile_number]');
-                $this->form_validation->set_rules('email_address', 'Email Address', 'trim|valid_email');
-                $this->form_validation->set_rules('five_school_name', 'School Name', 'trim|required|max_length[255]|alpha_numeric_spaces');
-                $this->form_validation->set_rules('five_board', 'Board', 'trim|required|integer');
-                $this->form_validation->set_rules('five_roll', 'Class Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('five_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('five_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('eight_school_name', 'School Name', 'trim|required|max_length[255]|alpha_numeric_spaces');
-                $this->form_validation->set_rules('eight_board', 'Board', 'trim|required|integer');
-                $this->form_validation->set_rules('eight_roll', 'Class Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('eight_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('eight_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('ssc_exam_name', 'Examination', 'trim|required|integer');
-                $this->form_validation->set_rules('ssc_exam_board', 'Board', 'trim|required|integer');
-                $this->form_validation->set_rules('ssc_group', 'Group/Subject', 'trim|required|integer');
-                $this->form_validation->set_rules('ssc_roll', 'Board Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('ssc_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('ssc_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('hsc_exam_name', 'Examination', 'trim|required|integer');
-                $this->form_validation->set_rules('hsc_exam_board', 'Board', 'trim|required|integer');
-                $this->form_validation->set_rules('hsc_group', 'Group/Subject', 'trim|required|integer');
-                $this->form_validation->set_rules('hsc_roll', 'Board Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('hsc_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('hsc_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('graduate_exam', 'Examination', 'trim|required|integer');
-                $this->form_validation->set_rules('graduate_university', 'University', 'trim|required|integer');
-                $this->form_validation->set_rules('graduate_subject', 'Subject/Degree', 'trim|required|integer');
-                $this->form_validation->set_rules('graduate_roll', 'Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('graduate_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('graduate_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('masters_exam', 'Examination', 'trim|required|integer');
-                $this->form_validation->set_rules('masters_university', 'University', 'trim|required|integer');
-                $this->form_validation->set_rules('masters_subject', 'Subject/Degree', 'trim|required|integer');
-                $this->form_validation->set_rules('masters_roll', 'Roll', 'trim|required|integer');
-                $this->form_validation->set_rules('masters_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
-                $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
+        $this->form_validation->set_rules('present_care_of', 'Care Of', 'trim|required|max_length[255]|alpha_numeric_spaces');
+        $this->form_validation->set_rules('present_address', 'Village/Flat ...', 'trim|required|max_length[500]');
+        $this->form_validation->set_rules('present_district', 'District', 'trim|required|integer');
+        $this->form_validation->set_rules('present_upazila', 'P.S./ Upazila', 'trim|required|integer');
+        $this->form_validation->set_rules('present_p_o', 'Post Office', 'trim|required|alpha_numeric_spaces');
+        $this->form_validation->set_rules('present_p_c', 'Post Code', 'trim|required|integer|exact_length[4]');
+        $this->form_validation->set_rules('permanent_care_of', 'Care Of', 'trim|required|max_length[255]|alpha_numeric_spaces');
+        $this->form_validation->set_rules('permanent_address', 'Village/Flat ...', 'trim|required|max_length[500]');
+        $this->form_validation->set_rules('permanent_district', 'District', 'trim|required|integer');
+        $this->form_validation->set_rules('permanent_upazila', 'P.S./ Upazila', 'trim|required|integer');
+        $this->form_validation->set_rules('permanent_p_o', 'Post Office', 'trim|required|alpha_numeric_spaces');
+        $this->form_validation->set_rules('permanent_p_c', 'Post Code', 'trim|required|integer|exact_length[4]');
+        $this->form_validation->set_rules('mobile_number', 'Mobile Number', 'trim|required|exact_length[13]|regex_match[/^[\d]{3}-[\d]{4}-[\d]{4}$/]');
+        $this->form_validation->set_rules('confirm_mobile', 'Confirm Mobile', 'trim|required|exact_length[13]|matches[mobile_number]');
+        $this->form_validation->set_rules('email_address', 'Email Address', 'trim|valid_email');
+        /*                $this->form_validation->set_rules('five_school_name', 'School Name', 'trim|required|max_length[255]|alpha_numeric_spaces');
+                        $this->form_validation->set_rules('five_board', 'Board', 'trim|required|integer');
+                        $this->form_validation->set_rules('five_roll', 'Class Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('five_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('five_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('eight_school_name', 'School Name', 'trim|required|max_length[255]|alpha_numeric_spaces');
+                        $this->form_validation->set_rules('eight_board', 'Board', 'trim|required|integer');
+                        $this->form_validation->set_rules('eight_roll', 'Class Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('eight_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('eight_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('ssc_exam_name', 'Examination', 'trim|required|integer');
+                        $this->form_validation->set_rules('ssc_exam_board', 'Board', 'trim|required|integer');
+                        $this->form_validation->set_rules('ssc_group', 'Group/Subject', 'trim|required|integer');
+                        $this->form_validation->set_rules('ssc_roll', 'Board Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('ssc_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('ssc_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('hsc_exam_name', 'Examination', 'trim|required|integer');
+                        $this->form_validation->set_rules('hsc_exam_board', 'Board', 'trim|required|integer');
+                        $this->form_validation->set_rules('hsc_group', 'Group/Subject', 'trim|required|integer');
+                        $this->form_validation->set_rules('hsc_roll', 'Board Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('hsc_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('hsc_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('graduate_exam', 'Examination', 'trim|required|integer');
+                        $this->form_validation->set_rules('graduate_university', 'University', 'trim|required|integer');
+                        $this->form_validation->set_rules('graduate_subject', 'Subject/Degree', 'trim|required|integer');
+                        $this->form_validation->set_rules('graduate_roll', 'Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('graduate_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('graduate_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('masters_exam', 'Examination', 'trim|required|integer');
+                        $this->form_validation->set_rules('masters_university', 'University', 'trim|required|integer');
+                        $this->form_validation->set_rules('masters_subject', 'Subject/Degree', 'trim|required|integer');
+                        $this->form_validation->set_rules('masters_roll', 'Roll', 'trim|required|integer');
+                        $this->form_validation->set_rules('masters_pass_year', 'Passing Year', 'trim|required|integer|exact_length[4]');
+                        $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
 
-                $this->form_validation->set_rules('designation_name[]', 'Designation', 'trim|alpha_numeric_spaces|max_length[255]');
-                $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
-                $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');*/
+                        $this->form_validation->set_rules('designation_name[]', 'Designation', 'trim|alpha_numeric_spaces|max_length[255]');
+                        $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');
+                        $this->form_validation->set_rules('masters_result', 'Result', 'trim|required|numeric');*/
 
         //Form validation Execute
         if ($this->form_validation->run() == TRUE) {
@@ -143,7 +143,7 @@ class Job_apply extends CI_Controller
                 'religion' => $this->input->post('religion'),
                 'marital_status' => $this->input->post('marital_status'),
                 'quota' => $this->input->post('quota'),
-                /*Mail Address
+                //Mail Address
                 'present_care_of' => $this->input->post('present_care_of'),
                 'present_address' => $this->input->post('present_address'),
                 'present_district' => $this->input->post('present_address'),
@@ -159,9 +159,9 @@ class Job_apply extends CI_Controller
                 'permanent_p_c' => $this->input->post('permanent_p_c'),
                 //Contact Info
                 'mobile_number' => $this->input->post('mobile_number'),
-                'confirm_mobile' => $this->input->post('confirm_mobile'),
                 'email_address' => $this->input->post('email_address'),
-                //Class V
+                /*
+                 //Class V
                 'five_school_name' => $this->input->post('five_school_name'),
                 'five_board' => $this->input->post('five_board'),
                 'five_pass_year' => $this->input->post('five_pass_year'),
@@ -200,7 +200,7 @@ class Job_apply extends CI_Controller
                 'masters_subject' => $this->input->post('masters_subject'),
                 'masters_roll' => $this->input->post('masters_roll'),
                 'masters_pass_year' => $this->input->post('masters_pass_year'),
-                'masters_result' => $this->input->post('masters_result')*/
+                'masters_result' => $this->input->post('masters_result') */
             ];
             $response = $this->insert_new_applicant($applicant);
         }
@@ -244,13 +244,12 @@ class Job_apply extends CI_Controller
     public function ajax_upzila_list()
     {
 
-        $this->load->model('applicant_form');
+        $this->load->model('Applicant_form');
 
         if (isset($_POST['district'])) {
             $output = NULL;
             $district_id = $this->input->post('district');
             $upzila_list = $this->Applicant_form->get_upzila_names($district_id);
-
             if ($upzila_list != NULL) {
                 foreach ($upzila_list as $upzila) {
                     $output .= '<option value="' . $upzila['id'] . '">' . $upzila['name'] . '</option>';

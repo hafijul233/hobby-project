@@ -526,7 +526,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </label>
           <div class="col-md-9">
             <input type="email" class="form-control" id="emailAddress"
-                   oninput="this.value = this.value.toUpperCase()"
+                   oninput="this.value = this.value.toLowerCase()"
                    value="<?= set_value("email_address") ?>" name="email_address">
             <span class="text-danger" id="emailAddressError"><?= form_error("email_address") ?></span>
           </div>
@@ -1277,14 +1277,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <!-- Board -->
                     <div class="form-group row">
-                      <label for="quota" class="col-md-4 col-form-label">
+                      <label for="" class="col-md-4 col-form-label">
                         Service Start Date
                       </label>
                       <div class="col-md-8">
-                        <input type="text" class="form-control date" id="designationName"
+                        <input type="text" class="form-control date"
                                oninput="this.value = this.value.toUpperCase()"
-                               value="<?= set_value("designation_name") ?>" name="designation_name">
-                        <span class="text-danger"><?= form_error("place_of_birth") ?></span>
+                               value="<?= set_value("service_start_date") ?>" name="dservice_start_date">
+                        <span class="text-danger"><?= form_error("service_start_date") ?></span>
                       </div>
                     </div>
                     <!-- roll -->
